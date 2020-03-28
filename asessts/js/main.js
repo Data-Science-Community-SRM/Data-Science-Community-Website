@@ -5,12 +5,24 @@ $(document).ready(() => {
 
 $(document).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll >= 1250) {
-        $("#home-tag").removeClass("active");
-        $("#our-work-tag").addClass("active");
-    } else {
-        $("#home-tag").addClass("active");
-        $("#our-work-tag").removeClass("active");
+    if ($(window).width() < 1200) {
+        if (scroll >= 780) {
+            $("#home-tag").removeClass("active");
+            $("#our-work-tag").addClass("active");
+        } else {
+            $("#home-tag").addClass("active");
+            $("#our-work-tag").removeClass("active");
+        }
+
+    } else if ($(window).width() >= 1200) {
+
+        if (scroll >= 1020) {
+            $("#home-tag").removeClass("active");
+            $("#our-work-tag").addClass("active");
+        } else {
+            $("#home-tag").addClass("active");
+            $("#our-work-tag").removeClass("active");
+        }
     }
 })
 
@@ -27,19 +39,19 @@ anime.timeline({
         scaleY: [0, 1],
         opacity: [0.5, 1],
         easing: "easeOutExpo",
-        duration: 700
+        duration: 1000
     })
     .add({
         targets: '.ml11 .line',
         translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
         easing: "easeOutExpo",
-        duration: 700,
-        delay: 100
+        duration: 900,
+        delay: 500
     }).add({
         targets: '.ml11 .letter',
         opacity: [0, 1],
         easing: "easeOutExpo",
-        duration: 600,
+        duration: 10000,
         offset: '-=775',
         delay: (el, i) => 34 * (i + 1)
     }).add({
