@@ -1,3 +1,20 @@
+//Navbar Toggle
+$(document).ready(() => {
+    $('#home-tag').addClass('active')
+})
+
+$(document).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 1250) {
+        $("#home-tag").removeClass("active");
+        $("#our-work-tag").addClass("active");
+    } else {
+        $("#home-tag").addClass("active");
+        $("#our-work-tag").removeClass("active");
+    }
+})
+
+
 //H1 Animation
 var textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");

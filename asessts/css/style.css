@@ -34,6 +34,9 @@
   }
 }
 /* ====================================================TAGS====================================================  */
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: #797979;
   font-family: "Open Sans", sans-serif;
@@ -116,7 +119,7 @@ a:hover {
   color: rgb(231, 203, 255);
   opacity: 0.75;
 }
-.header-area .navbar .nav .nav-item.active .nav-link {
+.active {
   color: #fff;
   opacity: 0.75;
   border-bottom: 2px white solid;
@@ -566,8 +569,8 @@ a:hover {
     margin-right: 28px;
   }
   .home-banner-logo img {
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
     transform: translateX(15%);
   }
 }
@@ -582,8 +585,8 @@ a:hover {
   .home-banner-logo img {
     position: absolute;
     top: 0;
-    padding-left: 100px;
+    padding-left: 150px;
     left: -110px;
-    height: 450px;
+    height: 400px;
   }
 }

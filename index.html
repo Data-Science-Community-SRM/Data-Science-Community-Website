@@ -30,11 +30,11 @@
           </button>
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Our Work</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" id="home-tag">Home</a></li>
+              <li class="nav-item"><a class="nav-link" id="our-work-tag" href="#our-work">Our Work</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">People</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
               <!-- <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Dropdown</a>
@@ -77,7 +77,7 @@
                 </span>
               </h1>
               <p>We are a Data Science-based student-lead innovation community at SRM IST.</p>
-              <a class="button bg" href="#">Get Started</a>
+              <a class="button bg" href="#about-us">Get Started</a>
             </div>
           </div>
         </div>
@@ -86,13 +86,13 @@
     <!-- Home Ends -->
 
     <!-- Section 2 Start -->
-    <section class="section2">
+    <section class="section2" id="about-us">
       <div class="container">
         <div class="section-intro text-center">
           <h2 class="section-intro-title">About Us</h2>
-          <p class="section-intro-subtitle">Here at <i>Data Science Community</i>, We make real-time projects, conduct
+          <p class="section-intro-subtitle">Here at <b>Data Science Community</b>, We make real-time projects, conduct
             researches, organize meetups, host events, and workshops primarily focusing on Data Science, Machine
-            Learning, Al, Blockchain, Web Development and more.
+            Learning, Al, Blockchain, IoT, Web Development and more.
             We guide and teach all those who aspire to work in
             these fields and help them attain better skills and
             knowledge.</p>
@@ -105,25 +105,25 @@
                 <span class="card-icon">
                   <i class="fas fa-digital-tachograph"></i>
                 </span>
-                <h3 class="card-title">Card 1</h3>
+                <h3 class="card-title">Workshops</h3>
                 <p class="card-subtitle">Something can be put here</p>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="card card text-center text-lg-left mb-4 mb-lg-0">
                 <span class="card-icon">
-                  <i class="fas fa-database"></i>
+                  <i class="fas fa-project-diagram"></i>
                 </span>
-                <h3 class="card-title">Card 2</h3>
+                <h3 class="card-title">Projects</h3>
                 <p class="card-subtitle">Something can be put here</p>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="card card text-center text-lg-left mb-4 mb-lg-0">
                 <span class="card-icon">
-                  <i class="fas fa-table"></i>
+                  <i class="fas fa-chalkboard"></i>
                 </span>
-                <h3 class="card-title">Card 3</h3>
+                <h3 class="card-title">Training</h3>
                 <p class="card-subtitle">Something can be put here</p>
               </div>
             </div>
@@ -134,21 +134,20 @@
     <!-- Section 2 Ends -->
 
     <!-- Section 3 Start -->
-    <section class="section3">
+    <section class="section3" id="our-work">
       <div class="container">
         <div class="row no-gutters align-items-center">
           <div class="col-md-5 mb-5 mb-md-0">
             <div class="section3-content">
-              <h2>Something about our blog</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorem, impedit repellendus hic, a
-                mollitia unde aperiam optio repellat sapiente dicta vel sunt odit nihil, tempore qui! Magnam, dolores
-                fuga.</p>
-              <a class="button button-light" href="#">Click link</a>
+              <h2>Our Work</h2>
+              <p>Our members work in a variety of domains ranging from Artificial Intelligence, Machine Learning, NLP,
+                Computer Vision, Data Analytics, Internet of Things and Blockchains.</p>
+              <a class="button button-light" href="#">Follow-up Blog</a>
             </div>
           </div>
           <div class="col-md-7">
-            <div class="about__img">
-              <img class="img-fluid" src="img/home/about.png" alt="">
+            <div class="about-img">
+              <img class="img-fluid" src="./asessts/css/img/undraw_Artificial_intelligence_oyxx.png" alt="">
             </div>
           </div>
         </div>
@@ -167,9 +166,6 @@
               <form class="form-inline">
                 <input class="form-control" name="EMAIL" placeholder="Your Email Address" type="email">
                 <button class="click-btn btn btn-default">Send!</button>
-                <div style="position: absolute; left: -5000px;">
-                  <input value="" type="text">
-                </div>
                 <div class="info"></div>
               </form>
             </div>
@@ -177,8 +173,8 @@
         </div>
         <div class="footer-bottom">
           <div class=" col-lg-4 col-md-12 footer-social text-right">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/bdsc_srm"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bdsc_srm/"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-medium-m"></i></a>
           </div>
         </div>
@@ -196,6 +192,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./asessts/js/main.js"></script>
 </body>
 
