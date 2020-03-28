@@ -7,10 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>bDSC</title>
   <link rel="icon" href="./asessts/css/img/Light Logo.png" type="image/png">
-  <link rel="stylesheet" href="./asessts/js/libraries/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./asessts/js/libraries/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="./asessts/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +22,6 @@
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <!-- <a class="navbar-brand logo_h" href="index.html"><img src="./asessts/img/logo.png" alt=""></a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
@@ -29,22 +31,25 @@
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
               <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">option</a></li>
-              <li class="nav-item submenu dropdown">
+              <li class="nav-item"><a class="nav-link" href="#">Our Work</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">People</a></li>
+              <!-- <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Dropdown</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="nav-link" href="">Option 1</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Option 2</a></li>
-                </ul>
+                </ul> -->
               </li>
               <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
 
             <ul class="navbar-right">
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <button class="button button-header bg">Sign up</button>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -65,10 +70,13 @@
           </div>
           <div class="col-lg-5 pt-5">
             <div class="home-banner-content">
-              <h1>BITGRIT<br>Data Science Community</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum est optio voluptas tempora!
-                Dolorem esse ratione at sint, corrupti, et dolore molestias assumenda ipsam nihil aperiam doloremque
-                accusamus? Ex, sunt.</p>
+              <h1 id="div" class="ml11">
+                <span class="text-wrapper">
+                  <span class="line line1"></span>
+                  <span class="letters">Data Science Community</span>
+                </span>
+              </h1>
+              <p>We are a Data Science-based student-lead innovation community at SRM IST.</p>
               <a class="button bg" href="#">Get Started</a>
             </div>
           </div>
@@ -81,10 +89,13 @@
     <section class="section2">
       <div class="container">
         <div class="section-intro text-center">
-          <h2 class="section-intro-title">A Heading</h2>
-          <p class="section-intro-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugit quod
-            provident omnis neque cupiditate veritatis alias quia reprehenderit molestias! Modi officia dolorem nisi
-            rerum alias quas nesciunt vero repudiandae!</p>
+          <h2 class="section-intro-title">About Us</h2>
+          <p class="section-intro-subtitle">Here at <i>Data Science Community</i>, We make real-time projects, conduct
+            researches, organize meetups, host events, and workshops primarily focusing on Data Science, Machine
+            Learning, Al, Blockchain, Web Development and more.
+            We guide and teach all those who aspire to work in
+            these fields and help them attain better skills and
+            knowledge.</p>
         </div>
 
         <div class="container">
@@ -154,9 +165,7 @@
             <p>Something related to contacting us</p>
             <div class="form-wrap">
               <form class="form-inline">
-                <input class="form-control" name="EMAIL" placeholder="Your Email Address"
-                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '" required=""
-                  type="email">
+                <input class="form-control" name="EMAIL" placeholder="Your Email Address" type="email">
                 <button class="click-btn btn btn-default">Send!</button>
                 <div style="position: absolute; left: -5000px;">
                   <input value="" type="text">
@@ -177,8 +186,16 @@
     </footer>
     <!-- Footer Ends -->
 
-    <script src="./asessts/js/libraries/jquery/jquery-3.2.1.min.js"></script>
-    <script src="./asessts/js/libraries/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="./asessts/js/main.js"></script>
 </body>
 
