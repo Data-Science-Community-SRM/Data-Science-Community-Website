@@ -1,8 +1,3 @@
-// $(document).ready(() => {
-//     $('#home-tag').addClass('active')
-// })
-
-
 // H1 Animation
 var textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");

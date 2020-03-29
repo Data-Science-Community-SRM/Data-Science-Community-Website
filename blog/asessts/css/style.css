@@ -498,21 +498,6 @@ a:hover {
 .medium-widget-article__date {
   color: #575757 !important;
 }
-
-.section-margin {
-  margin: 60px 0;
-}
-@media (min-width: 1000px) {
-  .section-margin {
-    margin: 100px 0;
-  }
-}
-@media (min-width: 1200px) {
-  .section-margin {
-    margin: 50px 0;
-  }
-}
-
 /* ====================================================H1 ANIMATON====================================================  */
 
 @media (min-width: 1200px) {
