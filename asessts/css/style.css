@@ -424,9 +424,6 @@ a:hover {
     max-height: 370px;
     overflow-y: visible;
   }
-  .header-area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
-    padding: 0px 15px;
-  }
   .header-area .navbar .nav .nav-item {
     margin-right: 0px;
   }
@@ -434,9 +431,6 @@ a:hover {
   .header-area + row,
   .header-area + div {
     margin-top: 41px;
-  }
-  .home_banner_area .banner_inner .banner_content .banner_map_img {
-    display: none;
   }
   .header-area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
@@ -454,26 +448,6 @@ a:hover {
   }
 }
 @media (min-width: 992px) {
-  .header-area .navbar .nav .nav-item.submenu ul {
-    position: absolute;
-    top: 120%;
-    left: 0px;
-    min-width: 200px;
-    text-align: left;
-    opacity: 0;
-    transition: all 300ms ease-in;
-    visibility: hidden;
-    display: block;
-    border: none;
-    padding: 0px;
-    border-radius: 0px;
-    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
-  }
-  .header-area .navbar .nav .nav-item.submenu:hover ul {
-    visibility: visible;
-    opacity: 1;
-    top: 100%;
-  }
   .header-area.white_menu .navbar .navbar-brand img {
     display: none;
   }
@@ -517,6 +491,9 @@ a:hover {
     padding-left: 150px;
     left: -110px;
     height: 400px;
+  }
+  .home-banner-content h1 {
+    width: 72%;
   }
 }
 /* ====================================================H1 ANIMATON====================================================  */
