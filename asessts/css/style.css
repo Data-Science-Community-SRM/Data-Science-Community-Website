@@ -1,9 +1,13 @@
 /* ====================================================H1 ANIMATON====================================================  */
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+}
 
 @media (min-width: 1200px) {
   .ml11 {
     font-size: 3.5em;
-    width: 80%;
+    width: 70%;
   }
 
   .ml11 .text-wrapper {
@@ -72,7 +76,7 @@ h1 {
 h2 {
   color: #3a414e;
   line-height: 1.25;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 700;
 }
 h3 {
@@ -247,8 +251,8 @@ bac
   padding-bottom: 50px;
 }
 .section-intro-subtitle {
-  font-size: 15px;
-  color: rgb(167, 167, 167);
+  font-size: 17px;
+  color: rgb(201, 199, 199);
   margin-bottom: 0;
 }
 
@@ -665,4 +669,77 @@ bac
     left: -110px;
     height: 400px;
   }
+}
+
+#superContainer {
+  height:100%;
+  position:relative;
+}
+.section{
+  position: relative;
+-webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+       box-sizing: border-box; 
+}
+
+.slide {
+  float: left;
+}
+.slide, .slidesContainer {
+  height: 100%;
+  display: block;
+}
+.slides {
+height: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.section.table,
+.slide.table{
+display:table;
+width:100%;
+}
+.tableCell{
+display:table-cell;
+vertical-align: middle;
+width:100%;
+height: 100%;
+}
+.slidesContainer {
+  float: left;
+  position: relative;
+}
+.controlArrow{
+  position:absolute;
+  top:50%;
+  cursor:pointer;
+width: 0px;
+height: 0px;
+border-style: solid;
+margin-top: -38px;
+}
+
+.controlArrow.prev{
+left:15px;
+width: 0px;
+border-width: 38.5px 34px 38.5px 0;
+border-color: transparent #fff transparent transparent;
+}
+.controlArrow.next{  
+right:15px;
+border-width: 38.5px 0 38.5px 34px;
+border-color: transparent transparent transparent #fff;
+}
+.scrollable{
+overflow:scroll;
+}
+.easing{
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
 }
