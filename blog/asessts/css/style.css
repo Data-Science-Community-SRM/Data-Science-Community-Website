@@ -162,7 +162,7 @@ a:hover {
 }
 
 .button.bg:hover {
-  border-color: transparent;
+  border-color: #fafafa8f;
   background-color: transparent;
   color: #ffffff;
 }
@@ -380,7 +380,7 @@ a:hover {
   .home-banner {
     background: url(../css/img/bg-small.png) left center no-repeat;
     background-size: 900px 700px;
-    background-position: 100% 50%;
+    background-position: 0% 90%;
   }
   .home_banner_area .banner_inner .banner_content .banner_map_img {
     display: none;
@@ -497,6 +497,11 @@ a:hover {
 .medium-widget-article__clap,
 .medium-widget-article__date {
   color: #575757 !important;
+}
+@media (max-width: 991px) {
+  .medium-widget-article__row:last-child {
+    margin-bottom: 40px;
+  }
 }
 /* ====================================================H1 ANIMATON====================================================  */
 
