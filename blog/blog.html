@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>bDSC</title>
-  <link rel="icon" href="./asessts/css/img/Light Logo.png" type="image/png">
+  <link rel="icon" href="./asessts/css/img/home-logo.png" type="image/png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./asessts/js/libraries/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../asessts/js/libraries/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="./asessts/css/style.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
@@ -30,18 +30,12 @@
           </button>
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item"><a class="nav-link" href="#" id="home-tag">Home</a></li>
-              <li class="nav-item"><a class="nav-link" id="our-work-tag" href="#our-work">Our Work</a></li>
+              <li class="nav-item"><a class="nav-link" href="../index.html" id="home-tag">Home</a></li>
+              <li class="nav-item"><a class="nav-link" id="our-work-tag" href="../index.html">Our Work</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-              <li class="nav-item"><a class="nav-link" href="./blog/blog.html">Blog</a></li>
+              <li class="nav-item active"><a class="nav-link" href="#" id="blog-tag">Blog</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
-              <!-- <li class="nav-item submenu dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Dropdown</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="">Option 1</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Option 2</a></li>
-                </ul> -->
+
               </li>
               <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
@@ -63,21 +57,22 @@
     <section class="home-banner mb-30px">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7">
-            <div class="home-banner-logo">
-              <img class="img-fluid" src="./asessts/css/img/home-logo.png" alt="">
-            </div>
-          </div>
           <div class="col-lg-5 pt-5">
             <div class="home-banner-content">
               <h1 id="div" class="ml11">
                 <span class="text-wrapper">
                   <span class="line line1"></span>
-                  <span class="letters">Data Science Community</span>
+                  <span class="letters">Our Blog</span>
                 </span>
               </h1>
-              <p>A Data Science-based student-led innovation community at SRM IST.</p>
-              <a class="button bg" href="#about-us">Get Started</a>
+              <p>Contributions to our Medium page.</p>
+              <a class="button bg" href="https://medium.com/data-science-community-srm">Medium Link</a>
+              <div class=" col-lg-12 card">
+                <h4 class="card-subtitle">We continously contribute to writting posts that are related to recent
+                  happening as
+                  well as analytics that
+                  we study.</h4>
+              </div>
             </div>
           </div>
         </div>
@@ -86,74 +81,28 @@
     <!-- Home Ends -->
 
     <!-- Section 2 Start -->
-    <section class="section2" id="about-us">
+    <section class="section-margin section2" id="posts">
       <div class="container">
-        <div class="section-intro text-center">
-          <h2 class="section-intro-title">About Us</h2>
-          <p class="section-intro-subtitle">Here at <b>Data Science Community</b>, We make real-time projects, conduct
-            researches, organize meetups, host events, and workshops primarily focusing on Data Science, Machine
-            Learning, Al, Blockchain, IoT, Web Development and more.
-            We guide and teach all those who aspire to work in
-            these fields and help them attain better skills and
-            knowledge.</p>
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="card text-center text-lg-left mb-4 mb-lg-0">
-                <span class="card-icon">
-                  <i class="fas fa-digital-tachograph"></i>
-                </span>
-                <h3 class="card-title">Workshops</h3>
-                <p class="card-subtitle">Something can be put here</p>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card card text-center text-lg-left mb-4 mb-lg-0">
-                <span class="card-icon">
-                  <i class="fas fa-project-diagram"></i>
-                </span>
-                <h3 class="card-title">Projects</h3>
-                <p class="card-subtitle">Something can be put here</p>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card card text-center text-lg-left mb-4 mb-lg-0">
-                <span class="card-icon">
-                  <i class="fas fa-chalkboard"></i>
-                </span>
-                <h3 class="card-title">Training</h3>
-                <p class="card-subtitle">Something can be put here</p>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-12">
+          <div id="medium-widget" class="posts-all"></div>
+          <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+          <script>
+            MediumWidget.Init({
+              renderTo: '#medium-widget',
+              params: {
+                "resource": "https://medium.com/data-science-community-srm",
+                "postsPerLine": 3,
+                "limit": 4,
+                "picture": "big",
+                "fields": ["description", "author", "claps", "publishAt"],
+                "ratio": "landscape"
+              }
+            })
+          </script>
         </div>
       </div>
     </section>
     <!-- Section 2 Ends -->
-
-    <!-- Section 3 Start -->
-    <section class="section3" id="our-work">
-      <div class="container">
-        <div class="row no-gutters align-items-center">
-          <div class="col-md-5 mb-5 mb-md-0">
-            <div class="section3-content">
-              <h2>Our Work</h2>
-              <p>Our members work in a variety of domains ranging from Artificial Intelligence, Machine Learning, NLP,
-                Computer Vision, Data Analytics, Internet of Things and Blockchains.</p>
-              <a class="button button-light" href="#">Follow-up Blog</a>
-            </div>
-          </div>
-          <div class="col-md-7">
-            <div class="about-img">
-              <img class="img-fluid" src="./asessts/css/img/undraw_Artificial_intelligence_oyxx.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Section 3 Ends -->
 
     <!-- Footer Begins -->
     <footer class="footer-area section-gap">
@@ -192,7 +141,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./asessts/js/main.js"></script>
 </body>
 

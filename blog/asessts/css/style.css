@@ -1,20 +1,16 @@
+/* ====================================================BLOG====================================================  */
+
 /* ====================================================TAGS====================================================  */
 html {
   scroll-behavior: smooth;
 }
 body {
-  color: #797979;
+  color: #5c5c5c;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.667;
-  background: rgb(35, 35, 35);
-  background: rgb(35, 35, 35);
-  background: linear-gradient(
-    180deg,
-    rgba(35, 35, 35, 1) 55%,
-    rgba(128, 128, 128, 1) 100%
-  );
+  background: #323232;
 }
 ul {
   list-style-type: none;
@@ -60,7 +56,7 @@ a:hover {
   transition: background 0.4s, all 0.3s linear;
 }
 .header-area .navbar {
-  background: transparent;
+  background: #232323;
   padding: 15px 0;
   border: 0px;
   width: 100%;
@@ -105,21 +101,20 @@ a:hover {
 
 .home-banner {
   position: relative;
-  background: #232323;
   background-size: cover;
-  padding: 90px 0 60px 0;
+  padding: 90px 0 40px 0;
   z-index: 1;
   width: 100%;
   height: 100%;
   background: url(../css/img/bgUI.png) left center no-repeat;
-  background-size: 1000px 850px;
+  background-size: 900px 700px;
   background-position: 100% 50%;
 }
 .home-banner-logo {
   position: relative;
 }
 .home-banner-content {
-  text-shadow: 1px 1px rgb(49, 34, 59);
+  text-shadow: 1px 1px rgb(0, 0, 0);
 }
 .home-banner-content h1 {
   color: #fff;
@@ -140,89 +135,36 @@ a:hover {
   left: 0;
   z-index: -1;
 }
-.section2 {
-  margin: 60px 0;
-}
-
-.section3 {
-  padding: 60px 0;
-  background: #faf9ff;
-}
-
-.section-intro {
-  padding-top: 60px;
-  border-top: 1px solid white;
-  max-width: 630px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 45px;
-}
-.section-intro-title {
-  font-weight: 500;
-  color: whitesmoke;
-  margin-bottom: 10px;
-  padding-bottom: 50px;
-}
-.section-intro-subtitle {
-  font-size: 15px;
-  color: rgb(167, 167, 167);
-  margin-bottom: 0;
-}
 .card {
   padding: 30px 35px;
-  border: 0;
+  border-left: 5px solid rgb(60, 2, 71);
+  border-radius: 30px;
+  margin-top: 60px;
   border-radius: 0;
   background: #e5e1f5;
+  text-shadow: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-.card-icon {
-  margin-bottom: 12px;
-}
-.card-icon i,
-.card-icon span {
-  font-size: 30px;
-  color: #411a66;
-}
-.card-title {
-  font-size: 22px;
-  font-weight: 600;
-}
-.card-subtitle {
-  margin-bottom: 0;
-}
-.card:hover {
-  background: rgb(255, 255, 255);
-  box-shadow: 0px 10px 20px 0px rgba(51, 46, 80, 0.699);
-}
-.section3-content h2 {
-  margin-bottom: 20px;
-}
-.section3-content p {
-  margin-bottom: 38px;
-}
 .button {
   display: inline-block;
-  border: 1px solid transparent;
+  border: 1px solid #fafafa;
   text-transform: capitalize;
   font-size: 15px;
   font-weight: 500;
   padding: 10px 24px;
   border-radius: 30px;
-  background-color: #fff;
-  color: #3a414e;
+  background-color: #232323;
+  color: #fafafa;
   transition: all 0.4s ease;
 }
-.button:hover {
-  background-color: transparent;
-  border-color: #2a273f;
-  color: #1c1c30;
-}
+
 .button.bg:hover {
-  border-color: #fff;
-  color: #fff;
+  border-color: transparent;
+  background-color: transparent;
+  color: #ffffff;
 }
 .button-light {
   background-color: transparent;
@@ -435,6 +377,11 @@ a:hover {
   .header-area + div {
     margin-top: 41px;
   }
+  .home-banner {
+    background: url(../css/img/undraw_sign_in_e6hj.png) left center no-repeat;
+    background-size: 900px 700px;
+    background-position: 100% 50%;
+  }
   .home_banner_area .banner_inner .banner_content .banner_map_img {
     display: none;
   }
@@ -481,18 +428,7 @@ a:hover {
     display: inline-block;
   }
 }
-@media (min-width: 1000px) {
-  .section2 {
-    margin: 100px 0;
-    margin-top: 0px !important;
-  }
-  .section-intro {
-    padding-bottom: 85px;
-  }
-  .section-padding--small {
-    padding: 100px 0;
-  }
-}
+
 @media (max-width: 1199px) {
   .header-area .navbar .nav .nav-item {
     margin-right: 28px;
@@ -519,6 +455,64 @@ a:hover {
     height: 400px;
   }
 }
+/* ====================================================MEDIUM EMBED====================================================  */
+
+.medium-widget-article__item {
+  padding: 3px;
+  box-sizing: border-box;
+  margin: 5px;
+  background: #232323;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.medium-widget-article__item:hover {
+  background-color: #241c25;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 10px 0px rgba(34, 25, 83, 0.699);
+}
+.medium-widget-article__title {
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  padding: 5px;
+}
+.medium-widget-article__title:hover {
+  color: rgb(88, 74, 99);
+}
+.medium-widget-article__description {
+  color: whitesmoke;
+  text-align: justify;
+  padding: 7px;
+  padding-top: 0 !important;
+}
+.medium-widget-article__author-name {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.medium-widget-article__clap,
+.medium-widget-article__date {
+  color: #575757;
+}
+
+.section-margin {
+  margin: 60px 0;
+}
+@media (min-width: 1000px) {
+  .section-margin {
+    margin: 100px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .section-margin {
+    margin: 50px 0;
+  }
+}
+
 /* ====================================================H1 ANIMATON====================================================  */
 
 @media (min-width: 1200px) {
@@ -540,7 +534,7 @@ a:hover {
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: #fff;
+    background-color: indigo;
     transform-origin: 0 50%;
   }
 
