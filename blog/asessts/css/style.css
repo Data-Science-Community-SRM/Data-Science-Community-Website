@@ -229,6 +229,7 @@ a:hover {
 }
 .footer-area .footer-bottom p {
   color: #797979;
+  padding-top: 20px;
 }
 .footer-area .footer-bottom p a {
   color: #fff;
@@ -272,6 +273,11 @@ a:hover {
   }
   .banner_btn {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .single-footer-widget {
+    display: none;
   }
 }
 @media (min-width: 600px) {
