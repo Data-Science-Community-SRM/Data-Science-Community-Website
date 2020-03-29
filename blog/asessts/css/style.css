@@ -106,9 +106,9 @@ a:hover {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: url(../css/img/bg-big.png) left center no-repeat;
-  background-size: 900px 700px;
-  background-position: 100% 50%;
+  background: url(../css/img/bg.png) left center no-repeat;
+  background-size: 850px 700px;
+  background-position: 80% 100%;
 }
 .home-banner-logo {
   position: relative;
@@ -376,11 +376,6 @@ a:hover {
   .header-area + row,
   .header-area + div {
     margin-top: 41px;
-  }
-  .home-banner {
-    background: url(../css/img/bg-small.png) left center no-repeat;
-    background-size: 900px 700px;
-    background-position: 0% 90%;
   }
   .home_banner_area .banner_inner .banner_content .banner_map_img {
     display: none;
