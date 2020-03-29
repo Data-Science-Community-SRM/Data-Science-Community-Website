@@ -111,7 +111,7 @@ a:hover {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: url(../css/img/bgUI.png) left center no-repeat;
+  background: url(../css/img/bg.png) left center no-repeat;
   background-size: 1000px 850px;
   background-position: 100% 50%;
 }
@@ -161,7 +161,7 @@ a:hover {
   font-weight: 500;
   color: whitesmoke;
   margin-bottom: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .section-intro-subtitle {
   font-size: 15px;

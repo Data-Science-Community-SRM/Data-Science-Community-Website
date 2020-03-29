@@ -106,7 +106,7 @@ a:hover {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: url(../css/img/bgUI.png) left center no-repeat;
+  background: url(../css/img/bg-big.png) left center no-repeat;
   background-size: 900px 700px;
   background-position: 100% 50%;
 }
@@ -378,7 +378,7 @@ a:hover {
     margin-top: 41px;
   }
   .home-banner {
-    background: url(../css/img/undraw_sign_in_e6hj.png) left center no-repeat;
+    background: url(../css/img/bg-small.png) left center no-repeat;
     background-size: 900px 700px;
     background-position: 100% 50%;
   }
@@ -458,45 +458,45 @@ a:hover {
 /* ====================================================MEDIUM EMBED====================================================  */
 
 .medium-widget-article__item {
-  padding: 3px;
-  box-sizing: border-box;
-  margin: 5px;
-  background: #232323;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  padding: 3px !important;
+  box-sizing: border-box !important;
+  margin: 5px !important;
+  background: #232323 !important;
+  -webkit-transition: all 0.3s ease 0s !important;
+  -moz-transition: all 0.3s ease 0s !important;
+  -o-transition: all 0.3s ease 0s !important;
+  transition: all 0.3s ease 0s !important;
 }
 .medium-widget-article__item:hover {
-  background-color: #241c25;
-  box-sizing: border-box;
-  box-shadow: 0px 3px 10px 0px rgba(34, 25, 83, 0.699);
+  background-color: #241c25 !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 3px 10px 0px rgba(34, 25, 83, 0.699) !important;
 }
 .medium-widget-article__title {
-  font-size: 22px;
-  font-weight: 500;
-  color: white;
-  padding: 5px;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  color: white !important;
+  padding: 5px !important;
 }
 .medium-widget-article__title:hover {
-  color: rgb(88, 74, 99);
+  color: rgb(88, 74, 99) !important;
 }
 .medium-widget-article__description {
-  color: whitesmoke;
-  text-align: justify;
-  padding: 7px;
+  color: whitesmoke !important;
+  text-align: justify !important;
+  padding: 7px !important;
   padding-top: 0 !important;
 }
 .medium-widget-article__author-name {
-  color: whitesmoke;
-  text-transform: uppercase;
-  font-weight: 200;
-  font-size: 12px;
+  color: whitesmoke !important;
+  text-transform: uppercase !important;
+  font-weight: 200 !important;
+  font-size: 12px !important;
 }
 
 .medium-widget-article__clap,
 .medium-widget-article__date {
-  color: #575757;
+  color: #575757 !important;
 }
 
 .section-margin {

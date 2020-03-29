@@ -1,4 +1,4 @@
-//Navbar Toggle
+//Current Page Toggle
 $(document).ready(() => {
     $('#home-tag').addClass('active')
 })
