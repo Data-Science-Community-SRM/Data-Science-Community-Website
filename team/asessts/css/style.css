@@ -403,7 +403,7 @@ a:hover {
   transition: all 0.3s ease;
 }
 .members:hover {
-  background-color: rgb(177, 177, 177);
+  background-color: rgb(136, 136, 136);
   transition: all 0.3s ease;
 }
 .members:hover .name,
