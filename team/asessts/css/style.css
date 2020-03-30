@@ -398,12 +398,12 @@ a:hover {
   height: 300px;
   width: 20%;
   background-color: transparent;
-  margin: 10px;
+  margin: 2%;
   float: left;
   transition: all 0.3s ease;
 }
 .members:hover {
-  background-color: rgb(136, 136, 136);
+  background-color: #fafafa;
   transition: all 0.3s ease;
 }
 .members:hover .name,
@@ -441,7 +441,7 @@ a:hover {
 }
 .links p {
   text-decoration: none;
-  color: rgb(211, 210, 210);
+  color: rgb(170, 170, 170);
   padding: 0px 5px;
 }
 .links p:hover {

@@ -390,10 +390,10 @@ bac
   display: flex;
 }
 .footer-area .section-gap {
-  float: center;
+  float: right;
 }
 .footer-area .container {
-  float: center;
+  float: right;
   width: 100%;
   margin: 0;
 }
@@ -438,6 +438,7 @@ bac
 }
 .footer-area .footer-bottom p {
   color: #797979;
+  padding-top: 20px;
 }
 .footer-area .footer-bottom p a {
   color: #fff;
