@@ -654,6 +654,9 @@ bac
     width: 70%;
     transform: translateX(15%);
   }
+  .bg {
+    display: none;
+  }
 }
 @media (min-width: 1200px) {
   .section2 {
