@@ -7,7 +7,9 @@ const teamMembers = () => {
     let members = [{
             "name": "Yashvardhan Jagnani",
             "role": "something",
-            "img": "yashvardhan"
+            "img": "yashvardhan",
+            "github": "jagnani73",
+            "linkedin": "yashvardhan-jagnani"
         },
         {
             "name": "Aslı",
