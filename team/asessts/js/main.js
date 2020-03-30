@@ -8,7 +8,7 @@ const teamMembers = () => {
         "name": "Avirup",
         "role": "President",
         "img": "",
-        "github": "",
+        "github": "severussnape123",
         "linkedin": ""
     }, {
         "name": "Hritik Bhandari",
@@ -20,7 +20,7 @@ const teamMembers = () => {
         "name": "Anush Bhatia",
         "role": "Technical Director",
         "img": "",
-        "github": "",
+        "github": "anushbhatia",
         "linkedin": ""
     }, {
         "name": "Hariom Palkar",
