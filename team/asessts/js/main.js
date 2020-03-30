@@ -9,7 +9,7 @@ const teamMembers = () => {
         "role": "President",
         "img": "",
         "github": "severussnape123",
-        "linkedin": ""
+        "linkedin": "avirupchattaraj"
     }, {
         "name": "Hritik Bhandari",
         "role": "President",
@@ -21,7 +21,7 @@ const teamMembers = () => {
         "role": "Technical Director",
         "img": "",
         "github": "anushbhatia",
-        "linkedin": ""
+        "linkedin": "anush-bhatia-aa500a158"
     }, {
         "name": "Hariom Palkar",
         "role": "Corporate Director",
@@ -59,7 +59,7 @@ const teamMembers = () => {
         "github": "",
         "linkedin": "devansh-goswami-74590a187"
     }, {
-        "name": "Gayathri Seetharamn",
+        "name": "Gayathri Seetharaman",
         "role": "Member",
         "img": "gayathri",
         "github": "Gayathri621",
