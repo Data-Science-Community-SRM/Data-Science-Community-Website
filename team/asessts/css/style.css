@@ -449,16 +449,6 @@ a:hover {
   color: #323232;
   padding: 0px 5px;
 }
-@media only screen and (max-width: 1210px) {
-  .members {
-    padding: 2% 2% 0 0;
-    width: 20%;
-    height: 30%;
-  }
-  #team-container {
-    width: 100%;
-  }
-}
 
 @media only screen and (max-width: 728px) {
   .members {
@@ -473,9 +463,10 @@ a:hover {
 
 @media only screen and (max-width: 450px) {
   .members {
+    margin-top: 10px;
     padding: 5px;
     width: 140px;
-    height: 200px;
+    height: 250px;
   }
   #team-container {
     width: 350px;
