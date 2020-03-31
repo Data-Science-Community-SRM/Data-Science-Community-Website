@@ -277,7 +277,7 @@ bac
   }
   .card-bg .actions .circle{
   transition: 0.2s;
-  box-shadow: 2px 2px 5px#e5e1f5
+  box-shadow: 2px 2px 5px#e5e1f5;
   padding: 8px;
   display: flex;
   width: 40px;
@@ -307,9 +307,9 @@ bac
   padding-right: 20px;
   padding-bottom: 35px;
   border: 20px;
-  box-shadow: 2px 2px 5px 
+  box-shadow: 2px 2px ;
   border-radius: 15px;
-  background: rgb(167, 167, 167);
+  background: rgba(167, 167, 167, 0);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
