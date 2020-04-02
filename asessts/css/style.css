@@ -51,9 +51,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.667;
-  background: rgb(35, 35, 35);
-  background: rgb(35, 35, 35);
-  background: #414141;
+  background: #232323;
 }
 ul {
   list-style-type: none;
@@ -77,13 +75,13 @@ h2 {
   font-weight: 700;
 }
 h3 {
-  color: #3a414e;
+  color: #6f389f !important;
   line-height: 1.25;
   font-size: 20px;
   font-weight: 600;
 }
 h4 {
-  color: #3a414e;
+  color: #6f389f;
   line-height: 1.25;
 }
 a:hover {
@@ -223,36 +221,6 @@ a:hover {
   opacity: 0.8;
   transform: scale(1.02);
 }
-.card-bg .actions {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  border-radius: 25px;
-}
-.card-bg .actions .circle {
-  transition: 0.2s;
-  box-shadow: 2px 2px 5px#e5e1f5;
-  padding: 8px;
-  display: flex;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin: 0 10px 0 0;
-  cursor: pointer;
-}
-.card-bg .actions .circle:hover {
-  transition: 0.2s;
-  background-image: #e5e1f5;
-}
-.card-bg .actions .circle:hover i {
-  transition: 0.2s;
-  color: #eee;
-}
-.card-bg .actions .circle i {
-  font-size: 16pt;
-  margin: auto;
-}
-
 .card-4 {
   padding-top: 35px;
   padding-left: 20px;
