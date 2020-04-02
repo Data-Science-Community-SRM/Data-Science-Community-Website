@@ -7,7 +7,7 @@ const teamMembers = () => {
     let members = [{
         "name": "Avirup",
         "role": "President",
-        "img": "",
+        "img": "avirup",
         "github": "severussnape123",
         "linkedin": "avirupchattaraj"
     }, {
@@ -19,7 +19,7 @@ const teamMembers = () => {
     }, {
         "name": "Anush Bhatia",
         "role": "Technical Director",
-        "img": "",
+        "img": "anush",
         "github": "anushbhatia",
         "linkedin": "anush-bhatia-aa500a158"
     }, {

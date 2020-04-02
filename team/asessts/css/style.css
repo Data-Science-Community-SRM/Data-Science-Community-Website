@@ -168,9 +168,85 @@ a:hover {
   background-color: #282344;
   color: #fff;
 }
+.footer-area {
+  padding: 40px 0px 40px 0;
+  background: #0e1424;
+  display: flex;
+}
+.footer-area .section-gap {
+  float: right;
+}
+.footer-area .container {
+  float: right;
+  width: 100%;
+  margin: 0;
+}
+.footer-area .single-footer-widget .form-wrap {
+  margin-top: 25px;
+}
+.footer-area .single-footer-widget input {
+  height: 48px;
+  border: none;
+  width: 67% !important;
+  font-weight: 400;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding-left: 20px;
+  border-radius: 0;
+  font-size: 14px;
+  padding: 10px;
+}
+.footer-area .single-footer-widget .click-btn {
+  font-family: "Roboto", sans-serif;
+  color: #3a414e;
+  border-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 8px 20px;
+  border: 0;
+  font-size: 14px;
+  background: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: relative;
+  left: 0;
+}
+.footer-area .single-footer-widget h4 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.footer-area .footer-bottom {
+  margin-top: 70px;
+}
+.footer-area .footer-bottom p {
+  color: #797979;
+  padding-top: 20px;
+}
+.footer-area .footer-bottom p a {
+  color: #fff;
+}
+.footer-area .footer-bottom .footer-social a {
+  background: rgba(255, 255, 255, 0.15);
+  width: 32px;
+  color: #fff;
+  display: inline-grid;
+  text-align: center;
+  height: 32px;
+  align-content: center;
+}
+.footer-area .footer-bottom .footer-social a:hover {
+  background: #fff;
+  color: #21146a;
+}
 
 /* ====================================================MEDIA QUERIES==================================================== */
-
+@media (min-width: 250px) {
+  .footer-area .single-footer-widget .click-btn {
+    left: -40px;
+  }
+}
 @media (max-width: 480px) {
   .header-area .navbar-collapse {
     max-height: 250px;
@@ -349,6 +425,9 @@ a:hover {
     height: 400px;
   }
 }
+#foooter {
+  width: 100%;
+}
 
 /* ====================================================H1 ANIMATON====================================================  */
 
@@ -450,7 +529,21 @@ a:hover {
   padding: 0px 5px;
 }
 
-@media only screen and (max-width: 728px) {
+@media (max-width: 780px) and (min-width: 729px) {
+  .members {
+    background-color: #333333;
+    height: 300px;
+    width: 200px;
+  }
+  .photo {
+    width: 80%;
+    filter: none;
+    border-radius: 0%;
+    transition: all 0.5s ease;
+    border-radius: 100%;
+  }
+}
+@media (max-width: 728px) {
   .members {
     padding: 10px;
     width: 40%;
@@ -463,24 +556,10 @@ a:hover {
   .photo {
     width: 80%;
     filter: none;
-    border-radius: 0%;
+    border-radius: 100%;
     transition: all 0.5s ease;
   }
 }
-@media (max-width: 780px) and (min-width: 729px) {
-  .members {
-    background-color: #333333;
-    height: 250px;
-    width: 200px;
-  }
-  .photo {
-    width: 80%;
-    filter: none;
-    border-radius: 0%;
-    transition: all 0.5s ease;
-  }
-}
-
 @media only screen and (max-width: 450px) {
   .members {
     margin-top: 10px;
