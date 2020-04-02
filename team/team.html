@@ -33,10 +33,10 @@
               <li class="nav-item"><a class="nav-link" href="../index.html" id="home-tag">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
               <li class="nav-item"><a class="nav-link" href="../blog/blog.html" id="blog-tag">Blog</a></li>
-              <li class="nav-item active"><a class="nav-link" href="../index.html#contact">Team</a></li>
+              <li class="nav-item active"><a class="nav-link" href="#">Team</a></li>
 
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="../index.html#contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -49,7 +49,7 @@
   <main class="side-main">
     <section class="home-banner">
       <div class="container">
-        <div class="home-banner-content">
+        <div class="home-banner-content col-6">
           <h1 id="div" class="ml11">
             <span class="text-wrapper">
               <span class="line line1"></span>
@@ -66,17 +66,57 @@
       <div class="container text-center">
         <script id="team" type="text/x-jquery-tmpl">
           <div class="members">
-              <img class="photo" src="./asessts/css/img/team/${img}.png">
+              <img class="photo" src="./asessts/css/img/team/${img}.jpg">
               <br>
               <div class="name">${name}</div>
               <br>
               <div class="role">${role}</div>
+              <div class="links">
+                <a href="https://github.com/${github}"><p class="fab fa-github"></p></a>
+                <a href="https://linkedin.com/in/${linkedin}"><p class="fab fa-linkedin"></p></a>
+              </div>
             </div>
           </script>
         <div id="team-container"></div>
       </div>
     </section>
     <!-- Section 2 Ends -->
+
+    <!-- Footer Begins -->
+    <footer class="footer-area section-gap col-12">
+      <div class="footer-bottom col-12">
+        <div class=" col-12 footer-social row">
+          <div class="col-6 col-sm-3 text-center">
+            <img src="../asessts/css/img/home-logo.png" width="100px" alt="">
+          </div>
+          <div class="col-6 col-sm-3 text-right">
+            <ul>
+              <li>HOME</li>
+              <li>EVENTS</li>
+              <li>BLOG</li>
+              <li>TEAM</li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 text-left">
+            REACH US
+            <ul>
+              <li><a class="lk" href="https://www.linkedin.com/in/hritikbhandari/">Hritik Bhandari</a></li>
+              <li><a class="lk" href="https://www.linkedin.com/in/avirupchattaraj/">Avirup Chattaraj</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 text-center">
+            <br>
+            <a href="https://twitter.com/bdsc_srm"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/datasciencecommunitysrm"><i class="fab fa-linkedin"></i></a><br>
+            <a href="https://www.instagram.com/bdsc_srm/"><i class="fab fa-instagram"></i></a>
+            <a href="https://medium.com/data-science-community-srm"><i class="fab fa-medium-m"></i></a>
+          </div>
+        </div>
+        <p class="text-center" id="hi">Made with ☕ by your colleagues at the Data Science Community</p>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -88,7 +128,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js">
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js">
     </script>
     <script src="./asessts/js/main.js"></script>
 </body>

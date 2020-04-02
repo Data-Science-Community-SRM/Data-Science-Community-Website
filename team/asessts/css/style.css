@@ -168,9 +168,50 @@ a:hover {
   background-color: #282344;
   color: #fff;
 }
+.footer-area {
+  padding: 00px 0px 20px 0;
+  background: #0e1424;
+  display: flex;
+}
+.footer-area .container {
+  float: right;
+  width: 100%;
+  margin: 0;
+}
+.footer-area .footer-bottom {
+  margin-top: 70px;
+}
+.footer-area .footer-bottom p {
+  color: #797979;
+}
+.footer-area .footer-bottom p a {
+  color: #fff;
+}
+.footer-area .footer-bottom .footer-social i {
+  width: 32px;
+  color: #fafafa;
+  display: inline-grid;
+  text-align: center;
+  height: 32px;
+  margin: 3px;
+  align-content: center;
+  font-size: 35px;
+}
+.footer-area .footer-bottom .footer-social a:hover {
+  color: #6f389f;
+}
+.lk {
+  display: inline-block;
+  font-size: 15px;
+  width: 100%;
+  text-decoration: none;
+  color: #797979;
+}
+#hi {
+  margin-top: 20px;
+}
 
 /* ====================================================MEDIA QUERIES==================================================== */
-
 @media (max-width: 480px) {
   .header-area .navbar-collapse {
     max-height: 250px;
@@ -198,7 +239,7 @@ a:hover {
     font-size: 50px;
   }
   .home-banner {
-    padding: 150px 0 120px 0;
+    padding: 150px 0 20px 0;
   }
   .home-banner--sm__content {
     margin-top: 40px;
@@ -218,7 +259,7 @@ a:hover {
     margin-left: 0px !important;
   }
   .header-area .navbar {
-    background: #373255;
+    background: #6f389f;
   }
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1;
@@ -349,6 +390,9 @@ a:hover {
     height: 400px;
   }
 }
+#foooter {
+  width: 100%;
+}
 
 /* ====================================================H1 ANIMATON====================================================  */
 
@@ -371,7 +415,7 @@ a:hover {
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: indigo;
+    background-color: #6f389f;
     transform-origin: 0 50%;
   }
 
@@ -398,12 +442,12 @@ a:hover {
   height: 300px;
   width: 20%;
   background-color: transparent;
-  margin: 10px;
+  margin: 2%;
   float: left;
   transition: all 0.3s ease;
 }
 .members:hover {
-  background-color: rgb(177, 177, 177);
+  background-color: #fafafa;
   transition: all 0.3s ease;
 }
 .members:hover .name,
@@ -435,36 +479,58 @@ a:hover {
   position: relative;
   bottom: 10px;
   font-size: 9pt;
+  padding-bottom: 0px;
   color: whitesmoke;
   font-weight: 400;
 }
-@media only screen and (max-width: 1210px) {
-  .members {
-    padding: 2% 2% 0 0;
-    width: 20%;
-    height: 30%;
-  }
-  #team-container {
-    width: 100%;
-  }
+.links p {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+  padding: 0px 5px;
+}
+.links p:hover {
+  text-decoration: none;
+  color: #323232;
+  padding: 0px 5px;
 }
 
-@media only screen and (max-width: 728px) {
+@media (max-width: 780px) and (min-width: 729px) {
+  .members {
+    background-color: #333333;
+    height: 300px;
+    width: 200px;
+  }
+  .photo {
+    width: 80%;
+    filter: none;
+    border-radius: 0%;
+    transition: all 0.5s ease;
+    border-radius: 100%;
+  }
+}
+@media (max-width: 728px) {
   .members {
     padding: 10px;
     width: 40%;
-    height: 40%;
+    height: 300px;
+    background-color: #333333;
   }
   #team-container {
     width: 100%;
   }
+  .photo {
+    width: 80%;
+    filter: none;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+  }
 }
-
 @media only screen and (max-width: 450px) {
   .members {
+    margin-top: 10px;
     padding: 5px;
     width: 140px;
-    height: 200px;
+    height: 280px;
   }
   #team-container {
     width: 350px;
