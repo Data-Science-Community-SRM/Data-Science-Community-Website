@@ -5,104 +5,104 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<
 //Team Members
 const teamMembers = () => {
     let members = [{
-        "name": "Avirup",
-        "role": "President",
+        "name": "Avirup Chattaraj",
+        "role": "PRESIDENT",
         "img": "avirup",
         "github": "severussnape123",
         "linkedin": "avirupchattaraj"
     }, {
         "name": "Hritik Bhandari",
-        "role": "President",
+        "role": "PRESIDENT",
         "img": "hritik",
         "github": "hritikbhandari",
         "linkedin": "hritikbhandari"
     }, {
         "name": "Anush Bhatia",
-        "role": "Technical Director",
+        "role": "TECHNICAL DIRECTOR",
         "img": "anush",
         "github": "anushbhatia",
         "linkedin": "anush-bhatia-aa500a158"
     }, {
         "name": "Hariom Palkar",
-        "role": "Corporate Director",
+        "role": "CORPORATE DIRECTOR",
         "img": "hariom",
         "github": "aannuuj",
         "linkedin": "hariompalkar"
     }, {
         "name": "Takshil Mittal",
-        "role": "Events Director",
+        "role": "EVENTS DIRECTOR",
         "img": "takshil",
         "github": "takshilmittal",
         "linkedin": "takshil-mittal"
     }, {
         "name": "Pratyaksh Bhalla",
-        "role": "Executive Director",
+        "role": "EXECUTIVE DIRECTOR",
         "img": "pratyaksh",
         "github": "pratyaksh64",
         "linkedin": "pratyaksh-bhalla-96871b186"
     }, {
         "name": "Abhishek Saxena",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "abhishek",
         "github": "saxenabhishek",
         "linkedin": "abhibored"
     }, {
         "name": "K. Aditya",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "aditya",
         "github": "i-am-aditya",
         "linkedin": "iamadityak"
     }, {
         "name": "Devansh Goswami",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "devansh",
         "github": "",
         "linkedin": "devansh-goswami-74590a187"
     }, {
         "name": "Gayathri Seetharaman",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "gayathri",
         "github": "Gayathri621",
         "linkedin": "gayathri-seetharaman-964986158"
     }, {
         "name": "Kartik Mohan",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "kartik",
         "github": "kartikmohan123",
         "linkedin": "kartik-mohan"
     }, {
         "name": "Rushil Rai",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "rushil",
         "github": "rushilrai",
         "linkedin": "rushil-rai-07363116a"
     }, {
         "name": "Sampada Bareja",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "sampada",
         "github": "",
         "linkedin": "sampada-bareja-43930818b"
     }, {
         "name": "Shubhangi Soni",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "shubhangi",
         "github": "ShubhangiSoni1603",
         "linkedin": "shubhangi-soni"
     }, {
         "name": "Tejas Chintala",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "tejas",
         "github": "arcado10",
         "linkedin": "tejas-chintala-752918188"
     }, {
         "name": "Utkarsh Chaurasia",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "utkarsh",
         "github": "UtkarshChaurasia",
         "linkedin": "utkarsh-chaurasia-a4b76a17b"
     }, {
         "name": "Yashvardhan Jagnani",
-        "role": "Member",
+        "role": "MEMBER",
         "img": "yashvardhan",
         "github": "jagnani73",
         "linkedin": "yashvardhan-jagnani"
