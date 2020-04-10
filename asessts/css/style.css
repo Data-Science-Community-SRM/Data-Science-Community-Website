@@ -485,9 +485,6 @@ a:hover {
     max-height: 370px;
     overflow-y: visible;
   }
-  .header-area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
-    padding: 0px 15px;
-  }
   .header-area .navbar .nav .nav-item {
     margin-right: 0px;
   }
@@ -515,6 +512,17 @@ a:hover {
   }
   #artificial {
     display: none;
+  }
+  .card-4 {
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    margin: 5px auto;
+    border: 20px;
+    box-shadow: 2px 2px;
+    border-radius: 15px;
+    background: #dfcbf0;
   }
 }
 @media (min-width: 992px) {
