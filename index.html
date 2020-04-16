@@ -23,6 +23,7 @@
 </head>
 
 <body>
+  <div class='onesignal-customlink-container'></div>
   <!-- Navbar Begins -->
   <header class="header-area">
 
@@ -299,20 +300,12 @@
     </footer>
     <!-- Footer Ends -->
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
       var OneSignal = window.OneSignal || [];
-      OneSignal.push(function () {
+      OneSignal.push(function() {
         OneSignal.init({
-          appId: "26a23317-fbc7-4b83-877e-b31c980bd191",
-          notifyButton: {
-            enable: false,
-          },
-          autoResubscribe: true,
-          welcomeNotification: {
-            title: "Wohhh!",
-            message: "Thank you for subscribing. You're the coolest person in all the land! :)",
-          },
-          allowLocalhostAsSecureOrigin: true,
+          appId: "89e1fd38-44a1-4ec7-b758-97d159aa38f2",
         });
       });
     </script>
