@@ -165,6 +165,8 @@ a:hover {
 }
 .home-banner-content p {
   color: #fff;
+  font-size: 18px;
+  
   margin-bottom: 45px;
 }
 .home-banner-content a {
