@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>bDSC SRM</title>
-  <link rel="icon" href="./asessts/css/img/favicon.png" type="image/png">
+  <link rel="icon" href="./asessts/css/img/home-logo.png" type="image/png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="../asessts/js/libraries/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="./asessts/js/libraries/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="./asessts/css/style.css">
+  <link rel="stylesheet" href="./asessts/css/main.css">
+  <link rel="stylesheet" href="./asessts/css/util.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
     rel="stylesheet">
@@ -19,6 +21,7 @@
 <body>
   <!-- Navbar Begins -->
   <header class="header-area">
+
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
@@ -30,17 +33,14 @@
           </button>
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="#" id="blog-tag">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="../index.html" id="home-tag">Home</a></li>
-              <!--<li class="nav-item"><a class="nav-link" href="#">Events</a></li>-->
-              <li class="nav-item"><a class="nav-link" href="../People/People.html">People</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact.html">Contact Us</a></li>
-            </ul>
-
-            <ul class="navbar-right">
-              <!-- <li class="nav-item">
-                <button class="button button-header bg">Sign up</button>
-              </li> -->
+                
+                <li class="nav-item active "><a class="nav-link" href="#" id="home-tag">Contact Us</a></li>  
+              <li class="nav-item "><a class="nav-link" href="../index.html" id="home-tag">Home</a></li>
+             <!-- <li class="nav-item"><a class="nav-link" href="#">Events</a></li> -->
+              <li class="nav-item"><a class="nav-link" href="/blog/blog.html">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="./People/People.html">People</a></li>
+              </li>
+           
             </ul>
           </div>
         </div>
@@ -49,65 +49,64 @@
   </header>
   <!-- Navbar Ends -->
 
-  <!-- Home Begins -->
-  <main class="side-main">
-    <section class="home-banner mb-30px">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 pt-5">
-            <div class="home-banner-content">
-              <h1 id="div" class="ml11">
-                <span class="text-wrapper">
-                  <span class="line line1"></span>
-                  <span class="letters">Our Blog</span>
-                </span>
-              </h1>
-              <div class=" col-lg-12 card">
-                <h4 class=" card-subtitle">Sharing our concepts, codes and experiences.</h4>
-              </div>
-              <a class="button bg" href="">Publication Link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Home Ends -->
 
-    <!-- Section 2 Start -->
-    <section class="section-margin section2" id="posts">
-      <div class="container">
-        <div class="col-lg-12">
-          <div id="medium-widget" class="posts-all"></div>
-          <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-          <script>
-            let postsper = 3
-            if (document.documentElement.clientWidth < 991) {
-              postsper = 1;
-            }
-            MediumWidget.Init({
-              renderTo: '#medium-widget',
-              params: {
-                "resource": "https://medium.com/data-science-community-srm",
-                "postsPerLine": postsper,
-                "limit": 5,
-                "picture": "big",
-                "fields": ["description", "author", "claps", "publishAt"],
-                "ratio": "landscape"
-              }
-            })
-          </script>
-        </div>
+  <!-- Home Begins -->
+  <br>
+  <br>
+  <br>
+
+  
+
+    <!-- Contact Starts -->
+
+    <div class="container-contact100" id="contact">
+      <div class="wrap-contact100">
+        <form action="https://formspree.io/xwkqddgy" method="POST" class="contact100-form validate-form">
+          <span class="contact100-form-title">
+            <span style="color: #6F389F;">S</span>end Us A Message.
+          </span>
+
+          <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+            <input class="input100" type="text" name="name" placeholder="Full Name">
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
+            <input class="input100" type="text" name="email" placeholder="E-mail">
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="wrap-input100 validate-input" data-validate="Please enter your phone">
+            <input class="input100" type="text" name="phone" placeholder="Phone">
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+            <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="container-contact100-form-btn">
+            <button class="button bg">
+              <span>
+                Send
+              </span>
+            </button>
+          </div>
+        </form>
       </div>
-    </section>
-    <!-- Section 2 Ends -->
+    </div>
+    <div id="dropDownSelect1"></div>
+
+    <!-- Contact Ends -->
 
     <!-- Footer Begins -->
     <footer class="footer-area section-gap col-12">
       <div class="footer-bottom col-12">
         <div class=" col-12 footer-social row">
           <div class="col-6 col-sm-3 text-center">
-            <br>
-            <img src="./asessts/css/img/favicon.png" width="100px" alt="">
+          
+            <img src="./asessts/css/img/home-logo.png" width="100px" alt="">
           </div>
           <div class="col-6 col-sm-3 text-right">
             <ul>
@@ -131,7 +130,7 @@
             </ul>
           </div>
           <div class="col-6 col-sm-3 text-center">
-            <br>
+            
             <a href="https://twitter.com/bdsc_srm"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com/company/datasciencecommunitysrm"><i class="fab fa-linkedin"></i></a><br>
             <a href="https://www.instagram.com/bdsc_srm/"><i class="fab fa-instagram"></i></a>
@@ -154,6 +153,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="./asessts/js/main.js"></script>
+    <script src="./asessts/js/contact.js"></script>
 </body>
 
 </html>

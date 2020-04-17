@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>bDSC SRM</title>
+  <title>bDSC</title>
   <link rel="icon" href="./asessts/css/img/favicon.png" type="image/png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -30,17 +30,11 @@
           </button>
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="#" id="blog-tag">Blog</a></li>
+              <li class="nav-item active"><a class="nav-link" href="#">Team</a></li>
               <li class="nav-item"><a class="nav-link" href="../index.html" id="home-tag">Home</a></li>
-              <!--<li class="nav-item"><a class="nav-link" href="#">Events</a></li>-->
-              <li class="nav-item"><a class="nav-link" href="../People/People.html">People</a></li>
+             <!-- <li class="nav-item"><a class="nav-link" href="#">Events</a></li>-->
+              <li class="nav-item"><a class="nav-link" href="../blog/blog.html" id="blog-tag">Blog</a></li>
               <li class="nav-item"><a class="nav-link" href="../contact.html">Contact Us</a></li>
-            </ul>
-
-            <ul class="navbar-right">
-              <!-- <li class="nav-item">
-                <button class="button button-header bg">Sign up</button>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -51,52 +45,37 @@
 
   <!-- Home Begins -->
   <main class="side-main">
-    <section class="home-banner mb-30px">
+    <section class="home-banner">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-5 pt-5">
-            <div class="home-banner-content">
-              <h1 id="div" class="ml11">
-                <span class="text-wrapper">
-                  <span class="line line1"></span>
-                  <span class="letters">Our Blog</span>
-                </span>
-              </h1>
-              <div class=" col-lg-12 card">
-                <h4 class=" card-subtitle">Sharing our concepts, codes and experiences.</h4>
-              </div>
-              <a class="button bg" href="">Publication Link</a>
-            </div>
-          </div>
+        <div class="home-banner-content col-6">
+          <h1 id="div" class="ml11">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">Team</span>
+            </span>
+          </h1>
+          <p>The ones who make our community worth it!
         </div>
-      </div>
     </section>
     <!-- Home Ends -->
 
     <!-- Section 2 Start -->
-    <section class="section-margin section2" id="posts">
-      <div class="container">
-        <div class="col-lg-12">
-          <div id="medium-widget" class="posts-all"></div>
-          <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-          <script>
-            let postsper = 3
-            if (document.documentElement.clientWidth < 991) {
-              postsper = 1;
-            }
-            MediumWidget.Init({
-              renderTo: '#medium-widget',
-              params: {
-                "resource": "https://medium.com/data-science-community-srm",
-                "postsPerLine": postsper,
-                "limit": 5,
-                "picture": "big",
-                "fields": ["description", "author", "claps", "publishAt"],
-                "ratio": "landscape"
-              }
-            })
+    <section>
+      <div class="container text-center">
+        <script id="team" type="text/x-jquery-tmpl">
+          <div class="members">
+              <img class="photo" src="./asessts/css/img/team/${img}.jpg">
+              <br>
+              <div class="name">${name}</div>
+              <br>
+              <div class="role">${role}</div>
+              <div class="links">
+                <a href="https://github.com/${github}"><p class="fab fa-github"></p></a>
+                <a href="https://linkedin.com/in/${linkedin}"><p class="fab fa-linkedin"></p></a>
+              </div>
+            </div>
           </script>
-        </div>
+        <div id="team-container"></div>
       </div>
     </section>
     <!-- Section 2 Ends -->
@@ -106,7 +85,6 @@
       <div class="footer-bottom col-12">
         <div class=" col-12 footer-social row">
           <div class="col-6 col-sm-3 text-center">
-            <br>
             <img src="./asessts/css/img/favicon.png" width="100px" alt="">
           </div>
           <div class="col-6 col-sm-3 text-right">
@@ -114,7 +92,7 @@
               <li>HOME</li>
               <li>EVENTS</li>
               <li>BLOG</li>
-              <li>PEOPLE</li>
+              <li>Team</li>
             </ul>
           </div>
           <br>
@@ -131,7 +109,7 @@
             </ul>
           </div>
           <div class="col-6 col-sm-3 text-center">
-            <br>
+           
             <a href="https://twitter.com/bdsc_srm"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com/company/datasciencecommunitysrm"><i class="fab fa-linkedin"></i></a><br>
             <a href="https://www.instagram.com/bdsc_srm/"><i class="fab fa-instagram"></i></a>
@@ -143,6 +121,7 @@
     </footer>
     <!-- Footer Ends -->
 
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -153,6 +132,8 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js">
+    </script>
     <script src="./asessts/js/main.js"></script>
 </body>
 
