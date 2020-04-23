@@ -166,7 +166,7 @@ a:hover {
 .home-banner-content p {
   color: #fff;
   font-size: 18px;
-  
+
   margin-bottom: 45px;
 }
 .home-banner-content a {
@@ -528,26 +528,6 @@ a:hover {
   }
 }
 @media (min-width: 992px) {
-  .header-area .navbar .nav .nav-item.submenu ul {
-    position: absolute;
-    top: 120%;
-    left: 0px;
-    min-width: 200px;
-    text-align: left;
-    opacity: 0;
-    transition: all 300ms ease-in;
-    visibility: hidden;
-    display: block;
-    border: none;
-    padding: 0px;
-    border-radius: 0px;
-    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
-  }
-  .header-area .navbar .nav .nav-item.submenu:hover ul {
-    visibility: visible;
-    opacity: 1;
-    top: 100%;
-  }
   .header-area.white_menu .navbar .navbar-brand img {
     display: none;
   }
