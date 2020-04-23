@@ -3,8 +3,8 @@ let textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
 //Team Members
-const teamMembers = () => {
-    let members = [{
+const presidents = () => {
+    let presidents = [{
         "name": "Avirup Chattaraj",
         "role": "PRESIDENT",
         "img": "avirup",
@@ -16,7 +16,16 @@ const teamMembers = () => {
         "img": "hritik",
         "github": "hritikbhandari",
         "linkedin": "hritikbhandari"
-    }, {
+    }];
+    $("#presidents").tmpl(presidents).appendTo("#presidents-container");
+};
+$(document).ready(() => {
+    presidents();
+});
+
+const directors = () => {
+    document.createElement("br")
+    let directors = [{
         "name": "Anush Bhatia",
         "role": "TECHNICAL DIRECTOR",
         "img": "anush",
@@ -40,7 +49,16 @@ const teamMembers = () => {
         "img": "pratyaksh",
         "github": "pratyaksh64",
         "linkedin": "pratyaksh-bhalla-96871b186"
-    }, {
+    }];
+    $("#directors").tmpl(directors).appendTo("#directors-container");
+};
+$(document).ready(() => {
+    directors();
+});
+
+const members = () => {
+    document.createElement("br")
+    let members = [{
         "name": "Abhishek Saxena",
         "role": "MEMBER",
         "img": "abhishek",
@@ -107,11 +125,13 @@ const teamMembers = () => {
         "github": "jagnani73",
         "linkedin": "yashvardhan-jagnani"
     }];
-    $("#team").tmpl(members).appendTo("#team-container");
+    $("#members").tmpl(members).appendTo("#members-container");
 };
 $(document).ready(() => {
-    teamMembers();
+    members();
 })
+
+//H1 Animation
 anime.timeline({
         loop: false
     })
@@ -140,14 +160,13 @@ anime.timeline({
         opacity: 1
     });
 
+
 //Navbar-Fixed
 $(function () {
     "use strict";
 
     var navTopOffset = $('header').height() + 50;
-    /*-------------------------------------------------------------------------------
-	  Navbar 
-	-------------------------------------------------------------------------------*/
+
     function navbarFixed() {
         if ($('.header-area').length) {
             $(window).scroll(function () {
