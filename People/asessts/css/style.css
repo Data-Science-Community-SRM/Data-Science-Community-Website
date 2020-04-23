@@ -1,4 +1,4 @@
-/* ====================================================TEAM====================================================  */
+/* ====================================================PEOPLE====================================================  */
 
 /* ====================================================TAGS====================================================  */
 html {
@@ -200,14 +200,14 @@ a:hover {
 .footer-area .footer-bottom .footer-social a:hover {
   color: #6f389f;
 }
-.lk {
+.footer-refs {
   display: inline-block;
   font-size: 15px;
   width: 100%;
   text-decoration: none;
   color: #797979;
 }
-#hi {
+#caption {
   margin-top: 20px;
 }
 
@@ -437,13 +437,12 @@ a:hover {
   margin-right: auto;
 }
 .members {
-  vertical-align: middle;
   padding: 10px;
   height: 300px;
   width: 20%;
   background-color: transparent;
   margin: 2%;
-  float: left;
+  display: inline-block;
   transition: all 0.3s ease;
 }
 .members:hover {

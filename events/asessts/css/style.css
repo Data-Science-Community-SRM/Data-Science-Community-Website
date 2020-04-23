@@ -206,14 +206,14 @@ a:hover {
 .footer-area .footer-bottom .footer-social a:hover {
   color: #6f389f;
 }
-.lk {
+.footer-refs {
   display: inline-block;
   font-size: 15px;
   width: 100%;
   text-decoration: none;
   color: #797979;
 }
-#hi {
+#caption {
   margin-top: 20px;
 }
 
@@ -415,6 +415,7 @@ a:hover {
     line-height: 1em;
   }
 }
+
 .carousel {
   left: 0;
   top: 0;
@@ -430,8 +431,7 @@ a:hover {
   margin-top: 65%;
 }
 .jumbotron {
-  margin: auto;
-  float: left;
+  margin: 15px auto;
   padding-bottom: 20px;
   background-color: #333333;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -440,16 +440,20 @@ a:hover {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   border-radius: 20px;
+  height: 600px;
 }
+
 .jumbotron:hover {
   background-color: #e0e0e0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.2s;
   transform: scale(1.05);
 }
+
 .jumbotron:hover .event-head {
   color: #323232;
 }
+
 .jumbotron:hover .event-content {
   color: #1c1c1c;
   font-weight: 500;

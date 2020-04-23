@@ -155,6 +155,12 @@ a:hover {
 }
 .home-banner-logo {
   position: relative;
+  display: inline-block;
+  margin: auto;
+}
+.img-logo {
+  display: inline-block;
+  margin: auto;
 }
 .home-banner-content {
   text-shadow: 1px 1px rgb(49, 34, 59);
@@ -325,7 +331,8 @@ a:hover {
 }
 
 .footer-area {
-  padding: 00px 0px 20px 0;
+  margin-top: 60px;
+  padding: 0px 0px 20px 0;
   background: #0e1424;
   display: flex;
 }
@@ -361,7 +368,7 @@ a:hover {
   font-size: 15px;
   width: 100%;
 }
-#hi {
+#caption {
   margin-top: 20px;
   color: #575757;
 }
