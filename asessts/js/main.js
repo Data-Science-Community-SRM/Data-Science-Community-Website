@@ -59,3 +59,47 @@ $(window).scroll(function () {
         transform: 'translate3d(0, +' + (scroll / 100) + '%, 0) scale(' + (100 - scroll / 100) / 100 + ')'
     });
 });
+if (screen.width >= 991) {
+    (function ($) {
+        $(document).ready(function () {
+            $.jScrollability([{
+                'selector': '.section-intro-title',
+                'start': 'parent', // start point
+                'end': 'parent', // end point
+                'fn': { // functions
+                    'left': {
+                        'start': 100,
+                        'end': 0,
+                        'unit': '%'
+                    }
+                }
+            }]);
+        });
+    })(jQuery);
+
+    (function ($) {
+        $(document).ready(function () {
+            $.jScrollability([{
+                'selector': '.section-intro-subtitle',
+                'start': function ($el) {
+                    return $el.offset().top + $el.height()
+                },
+                'end': 'parent',
+                'fn': function ($el, pcnt) {
+                    var $spans = $el.find('span');
+                    var point = Math.floor(($spans.length + 1) * pcnt);
+                    $spans.each(function (i, el) {
+                        var $span = $(el);
+                        if (i < point) {
+                            $span.addClass('visible');
+                        } else {
+                            $span.removeClass('visible');
+                        }
+                    });
+                }
+            }]);
+        });
+    })(jQuery);
+} else {
+    $("span").addClass('visible')
+}

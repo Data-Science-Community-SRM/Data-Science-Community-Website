@@ -210,11 +210,21 @@ a:hover {
   color: whitesmoke;
   margin-bottom: 10px;
   padding-bottom: 50px;
+  position: relative;
 }
 .section-intro-subtitle {
   font-size: 17px;
   color: rgb(201, 199, 199);
   margin-bottom: 0;
+}
+.section-intro-subtitle span {
+  opacity: 0;
+  transition: ease;
+  -webkit-transition: opacity 0.2s;
+}
+
+.section-intro-subtitle span.visible {
+  opacity: 1;
 }
 
 .card-bg {
