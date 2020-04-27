@@ -416,11 +416,6 @@ a:hover {
   }
 }
 
-.carousel {
-  left: 0;
-  top: 0;
-  position: absolute;
-}
 .carousel-item {
   height: auto;
 }
@@ -428,8 +423,27 @@ a:hover {
   height: auto;
 }
 .recent-wrapper {
-  margin-top: 65%;
+  margin: 25px auto;
 }
+
+.carousel-caption {
+  background-color: #0e1424;
+}
+
+.carousel-caption h4 {
+  color: #fafafa;
+}
+.carousel-caption h7 {
+  color: #5f5f5f;
+}
+
+.carousel-caption div,
+.carousel-caption h4,
+.carousel-caption h7 {
+  padding: 5px;
+  margin: 0;
+}
+
 .jumbotron {
   margin: 15px auto;
   padding-bottom: 20px;

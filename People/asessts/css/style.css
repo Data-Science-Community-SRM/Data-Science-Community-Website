@@ -28,10 +28,9 @@ h1 {
   line-height: 1.2;
 }
 h2 {
-  color: #3a414e;
+  color: #6f389f;
   line-height: 1.25;
   font-size: 28px;
-  font-weight: 700;
 }
 h3 {
   color: #3a414e;
@@ -43,6 +42,13 @@ h4 {
   color: #3a414e;
   line-height: 1.25;
 }
+hr {
+  border-top: 1px solid #fafafa;
+  padding: 10px auto;
+  margin: 20px;
+  box-shadow: 1px #ccc;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -438,7 +444,7 @@ a:hover {
 }
 .members {
   padding: 10px;
-  height: 300px;
+  height: 320px;
   width: 20%;
   background-color: transparent;
   margin: 2%;
@@ -496,7 +502,6 @@ a:hover {
 @media (max-width: 780px) and (min-width: 729px) {
   .members {
     background-color: #333333;
-    height: 300px;
     width: 200px;
   }
   .photo {
@@ -511,7 +516,6 @@ a:hover {
   .members {
     padding: 10px;
     width: 40%;
-    height: 300px;
     background-color: #333333;
   }
   #team-container {
@@ -529,7 +533,7 @@ a:hover {
     margin-top: 10px;
     padding: 5px;
     width: 140px;
-    height: 280px;
+    height: 260px;
   }
   #team-container {
     width: 350px;

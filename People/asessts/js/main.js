@@ -5,13 +5,15 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<
 //Team Members
 const presidents = () => {
     let presidents = [{
-        "name": "Avirup Chattaraj",
+        "fname": "Avirup",
+        "lname": "Chattaraj",
         "role": "PRESIDENT",
         "img": "avirup",
         "github": "severussnape123",
         "linkedin": "avirupchattaraj"
     }, {
-        "name": "Hritik Bhandari",
+        "fname": "Hritik",
+        "lname": "Bhandari",
         "role": "PRESIDENT",
         "img": "hritik",
         "github": "hritikbhandari",
@@ -26,25 +28,29 @@ $(document).ready(() => {
 const directors = () => {
     document.createElement("br")
     let directors = [{
-        "name": "Anush Bhatia",
+        "fname": "Anush",
+        "lname": "Bhatia",
         "role": "TECHNICAL DIRECTOR",
         "img": "anush",
         "github": "anushbhatia",
         "linkedin": "anush-bhatia-aa500a158"
     }, {
-        "name": "Hariom Palkar",
+        "fname": "Hariom",
+        "lname": "Palkar",
         "role": "CORPORATE DIRECTOR",
         "img": "hariom",
         "github": "aannuuj",
         "linkedin": "hariompalkar"
     }, {
-        "name": "Takshil Mittal",
+        "fname": "Takshil",
+        "lname": " Mittal",
         "role": "EVENTS DIRECTOR",
         "img": "takshil",
         "github": "takshilmittal",
         "linkedin": "takshil-mittal"
     }, {
-        "name": "Pratyaksh Bhalla",
+        "fname": "Pratyaksh",
+        "lname": "Bhalla",
         "role": "EXECUTIVE DIRECTOR",
         "img": "pratyaksh",
         "github": "pratyaksh64",
@@ -59,67 +65,78 @@ $(document).ready(() => {
 const members = () => {
     document.createElement("br")
     let members = [{
-        "name": "Abhishek Saxena",
+        "fname": "Abhishek",
+        "lname": "Saxena",
         "role": "MEMBER",
         "img": "abhishek",
         "github": "saxenabhishek",
         "linkedin": "abhibored"
     }, {
-        "name": "K. Aditya",
+        "fname": "K.",
+        "lname": "Aditya",
         "role": "MEMBER",
         "img": "aditya",
         "github": "i-am-aditya",
         "linkedin": "iamadityak"
     }, {
-        "name": "Devansh Goswami",
+        "fname": "Devansh",
+        "lname": "Goswami",
         "role": "MEMBER",
         "img": "devansh",
         "github": "",
         "linkedin": "devansh-goswami-74590a187"
     }, {
-        "name": "Gayathri Seetharaman",
+        "fname": "Gayathri",
+        "lname": "Seetharaman",
         "role": "MEMBER",
         "img": "gayathri",
         "github": "Gayathri621",
         "linkedin": "gayathri-seetharaman-964986158"
     }, {
-        "name": "Kartik Mohan",
+        "fname": "Kartik",
+        "lname": "Mohan",
         "role": "MEMBER",
         "img": "kartik",
         "github": "kartikmohan123",
         "linkedin": "kartik-mohan"
     }, {
-        "name": "Rushil Rai",
+        "fname": "Rushil",
+        "lname": "Rai",
         "role": "MEMBER",
         "img": "rushil",
         "github": "rushilrai",
         "linkedin": "rushil-rai-07363116a"
     }, {
-        "name": "Sampada Bareja",
+        "fname": "Sampada",
+        "lname": "Bareja",
         "role": "MEMBER",
         "img": "sampada",
         "github": "",
         "linkedin": "sampada-bareja-43930818b"
     }, {
-        "name": "Shubhangi Soni",
+        "fname": "Shubhangi",
+        "lname": "Soni",
         "role": "MEMBER",
         "img": "shubhangi",
         "github": "ShubhangiSoni1603",
         "linkedin": "shubhangi-soni"
     }, {
-        "name": "Tejas Chintala",
+        "fname": "Tejas",
+        "lname": "Chintala",
         "role": "MEMBER",
         "img": "tejas",
         "github": "arcado10",
         "linkedin": "tejas-chintala-752918188"
     }, {
-        "name": "Utkarsh Chaurasia",
+        "fname": "Utkarsh",
+        "lname": "Chaurasia",
         "role": "MEMBER",
         "img": "utkarsh",
         "github": "UtkarshChaurasia",
         "linkedin": "utkarsh-chaurasia-a4b76a17b"
     }, {
-        "name": "Yashvardhan Jagnani",
+        "fname": "Yashvardhan",
+        "lname": "Jagnani",
         "role": "MEMBER",
         "img": "yashvardhan",
         "github": "jagnani73",

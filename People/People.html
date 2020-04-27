@@ -63,60 +63,14 @@
     <!-- Section 2 Start -->
     <section>
       <div class="container text-center">
-        <script id="presidents" type="text/x-jquery-tmpl">
-          <div class="members">
-            <img class="photo" src="./asessts/css/img/team/${img}.jpg">
-            <br>
-            <div class="name">${name}</div>
-            <br>
-            <div class="role">${role}</div>
-            <div class="links">
-              <a href="https://github.com/${github}">
-                <p class="fab fa-github"></p>
-              </a>
-              <a href="https://linkedin.com/in/${linkedin}">
-                <p class="fab fa-linkedin"></p>
-              </a>
-            </div>
-          </div>
-        </script>
-        <script id="directors" type="text/x-jquery-tmpl">
-          <div class="members">
-            <img class="photo" src="./asessts/css/img/team/${img}.jpg">
-            <br>
-            <div class="name">${name}</div>
-            <br>
-            <div class="role">${role}</div>
-            <div class="links">
-              <a href="https://github.com/${github}">
-                <p class="fab fa-github"></p>
-              </a>
-              <a href="https://linkedin.com/in/${linkedin}">
-                <p class="fab fa-linkedin"></p>
-              </a>
-            </div>
-          </div>
-          </script>
-        <script id="members" type="text/x-jquery-tmpl">
-          <div class="members">
-            <img class="photo" src="./asessts/css/img/team/${img}.jpg">
-            <br>
-            <div class="name">${name}</div>
-            <br>
-            <div class="role">${role}</div>
-            <div class="links">
-              <a href="https://github.com/${github}">
-                <p class="fab fa-github"></p>
-              </a>
-              <a href="https://linkedin.com/in/${linkedin}">
-                <p class="fab fa-linkedin"></p>
-              </a>
-            </div>
-          </div>
-          </script>
+        <hr>
+        <h2 class="col-5">THE BOARD.</h2>
         <div id="presidents-container"></div>
         <div id="directors-container"></div>
+        <hr>
+        <h2 class="col-5" style="margin-top: 50px;">THE TEAM.</h2>
         <div id="members-container"></div>
+        <hr>
       </div>
     </section>
     <!-- Section 2 Ends -->
@@ -178,6 +132,57 @@
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js">
     </script>
     <script src="./asessts/js/main.js"></script>
+    <script id="presidents" type="text/x-jquery-tmpl">
+      <div class="members">
+            <img class="photo" src="./asessts/css/img/team/${img}.jpg">
+            <br>
+            <div class="name">${fname}<br>${lname}</div>
+            <br>
+            <div class="role">${role}</div>
+            <div class="links">
+              <a href="https://github.com/${github}">
+                <p class="fab fa-github"></p>
+              </a>
+              <a href="https://linkedin.com/in/${linkedin}">
+                <p class="fab fa-linkedin"></p>
+              </a>
+            </div>
+          </div>
+        </script>
+    <script id="directors" type="text/x-jquery-tmpl">
+      <div class="members">
+            <img class="photo" src="./asessts/css/img/team/${img}.jpg">
+            <br>
+            <div class="name">${fname}<br>${lname}</div>
+            <br>
+            <div class="role">${role}</div>
+            <div class="links">
+              <a href="https://github.com/${github}">
+                <p class="fab fa-github"></p>
+              </a>
+              <a href="https://linkedin.com/in/${linkedin}">
+                <p class="fab fa-linkedin"></p>
+              </a>
+            </div>
+          </div>
+        </script>
+    <script id="members" type="text/x-jquery-tmpl">
+      <div class="members">
+            <img class="photo" src="./asessts/css/img/team/${img}.jpg">
+            <br>
+            <div class="name">${fname}<br>${lname}</div>
+            <br>
+            <div class="role">${role}</div>
+            <div class="links">
+              <a href="https://github.com/${github}">
+                <p class="fab fa-github"></p>
+              </a>
+              <a href="https://linkedin.com/in/${linkedin}">
+                <p class="fab fa-linkedin"></p>
+              </a>
+            </div>
+          </div>
+        </script>
 </body>
 
 </html>
