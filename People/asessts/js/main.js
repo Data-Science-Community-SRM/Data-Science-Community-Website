@@ -79,6 +79,13 @@ const members = () => {
         "github": "i-am-aditya",
         "linkedin": "iamadityak"
     }, {
+        "fname": "Akshat",
+        "lname": "Anand",
+        "role": "MEMBER",
+        "img": "akshat",
+        "github": "cipheraxat",
+        "linkedin": "akshatanand1999"
+    },{
         "fname": "Devansh",
         "lname": "Goswami",
         "role": "MEMBER",
@@ -120,6 +127,13 @@ const members = () => {
         "img": "shubhangi",
         "github": "ShubhangiSoni1603",
         "linkedin": "shubhangi-soni"
+    },{
+        "fname": "Sourjayon",
+        "lname": "Nath",
+        "role": "MEMBER",
+        "img": "sourjayon",
+        "github": "insistence-essenn",
+        "linkedin": "sourjayon-nath-557a43174"
     }, {
         "fname": "Tejas",
         "lname": "Chintala",
