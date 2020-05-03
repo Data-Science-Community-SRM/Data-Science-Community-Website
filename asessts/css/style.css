@@ -569,7 +569,10 @@ a:hover {
     border: 20px;
     box-shadow: 2px 2px;
     border-radius: 15px;
-    background: #dfcbf0;
+    background: rgba(167, 167, 167, 0);
+  }  
+  .card-4:hover {
+    background: #e5e1f5;
   }
 }
 
