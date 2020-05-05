@@ -348,6 +348,7 @@ a:hover {
   filter: grayscale(100%);
   transform: scale(0.8);
   display: inline-block;
+  padding: 10px;
 }
 .sponsers-imgs:hover {
   -webkit-filter: grayscale(100%);
@@ -570,7 +571,7 @@ a:hover {
     box-shadow: 2px 2px;
     border-radius: 15px;
     background: rgba(167, 167, 167, 0);
-  }  
+  }
   .card-4:hover {
     background: #e5e1f5;
   }
