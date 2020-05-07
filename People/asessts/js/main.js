@@ -67,91 +67,91 @@ const members = () => {
     let members = [{
         "fname": "Abhishek",
         "lname": "Saxena",
-        "role": "MEMBER",
+        "role": "ML",
         "img": "abhishek",
         "github": "saxenabhishek",
         "linkedin": "abhibored"
     }, {
         "fname": "K.",
         "lname": "Aditya",
-        "role": "MEMBER",
+        "role": "ML",
         "img": "aditya",
         "github": "i-am-aditya",
         "linkedin": "iamadityak"
     }, {
         "fname": "Akshat",
         "lname": "Anand",
-        "role": "MEMBER",
+        "role": "BLOCKCHAIN & ML",
         "img": "akshat",
         "github": "cipheraxat",
         "linkedin": "akshatanand1999"
-    },{
+    }, {
         "fname": "Devansh",
         "lname": "Goswami",
-        "role": "MEMBER",
+        "role": "MANAGER",
         "img": "devansh",
         "github": "",
         "linkedin": "devansh-goswami-74590a187"
     }, {
         "fname": "Gayathri",
         "lname": "Seetharaman",
-        "role": "MEMBER",
+        "role": "BLOCKCHAIN & ML",
         "img": "gayathri",
         "github": "Gayathri621",
         "linkedin": "gayathri-seetharaman-964986158"
     }, {
         "fname": "Kartik",
         "lname": "Mohan",
-        "role": "MEMBER",
+        "role": "ML",
         "img": "kartik",
         "github": "kartikmohan123",
         "linkedin": "kartik-mohan"
     }, {
         "fname": "Rushil",
         "lname": "Rai",
-        "role": "MEMBER",
+        "role": "UI",
         "img": "rushil",
         "github": "rushilrai",
         "linkedin": "rushil-rai-07363116a"
     }, {
         "fname": "Sampada",
         "lname": "Bareja",
-        "role": "MEMBER",
+        "role": "ANALYTICS",
         "img": "sampada",
         "github": "",
         "linkedin": "sampada-bareja-43930818b"
     }, {
         "fname": "Shubhangi",
         "lname": "Soni",
-        "role": "MEMBER",
+        "role": "ML",
         "img": "shubhangi",
         "github": "ShubhangiSoni1603",
         "linkedin": "shubhangi-soni"
-    },{
+    }, {
         "fname": "Sourjayon",
         "lname": "Nath",
-        "role": "MEMBER",
+        "role": "GRAPHIC DESIGNER",
         "img": "sourjayon",
         "github": "insistence-essenn",
         "linkedin": "sourjayon-nath-557a43174"
     }, {
         "fname": "Tejas",
         "lname": "Chintala",
-        "role": "MEMBER",
+        "role": "ML",
         "img": "tejas",
         "github": "arcado10",
         "linkedin": "tejas-chintala-752918188"
     }, {
         "fname": "Utkarsh",
         "lname": "Chaurasia",
-        "role": "MEMBER",
+        "role": "ML",
         "img": "utkarsh",
         "github": "UtkarshChaurasia",
         "linkedin": "utkarsh-chaurasia-a4b76a17b"
     }, {
         "fname": "Yashvardhan",
         "lname": "Jagnani",
-        "role": "MEMBER",
+        "role": "WEB DEVELOPER",
         "img": "yashvardhan",
         "github": "jagnani73",
         "linkedin": "yashvardhan-jagnani"
@@ -193,14 +193,14 @@ anime.timeline({
 
 
 //Navbar-Fixed
-$(function () {
+$(function() {
     "use strict";
 
     var navTopOffset = $('header').height() + 50;
 
     function navbarFixed() {
         if ($('.header-area').length) {
-            $(window).scroll(function () {
+            $(window).scroll(function() {
                 var scroll = $(window).scrollTop();
                 if (scroll >= navTopOffset) {
                     $(".header-area").addClass("navbar_fixed");
