@@ -134,7 +134,7 @@ const members = () => {
     },
     {
       fname: "Himanshu",
-      lname: "          ",
+      lname: "Tiwari",
       role: "CORPORATE",
       img: "himanshu",
       github: "",
