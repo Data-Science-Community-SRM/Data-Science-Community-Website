@@ -27,6 +27,7 @@
     </script>
 
 
+
     <!--meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,6 +38,9 @@
     <meta name="description" content="DSC SRM. Welcome to the Data Science Community SRM. We are a Data Science based student-led innovation community at SRM IST with an aim to foster development skills among students. Learn more!">
     <meta name="keywords" content="Data Science Community, Data Science Community SRM, SRM, SRM Institute of Science and Technology, Community, Student, Data Science, Develpment, Technology, Club">
 
+
+    <!--Manifest files-->
+    <link rel="manifest" href="/manifest.json">
 
     <link rel="icon" href="./asessts/css/img/home-logo.png" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -386,6 +390,17 @@
         <script src="./asessts/js/jScrollability.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <script src="./asessts/js/main.js"></script>
+        <script>
+            if ('serviceWorker' in navigator) {
+                console.log("Will the service worker register?");
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(function(reg) {
+                        console.log("Yes, it did.");
+                    }).catch(function(err) {
+                        console.log("No it didn't. This happened:", err)
+                    });
+            }
+        </script>
 </body>
 
 </html>
