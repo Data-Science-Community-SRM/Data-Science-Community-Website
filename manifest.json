@@ -1,26 +1,26 @@
 {
-    "short_name": "BetaPage",
-    "name": "BetaPage",
-    "theme_color": "#4A90E2",
-    "background_color": "#F7F8F9",
+    "short_name": "DS Community",
+    "name": "Data Science Community SRM",
+    "theme_color": "#6F389F",
+    "background_color": "#121212",
     "display": "standalone",
     "icons": [{
-            "src": "assets/icons/launcher-icon-1x.png",
+            "src": "assets/favicon-32x32.png",
             "type": "image/png",
-            "sizes": "48x48"
+            "sizes": "32x32"
         },
         {
-            "src": "assets/icons/launcher-icon-2x.png",
+            "src": "assets/favicon-16x16.png",
             "type": "image/png",
-            "sizes": "96x96"
+            "sizes": "16x16"
         },
         {
-            "src": "assets/icons/launcher-icon-3x.png",
+            "src": "assets/mstile-150x150.png",
             "type": "image/png",
-            "sizes": "144x144"
+            "sizes": "150x150"
         },
         {
-            "src": "assets/icons/launcher-icon-4x.png",
+            "src": "assets/android-chrome-192x192.png",
             "type": "image/png",
             "sizes": "192x192"
         }
