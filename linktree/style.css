@@ -1,0 +1,39 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 20%, #434343 84%);
+}
+
+h5 {
+    color: #fafafa;
+}
+
+.mt-3 {
+    text-align: center;
+}
+
+.name {
+    color: #fafafa;
+}
+
+p {
+    color: #fafafaea;
+}
+
+.mt-4 a {
+    color: #fafafa;
+    font-weight: 100;
+}
+
+
+/*----------------- Mail-------------------- */
+
+.footer {
+    text-align: center;
+    margin-top: 5% !important;
+}
+
+@media (max-width: 479px) {
+    .footer {
+        margin-top: 20% !important;
+    }
+}
