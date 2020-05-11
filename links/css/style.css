@@ -1,6 +1,6 @@
 body {
-    background-color: #923cb5;
-    background-image: linear-gradient(330deg, #923cb5 0%, #000000 64%);
+    background-color: #6f389f;
+    background-image: linear-gradient(296deg, #6f389f 0%, #232323 60%);
 }
 
 h5 {
@@ -21,7 +21,7 @@ p {
 
 .mt-4 a {
     color: #fafafa;
-    font-weight: 100;
+    font-weight: 250;
 }
 
 .footer {
@@ -29,8 +29,12 @@ p {
     margin-top: 5% !important;
 }
 
+.footer p {
+    font-size: small;
+}
+
 @media (max-width: 479px) {
     .footer {
-        margin-top: 20% !important;
+        margin-top: 30% !important;
     }
 }
