@@ -7,7 +7,7 @@ h5 {
     color: #fafafa;
 }
 
-.mt-3 {
+.mt-4 {
     text-align: center;
 }
 
@@ -35,6 +35,6 @@ p {
 
 @media (max-width: 479px) {
     .footer {
-        margin-top: 30% !important;
+        margin-top: 25% !important;
     }
 }
