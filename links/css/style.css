@@ -3,12 +3,12 @@ body {
     background-image: linear-gradient(296deg, #6f389f 0%, #232323 60%);
 }
 
-h5 {
-    color: #fafafa;
-}
-
 .mt-4 {
     text-align: center;
+}
+
+h5 {
+    color: #fafafa;
 }
 
 .name {
@@ -21,7 +21,7 @@ p {
 
 .mt-4 a {
     color: #fafafa;
-    font-weight: 250;
+    font-weight: 300;
 }
 
 .footer {
@@ -35,6 +35,6 @@ p {
 
 @media (max-width: 479px) {
     .footer {
-        margin-top: 25% !important;
+        margin-top: 15% !important;
     }
 }
