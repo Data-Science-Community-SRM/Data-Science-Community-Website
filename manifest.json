@@ -1,0 +1,29 @@
+{
+    "short_name": "DS Community",
+    "name": "Data Science Community SRM",
+    "theme_color": "#6F389F",
+    "background_color": "#121212",
+    "display": "standalone",
+    "icons": [{
+            "src": "assets/favicon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "assets/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "assets/mstile-150x150.png",
+            "type": "image/png",
+            "sizes": "150x150"
+        },
+        {
+            "src": "assets/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "/?utm_source=launcher"
+}

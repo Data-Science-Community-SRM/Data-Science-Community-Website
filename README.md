@@ -1,3 +1,4 @@
+
 # [Data-science-community-website](https://dscommunity.in/)
 
 
@@ -30,4 +31,16 @@ Feedus back made simple using reCAPTCHA to avod spaming, thanks to formspree!
 
 ## Contributors
 |<p align="center">![Hrithik Bhandari](https://github.com/hritikbhandari.png?size=96)<br>[Hritik Bhandari](https://github.com/hritikbhandari)</p>|<p align="center">![Hariom Palkar](https://github.com/aannuuj.png?size=96)<br>[Hariom Palkar](https://github.com/aannuuj/)</p>|<p align="center">![Yashvardhan Jagnani](https://github.com/jagnani73.png?size=96)<br>[Yashvardhan Jagnani](https://github.com/jagnani73)</p>|
+=======
+## Data Science Community SRM website
+
+This repository contains all the codes and assets used to build the website of [Data Science Community SRM](https://dscommunity.in).
+
+## Check it out
+
+[Click here to view the website.](https://dscommunity.in)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 
