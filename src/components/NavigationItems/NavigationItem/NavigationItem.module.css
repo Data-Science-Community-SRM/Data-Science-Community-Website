@@ -1,0 +1,20 @@
+.liNavItem {
+  margin: 8px;
+}
+
+.links {
+  margin: 20px auto;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom: 3px solid #ccc;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 3px solid #ccc;
+}
