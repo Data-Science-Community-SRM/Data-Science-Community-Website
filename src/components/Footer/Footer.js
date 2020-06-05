@@ -46,6 +46,7 @@ const Footer = () => {
                   class="footer-refs"
                   href="https://www.linkedin.com/in/avirupchattaraj/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Avirup Chattaraj
                 </a>
@@ -55,6 +56,7 @@ const Footer = () => {
                   class="footer-refs"
                   href="https://www.linkedin.com/in/hritikbhandari/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Hritik Bhandari
                 </a>
@@ -84,7 +86,11 @@ const Footer = () => {
           </div>
           <div className="col-12 text-center">
             <p className={classes.caption}>
-              Made with ☕ by your colleagues at the Data Science Community
+              Made with{" "}
+              <span role="img" aria-label="jsx-a11y/hot-beverage">
+                ☕
+              </span>
+              by your colleagues at the Data Science Community
             </p>
           </div>
         </div>

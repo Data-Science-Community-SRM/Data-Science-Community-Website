@@ -24,17 +24,17 @@ const Home_Section2 = () => {
         </div>
         <div className="row mx-auto text-center">
           <div className={classes.card + " col-12 col-lg-3"}>
-            <img height="100" width="200" src={workshopIMG} />
+            <img height="100" width="200" src={workshopIMG} alt="workshops" />
             <h4>WORKSHOPS</h4>
             <p>For the enthusiasts</p>
           </div>
           <div className={classes.card + " col-12 col-lg-3"}>
-            <img height="100" width="200" src={projectIMG} />
+            <img height="100" width="200" src={projectIMG} alt="projects" />
             <h4>PROJECTS</h4>
             <p>For the effectuators</p>
           </div>
           <div className={classes.card + " col-12 col-lg-3"}>
-            <img height="100" width="200" src={trainingIMG} />
+            <img height="100" width="200" src={trainingIMG} alt="trainings" />
             <h4>TRAINING</h4>
             <p>For the perfectionists</p>
           </div>

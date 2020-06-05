@@ -11,28 +11,28 @@ const CarouselEvents = () => {
   return (
     <Carousel autoPlay showArrows={true}>
       <div>
-        <img src={first} />
+        <img src={first} alt="first" />
         <p className="legend">
           Data Science with R Programming 101! <br />
           <span className="text-muted">21ST FEBRUARY, 2020</span>
         </p>
       </div>
       <div>
-        <img src={second} />
+        <img src={second} alt="second" />
         <p className="legend">
           Data Science with R Programming 101! <br />
           <span className="text-muted">21ST FEBRUARY, 2020</span>
         </p>
       </div>
       <div>
-        <img src={third} />
+        <img src={third} alt="third" />
         <p className="legend">
           Data Science with R Programming 101! <br />
           <span className="text-muted">21ST FEBRUARY, 2020</span>
         </p>
       </div>
       <div>
-        <img src={fourth} />
+        <img src={fourth} alt="fourth" />
         <p className="legend">
           Data Science with R Programming 101! <br />
           <span className="text-muted">21ST FEBRUARY, 2020</span>

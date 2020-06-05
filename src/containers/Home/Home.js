@@ -1,24 +1,22 @@
 import React, { Component } from "react";
 
-import classes from "./Home.module.css";
-import Home_Section1 from "../../components/Home_Section1/Home_Section1";
-import Home_Section2 from "../../components/Home_Section2/Home_Section2";
-import Home_Section3 from "../../components/Home_Section3/Home_Section3";
-import Home_Section4 from "../../components/Home_Section4/Home_Section4";
-import Footer from "../../components/Footer/Footer";
+import homeSection1 from "../../components/Home_Section1/Home_Section1";
+import homeSection2 from "../../components/Home_Section2/Home_Section2";
+import homeSection3 from "../../components/Home_Section3/Home_Section3";
+import homeSection4 from "../../components/Home_Section4/Home_Section4";
 
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
         <section className="col-12 col-md-10 mx-auto">
-          <Home_Section1 />
+          <homeSection1 />
           <hr />
-          <Home_Section2 />
+          <homeSection2 />
           <hr />
-          <Home_Section3 />
+          <homeSection3 />
           <hr />
-          <Home_Section4 />
+          <homeSection4 />
           <hr />
         </section>
       </React.Fragment>

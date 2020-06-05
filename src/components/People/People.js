@@ -11,6 +11,7 @@ const People = (props) => {
       <div className={classes.members}>
         <img
           className={classes.photo}
+          alt={props.name + " image"}
           src={require(`../../assets/images/team/${props.image}.jpg`)}
         />
         <br />
