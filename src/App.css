@@ -1,4 +1,18 @@
 body {
-  font-family: "Ubuntu", sans-serif;
-  background-color: #232323;
+  font-family: "Ubuntu", sans-serif !important;
+  margin-top: 80px !important;
+  background-color: #232323 !important;
+  color: #fafafa !important;
+}
+
+hr {
+  border-top: 2px solid #fafafa !important;
+  margin: 50px auto !important;
+  width: 80% !important;
+}
+
+@media (min-width: 992px) {
+  hr {
+    margin: 100px auto !important;
+  }
 }

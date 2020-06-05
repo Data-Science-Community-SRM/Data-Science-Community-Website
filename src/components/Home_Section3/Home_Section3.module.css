@@ -1,3 +1,51 @@
-.main {
-  background-image: url("../../assets/images/bg.png");
+.main h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 22px;
+}
+
+@media (min-width: 992px) {
+  .main h1 {
+    font-size: 50px;
+  }
+}
+
+.card {
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  margin: 10px auto;
+  border: 20px;
+  box-shadow: 2px 2px;
+  border-radius: 15px;
+  background: rgba(167, 167, 167, 0);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.card:hover {
+  background: #e5e1f5;
+  transform: scale(1.1);
+}
+.card h4 {
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center;
+  color: #411a66;
+}
+
+.card p {
+  margin-bottom: 10px;
+  align-items: center;
+  color: #666666;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.img {
+  vertical-align: middle;
+  padding-top: 50px;
 }

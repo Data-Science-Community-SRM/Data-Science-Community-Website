@@ -7,21 +7,23 @@ const Home_Section2 = () => {
   return (
     <React.Fragment>
       <div className="mx-auto">
-        <div className="col-12 text-center">
-          <h1>DOMAINS.</h1>
-          <h3>
+        <div className={classes.main + " col-12 col-lg-8 mx-auto text-center"}>
+          <h1>
+            <span style={{ color: "#6F389F" }}>O</span>UR DOMAINS.
+          </h1>
+          <p>
             All those who love brainfood, listen up, we serve a lot of that here
             at our Data Science Community. From playing around with data to
             creating automatic players for your games. From connecting homes to
             connecting to the world. We got it all covered. Our members work
             across multiple disciplines to deliver their solutions for the
             world!
-          </h3>
+          </p>
         </div>
         <div className="row mx-auto text-center">
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-lg-5">
             <div className="row">
-              <div className="col-6 mx-auto">
+              <div className={classes.card + " col-12 col-lg-6"}>
                 <h4>Data Analytics</h4>
                 <p>
                   Analyzing raw data using various manipulation and
@@ -29,35 +31,35 @@ const Home_Section2 = () => {
                   organizations make better decisions.
                 </p>
               </div>
-              <div className="col-6 mx-auto">
-                <h4>Data Analytics</h4>
+              <div className={classes.card + " col-12 col-lg-6"}>
+                <h4>AI/ML</h4>
                 <p>
-                  Analyzing raw data using various manipulation and
-                  visualization techniques to uncover insights and help
-                  organizations make better decisions.
+                  Creating and deploying models that exhibit intelligence to
+                  solve complex real-world problems in the realm of
+                  computational, cognitive and information science.
                 </p>
               </div>
             </div>
             <div className="row">
-              <div className="col-6 mx-auto">
-                <h4>Data Analytics</h4>
+              <div className={classes.card + " col-12 col-lg-6"}>
+                <h4>Web Development</h4>
                 <p>
-                  Analyzing raw data using various manipulation and
-                  visualization techniques to uncover insights and help
-                  organizations make better decisions.
+                  Developing and maintaining websites with intuitive user
+                  interface and seamless user experience along with precise
+                  server-side web application logic.
                 </p>
               </div>
-              <div className="col-6 mx-auto">
-                <h4>Data Analytics</h4>
+              <div className={classes.card + " col-12 col-lg-6"}>
+                <h4>Blockchain</h4>
                 <p>
-                  Analyzing raw data using various manipulation and
-                  visualization techniques to uncover insights and help
-                  organizations make better decisions.
+                  Optimizing blockchain protocols, crafting and developing the
+                  architecture of systems, smart contracts and web apps using
+                  blockchain technology.
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6">
+          <div className={classes.img + " col-12 col-lg-7"}>
             <img src={domainsIMG} alt="" width="90%" />
           </div>
         </div>

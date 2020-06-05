@@ -1,0 +1,24 @@
+.main {
+  padding: 30px 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  background: #0e1424;
+  display: flex;
+}
+
+.main li,
+.main a {
+  list-style: none;
+  vertical-align: middle;
+  color: #666666;
+}
+
+.main a:hover {
+  color: #6f389f;
+  text-decoration: none;
+}
+
+.caption {
+  margin-top: 20px;
+  color: #575757;
+}

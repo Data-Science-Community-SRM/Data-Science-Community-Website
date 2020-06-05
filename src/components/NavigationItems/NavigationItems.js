@@ -17,7 +17,15 @@ const NavigationItems = (props) => {
 
   return (
     <div>
-      <Navbar style={{ backgroundColor: "#232323" }} dark expand="md">
+      <Navbar
+        style={{
+          backgroundColor: "#232323",
+          boxShadow: "1px 2px 10px #000000",
+        }}
+        dark
+        fixed="top"
+        expand="md"
+      >
         <NavbarBrand href="/">DSCommunity</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

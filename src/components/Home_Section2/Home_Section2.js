@@ -9,30 +9,33 @@ const Home_Section2 = () => {
   return (
     <React.Fragment>
       <div className="mx-auto">
-        <div className="col-12 text-center">
-          <h1>OUR FOCUS</h1>
-          <h3>
+        <div className={classes.main + " col-12 col-lg-8 mx-auto text-center"}>
+          <h1>
+            <span style={{ color: "#6F389F" }}>O</span>UR FOCUS.
+          </h1>
+          <p>
             Here at Data Science Community , We make real-time projects, conduct
             researches, organize meetups, host events, and workshops primarily
             focusing on Data Science, Machine Learning, Al, Blockchain, IoT ,
             Web Development and more. We guide and teach all those who aspire to
             work in these fields and help them attain better skills and
             knowledge.
-          </h3>
+          </p>
         </div>
         <div className="row mx-auto text-center">
-          <div className="col-10 col-md-4 mx-auto">
-            <h4>WORKSHOPS</h4>
+          <div className={classes.card + " col-12 col-lg-3"}>
             <img height="100" width="200" src={workshopIMG} />
+            <h4>WORKSHOPS</h4>
             <p>For the enthusiasts</p>
           </div>
-          <div className="col-10 col-md-4 mx-auto">
-            <h4>PROJECTS</h4>
+          <div className={classes.card + " col-12 col-lg-3"}>
             <img height="100" width="200" src={projectIMG} />
+            <h4>PROJECTS</h4>
             <p>For the effectuators</p>
           </div>
-          <div className="col-10 col-md-4 mx-auto">
-            <h4>TRAINING</h4> <img height="100" width="200" src={trainingIMG} />
+          <div className={classes.card + " col-12 col-lg-3"}>
+            <img height="100" width="200" src={trainingIMG} />
+            <h4>TRAINING</h4>
             <p>For the perfectionists</p>
           </div>
         </div>
