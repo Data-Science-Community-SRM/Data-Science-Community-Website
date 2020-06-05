@@ -6,6 +6,7 @@ import classes from "./NavigationItem.module.css";
 const NavigationItem = (props) => {
   return (
     <NavLink
+      exact
       to={props.href}
       activeClassName={classes.active}
       className={classes.links + " mx-3"}

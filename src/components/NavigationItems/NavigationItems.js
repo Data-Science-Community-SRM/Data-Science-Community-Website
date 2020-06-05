@@ -9,6 +9,7 @@ import {
 } from "reactstrap";
 
 import NavigationItem from "./NavigationItem/NavigationItem";
+import logo from "../../assets/images/home-logo.png";
 
 const NavigationItems = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,12 +22,16 @@ const NavigationItems = (props) => {
         style={{
           backgroundColor: "#232323",
           boxShadow: "1px 2px 10px #000000",
+          height: "70px",
         }}
         dark
         fixed="top"
         expand="md"
       >
-        <NavbarBrand href="/">DSCommunity</NavbarBrand>
+        <NavbarBrand href="/">
+          <img src={logo} alt="" width="50px" className="mr-3" />
+          DSCommunity
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

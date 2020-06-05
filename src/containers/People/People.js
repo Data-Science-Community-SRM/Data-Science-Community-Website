@@ -7,11 +7,15 @@ class People extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="col-12 col-md-10 mx-auto">
+        <div className="col-12 col-lg-10 mx-auto">
           <h1>People</h1>
+          <p>The ones who make our community worth it!</p>
           <hr />
           <div className="row text-center d-block">
-            <h3>THE BOARD</h3>
+            <h3 style={{ fontWeight: "700" }}>
+              <span style={{ color: "#6F389F" }}>T</span>HE{" "}
+              <span style={{ color: "#6F389F" }}>B</span>OARD.
+            </h3>
             <PeopleComponent
               image="avirup"
               fname="Avirup"
@@ -30,9 +34,7 @@ class People extends Component {
               linkedin="hritikbhandari"
             />
           </div>
-          <hr />
           <div className="row text-center d-block">
-            <h3>THE TEAM</h3>
             <PeopleComponent
               fname="Anush"
               lname="Bhatia"
@@ -66,6 +68,13 @@ class People extends Component {
               github="pratyaksh64"
               linkedin="pratyaksh-bhalla-96871b186"
             />
+          </div>
+          <hr />
+          <div className="row text-center d-block">
+            <h3 style={{ fontWeight: "700" }}>
+              <span style={{ color: "#6F389F" }}>T</span>HE{" "}
+              <span style={{ color: "#6F389F" }}>T</span>EAM.
+            </h3>
           </div>
           <div className="row text-center d-block">
             <PeopleComponent

@@ -41,7 +41,7 @@ const Events = () => {
             <div className="text-center">
               <img src={comingSoonIMG} alt="coming-soon" width="80%" />
             </div>
-            <h1 className="display-3">Something is cooking up !</h1>
+            <h1 className="display-3">Something is Cooking Up !</h1>
             <hr className="my-2" />
             <p className="text-center">
               Our team is working continuously to conduct more exciting

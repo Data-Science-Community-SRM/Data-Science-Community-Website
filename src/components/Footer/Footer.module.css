@@ -4,12 +4,14 @@
   width: 100%;
   background: #0e1424;
   display: flex;
+  font-weight: 400;
 }
 
 .main li,
 .main a {
   list-style: none;
   vertical-align: middle;
+  font-weight: 700;
   color: #666666;
 }
 
@@ -21,4 +23,21 @@
 .caption {
   margin-top: 20px;
   color: #575757;
+}
+
+.refs a {
+  width: 32px;
+  color: #fafafa;
+  display: inline-grid;
+  text-align: center;
+  height: 32px;
+  margin: 3px;
+  align-content: center;
+  font-size: 35px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.refs a:hover {
+  color: #fafafa;
 }

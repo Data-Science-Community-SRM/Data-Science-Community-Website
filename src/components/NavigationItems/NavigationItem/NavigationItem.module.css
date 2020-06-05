@@ -6,6 +6,8 @@
   margin: 20px auto;
   text-decoration: none;
   color: whitesmoke;
+  padding-bottom: 5px;
+  font-weight: 300;
 }
 
 .links:hover {
@@ -15,6 +17,6 @@
 }
 
 .active {
-  font-weight: bold;
+  font-weight: 700;
   border-bottom: 3px solid #ccc;
 }

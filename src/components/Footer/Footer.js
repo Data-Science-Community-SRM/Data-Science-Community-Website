@@ -1,5 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMedium } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import classes from "./Footer.module.css";
 import logo from "../../assets/images/home-logo.png";
@@ -58,7 +63,24 @@ const Footer = () => {
           </div>
           <div className="col-6 col-md-3 text-center">
             <br />
-            <img src={logo} alt="" width="100px" />
+            <div className={classes.refs + " text-center"}>
+              <div className="row">
+                <a href="https://twitter.com/bdsc_srm">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+                <a href="https://www.linkedin.com/company/datasciencecommunitysrm">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </div>
+              <div className="row">
+                <a href="https://www.instagram.com/bdsc_srm/">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a href="https://medium.com/data-science-community-srm">
+                  <FontAwesomeIcon icon={faMedium} />
+                </a>
+              </div>
+            </div>
           </div>
           <div className="col-12 text-center">
             <p className={classes.caption}>
