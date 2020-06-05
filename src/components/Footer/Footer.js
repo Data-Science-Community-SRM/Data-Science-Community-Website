@@ -61,9 +61,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-6 col-md-3 text-center">
+          <div className="col-6 col-md-3">
             <br />
-            <div className={classes.refs + " text-center"}>
+            <div className={classes.refs + " ml-5"}>
               <div className="row">
                 <a href="https://twitter.com/bdsc_srm">
                   <FontAwesomeIcon icon={faTwitter} />

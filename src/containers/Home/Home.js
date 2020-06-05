@@ -21,7 +21,6 @@ class Home extends Component {
           <Home_Section4 />
           <hr />
         </section>
-        <Footer />
       </React.Fragment>
     );
   }

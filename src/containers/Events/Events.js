@@ -8,7 +8,6 @@ class Events extends Component {
     return (
       <React.Fragment>
         <EventsComponent />
-        <Footer />
       </React.Fragment>
     );
   }

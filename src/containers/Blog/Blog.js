@@ -11,7 +11,6 @@ class Blog extends Component {
     return (
       <React.Fragment>
         <BlogComponent />
-        <Footer />
       </React.Fragment>
     );
   }

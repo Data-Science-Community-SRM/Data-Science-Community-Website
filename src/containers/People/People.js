@@ -224,7 +224,6 @@ class People extends Component {
           </div>
         </div>
         <hr />
-        <Footer />
       </React.Fragment>
     );
   }
