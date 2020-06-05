@@ -8,7 +8,12 @@ class Blog extends Component {
     window.mediumWidget();
   }
   render() {
-    return <BlogComponent />;
+    return (
+      <React.Fragment>
+        <BlogComponent />
+        <Footer />
+      </React.Fragment>
+    );
   }
 }
 

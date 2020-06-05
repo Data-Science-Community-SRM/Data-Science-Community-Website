@@ -1,0 +1,106 @@
+.members {
+  padding: 10px;
+  height: 330px;
+  width: 20%;
+  background-color: transparent;
+  margin: 2%;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.members:hover {
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.members:hover .name,
+.members:hover .role {
+  color: #232323;
+}
+
+.photo {
+  width: 70%;
+  border-radius: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+
+.photo:hover {
+  width: 80%;
+  filter: none;
+  border-radius: 0%;
+  transition: all 0.5s ease;
+}
+
+.name {
+  position: relative;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 12pt;
+  color: whitesmoke;
+}
+
+.role {
+  position: relative;
+  bottom: 10px;
+  font-size: 9pt;
+  padding-bottom: 0px;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+.links p {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+  padding: 0px 5px;
+}
+
+.links p:hover {
+  text-decoration: none;
+  color: #323232;
+  padding: 0px 5px;
+}
+
+@media (max-width: 780px) and (min-width: 729px) {
+  .members {
+    background-color: #333333;
+    width: 200px;
+  }
+  .photo {
+    width: 80%;
+    filter: none;
+    border-radius: 0%;
+    transition: all 0.5s ease;
+    border-radius: 100%;
+  }
+}
+
+@media (max-width: 728px) {
+  .members {
+    padding: 10px;
+    width: 40%;
+    background-color: #333333;
+  }
+  #team-container {
+    width: 100%;
+  }
+  .photo {
+    width: 80%;
+    filter: none;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .members {
+    margin-top: 10px;
+    padding: 5px;
+    width: 140px;
+    height: 260px;
+  }
+  #team-container {
+    width: 350px;
+  }
+}

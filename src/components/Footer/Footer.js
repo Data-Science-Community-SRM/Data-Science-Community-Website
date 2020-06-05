@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <React.Fragment>
       <footer>
-        <div className="row">
+        <div className="row col-12">
           <div className="col-6 col-md-3 text-center">
             <img src={logo} alt="" width="100px" />
           </div>

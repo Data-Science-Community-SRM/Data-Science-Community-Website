@@ -1,8 +1,5 @@
 import React from "react";
-import { Jumbotron, Button } from "reactstrap";
-
-import comingSoonIMG from "../../assets/images/coming-soon.png";
-import Rlogo from "../../assets/images/Rlogo.png";
+import { Button } from "reactstrap";
 
 const Blog = () => {
   return (
