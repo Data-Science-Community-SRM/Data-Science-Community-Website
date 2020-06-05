@@ -9,7 +9,9 @@ const Events = () => {
     <React.Fragment>
       <div className="row">
         <Jumbotron className="col-11 col-lg-5 mx-auto">
-          <img src={Rlogo} alt="" width="60%" />
+          <div className="text-center">
+            <img src={Rlogo} alt="" width="60%" />
+          </div>
           <h1 className="display-3">Data Science with R Programming 101</h1>
           <p className="lead">
             This is a simple hero unit, a simple Jumbotron-style component for
@@ -26,7 +28,9 @@ const Events = () => {
           </p>
         </Jumbotron>
         <Jumbotron className="col-11 col-lg-5 mx-auto">
-          <img src={comingSoonIMG} alt="" width="60%" />
+          <div className="text-center">
+            <img src={comingSoonIMG} alt="" width="80%" />
+          </div>
           <h1 className="display-3">Something is cooking up !</h1>
           <p className="lead">
             Our team is working continuously to conduct more exciting workshops.

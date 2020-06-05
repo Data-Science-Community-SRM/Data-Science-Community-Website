@@ -5,6 +5,7 @@ import "./App.css";
 import NavigationItems from "./components/NavigationItems/NavigationItems";
 import Home from "./containers/Home/Home";
 import Events from "./containers/Events/Events";
+import Blog from "./containers/Blog/Blog";
 
 class App extends Component {
   render() {
@@ -12,8 +13,9 @@ class App extends Component {
       <React.Fragment>
         <NavigationItems />
         <Switch>
-          <Route pathname="/events" component={Events} />
-          {/* <Route pathname="/" exact component={Home} /> */}
+          <Route path="/blog" exact component={Blog} />
+          <Route path="/events" exact component={Events} />
+          <Route path="/" exact component={Home} />
         </Switch>
       </React.Fragment>
     );
