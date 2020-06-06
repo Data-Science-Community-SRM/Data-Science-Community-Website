@@ -10,11 +10,15 @@ import {
 
 import NavigationItem from "./NavigationItem/NavigationItem";
 import logo from "../../assets/images/home-logo.png";
+import "./NavigationItems.css";
 
 const NavigationItems = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+    document.querySelector("#close-icon").classList.toggle("open");
+  };
 
   return (
     <div>
@@ -22,7 +26,6 @@ const NavigationItems = (props) => {
         style={{
           backgroundColor: "#232323",
           boxShadow: "1px 2px 10px #000000",
-          height: "70px",
         }}
         dark
         fixed="top"
@@ -32,22 +35,28 @@ const NavigationItems = (props) => {
           <img src={logo} alt="" width="50px" className="mr-3" />
           DSCommunity
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggle}>
+          <div id="close-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavItem>
+            <NavItem className="mt-3 mt-md-2 mb-2">
               <NavigationItem page="Home" href="/" />
             </NavItem>
-            <NavItem>
+            <NavItem className="my-2">
               <NavigationItem page="Events" href="/events" />
             </NavItem>
-            <NavItem>
+            <NavItem className="my-2">
               <NavigationItem page="Blog" href="/blog" />
             </NavItem>
-            <NavItem>
+            <NavItem className="my-2">
               <NavigationItem page="People" href="/people" />
             </NavItem>
-            <NavItem>
+            <NavItem className="my-2">
               <NavigationItem page="Contact Us" href="/contact-us" />
             </NavItem>
           </Nav>
