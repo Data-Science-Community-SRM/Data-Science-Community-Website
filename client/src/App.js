@@ -8,6 +8,7 @@ import Home from "./containers/Home/Home";
 import Events from "./containers/Events/Events";
 import Blog from "./containers/Blog/Blog";
 import People from "./containers/People/People";
+import ContactUs from "./containers/ContactUs/ContactUs";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
       <React.Fragment>
         <NavigationItems />
         <Switch>
+          <Route path="/contact-us" exact component={ContactUs} />
           <Route path="/people" exact component={People} />
           <Route path="/blog" exact component={Blog} />
           <Route path="/events" exact component={Events} />

@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMedium } from "@fortawesome/free-brands-svg-icons";
+import { faMediumM } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import classes from "./Footer.module.css";
@@ -43,7 +43,7 @@ const Footer = () => {
               <li>Reach Us</li>
               <li>
                 <a
-                  class="footer-refs"
+                  className="footer-refs"
                   href="https://www.linkedin.com/in/avirupchattaraj/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  class="footer-refs"
+                  className="footer-refs"
                   href="https://www.linkedin.com/in/hritikbhandari/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -71,7 +71,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
                 <a href="https://www.linkedin.com/company/datasciencecommunitysrm">
-                  <FontAwesomeIcon icon={faLinkedin} />
+                  <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
               </div>
               <div className="row">
@@ -79,7 +79,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
                 <a href="https://medium.com/data-science-community-srm">
-                  <FontAwesomeIcon icon={faMedium} />
+                  <FontAwesomeIcon icon={faMediumM} />
                 </a>
               </div>
             </div>

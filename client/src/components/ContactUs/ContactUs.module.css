@@ -1,0 +1,106 @@
+.name,
+.email,
+.number,
+.message {
+  display: block;
+  height: 50px;
+  background: #fafafa;
+  font-size: 10pt;
+  padding-left: 20px;
+  color: #232323;
+  -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -ms-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.name:focus,
+.email:focus,
+.number:focus,
+.message:focus,
+.name:active:focus,
+.email:active:focus,
+.number:active:focus,
+.message:active:focus {
+  outline: none;
+  border-radius: 30px;
+  margin: 45px auto;
+}
+
+.error {
+  width: 300px;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 10px auto 15px auto;
+  z-index: 2;
+  color: red;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.name,
+.email,
+.number {
+  margin: 10px auto;
+  margin-bottom: 15px;
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.message {
+  padding: 15px 20px;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  z-index: 2;
+  height: 120px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+::placeholder {
+  color: #666666;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: #666666 !important;
+  border-radius: 20px !important;
+  border: 1px solid #fafafa !important;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  border: 1px solid #666666 !important;
+  background-color: transparent !important;
+}

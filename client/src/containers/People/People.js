@@ -6,7 +6,7 @@ class People extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="col-12 col-lg-10 mx-auto">
+        <div className="col-12 col-lg-9 mx-auto">
           <h1>People</h1>
           <p>The ones who make our community worth it!</p>
           <hr />
