@@ -12,8 +12,13 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
+const path = require("path");
 
+app.use(express.static(path.join(__dirname, "client", "build")));
 app.use("/api", adminRoutes);
+app.use("/*", (req, res, next) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 mongoose
   .connect(process.env.MONGO_URI)
