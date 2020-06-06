@@ -4,6 +4,7 @@
   "description": "https://dscommunity.netlify.app\r This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start --prefix client",
     "dev": "nodemon app.js",
