@@ -1,6 +1,7 @@
 .main {
   margin-top: 100px;
 }
+
 .medium-widget-article__item {
   padding: 3px !important;
   box-sizing: border-box !important;
@@ -11,24 +12,29 @@
   -o-transition: all 0.3s ease 0s !important;
   transition: all 0.3s ease 0s !important;
 }
+
 .medium-widget-article__item:hover {
   background-color: #666666 !important;
 }
+
 .medium-widget-article__title {
   font-size: 22px !important;
   font-weight: 500 !important;
   color: white !important;
   padding: 5px !important;
 }
+
 .medium-widget-article__title:hover {
   color: #6f389f !important;
 }
+
 .medium-widget-article__description {
   color: whitesmoke !important;
   text-align: justify !important;
   padding: 7px !important;
   padding-top: 0 !important;
 }
+
 .medium-widget-article__author-name {
   color: whitesmoke !important;
   text-transform: uppercase !important;
@@ -40,6 +46,7 @@
 .medium-widget-article__date {
   color: #575757 !important;
 }
+
 @media (max-width: 991px) {
   .medium-widget-article__row:last-child {
     margin-bottom: 40px;
