@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <!--
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <!--
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -22,15 +22,15 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Data Science Community</title>
+  <title>Data Science Community</title>
 </head>
 
 <body>
-    <noscript>
+  <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
-    <div id="root"></div>
-    <!--
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -40,29 +40,55 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script>
+    function animateHead() {
+      var textWrapper = document.querySelector(".ml10 .letters");
+      textWrapper.innerHTML = textWrapper.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
 
-    <!-- Medium Article Related Scripts -->
-    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script type="text/javascript">
-        let postsper = 3;
-        if (document.documentElement.clientWidth < 991) {
-            postsper = 1;
+      anime
+        .timeline({
+          loop: true
+        })
+        .add({
+          targets: ".ml10 .letter",
+          rotateY: [-90, 0],
+          duration: 1300,
+          delay: (el, i) => 45 * i,
+        })
+        .add({
+          targets: ".ml10",
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 1000,
+        })
+    }
+  </script>
+  <!-- Medium Article Related Scripts -->
+  <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+  <script type="text/javascript">
+    function mediumWidget() {
+      let postsper = 3;
+      if (document.documentElement.clientWidth < 991) {
+        postsper = 1;
+      }
+      MediumWidget.Init({
+        renderTo: '#medium-widget',
+        params: {
+          "resource": "https://medium.com/data-science-community-srm",
+          "postsPerLine": postsper,
+          "limit": 15,
+          "picture": "big",
+          "fields": ["description", "author", "claps", "publishAt"],
+          "ratio": "landscape"
         }
-
-        function mediumWidget() {
-            MediumWidget.Init({
-                renderTo: '#medium-widget',
-                params: {
-                    "resource": "https://medium.com/data-science-community-srm",
-                    "postsPerLine": postsper,
-                    "limit": 15,
-                    "picture": "big",
-                    "fields": ["description", "author", "claps", "publishAt"],
-                    "ratio": "landscape"
-                }
-            });
-        }
-    </script>
+      });
+    }
+  </script>
 </body>
 
 </html>

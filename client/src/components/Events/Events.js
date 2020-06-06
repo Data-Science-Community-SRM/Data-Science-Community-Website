@@ -68,7 +68,14 @@ const Events = () => {
             </p>
             <div className="row">
               <div className="mx-auto col-8 col-lg-7">
-                <Button className="col-12" color="info" outline>
+                <Button
+                  className="col-12"
+                  color="info"
+                  outline
+                  onClick={() =>
+                    window.open("https://www.instagram.com/bdsc_srm")
+                  }
+                >
                   Our Instagram
                 </Button>
               </div>

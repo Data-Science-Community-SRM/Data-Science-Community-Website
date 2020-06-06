@@ -11,7 +11,11 @@ const Home_Section2 = () => {
           <h1>
             <span style={{ color: "#6F389F" }}>O</span>UR DOMAINS.
           </h1>
-          <p>
+          <p
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             All those who love brainfood, listen up, we serve a lot of that here
             at our Data Science Community. From playing around with data to
             creating automatic players for your games. From connecting homes to

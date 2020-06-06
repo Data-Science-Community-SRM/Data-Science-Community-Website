@@ -7,6 +7,7 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start --prefix client",
+    "build": "npm run build --prefix client",
     "dev": "nodemon app.js",
     "preinstall": "npm install --prefix client",
     "postinstall": "npm run build --prefix client"
