@@ -3,7 +3,7 @@ import React from "react";
 import classes from "./Home_Section1.module.css";
 import homeLogo from "../../assets/images/home-logo.png";
 
-const Home_Section1 = () => {
+const Section1 = () => {
   return (
     <React.Fragment>
       <div className="row mx-auto">
@@ -23,4 +23,4 @@ const Home_Section1 = () => {
   );
 };
 
-export default Home_Section1;
+export default Section1;
