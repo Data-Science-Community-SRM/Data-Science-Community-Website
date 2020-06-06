@@ -26,6 +26,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:4200",
   "browserslist": {
     "production": [
       ">0.2%",
