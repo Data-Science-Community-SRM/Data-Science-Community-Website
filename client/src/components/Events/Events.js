@@ -26,12 +26,30 @@ const Events = () => {
             </p>
             <div className="row">
               <div className="mx-auto col-8 col-lg-5">
-                <Button className="col-12" color="success" outline>
+                <Button
+                  className="col-12"
+                  color="success"
+                  outline
+                  onClick={() =>
+                    alert(
+                      "Certificates for Data Science with R Programming' have been mailed to all the attendees."
+                    )
+                  }
+                >
                   Certificates
                 </Button>
               </div>
               <div className="mx-auto col-8 col-lg-5">
-                <Button className="col-12" color="primary" outline>
+                <Button
+                  className="col-12"
+                  color="primary"
+                  outline
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/drive/folders/1HSl_hKY56Gpil33SBdh3aFAsWtv7nbEs"
+                    )
+                  }
+                >
                   Gallery
                 </Button>
               </div>

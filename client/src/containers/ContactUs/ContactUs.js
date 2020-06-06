@@ -2,21 +2,37 @@ import React, { Component } from "react";
 import axios from "axios";
 
 import ContactUsComponent from "../../components/ContactUs/ContactUs";
+import Spinner from "../../components/UI/Spinner/Spinner";
 
 class ContactUs extends Component {
+  state = {
+    isLoading: false,
+  };
+
   submitForm(data) {
+    this.setState({ isLoading: true });
     axios
       .post("/api/contact-us", data)
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err));
+      .then((res) => {
+        alert("We have received your message!");
+        window.location.reload(false);
+      })
+      .catch((err) => {
+        alert("There is some error. Please try again later.");
+        window.location.reload(false);
+      });
   }
 
   render() {
     return (
       <React.Fragment>
-        <ContactUsComponent
-          onSubmitForm={(values) => this.submitForm(values)}
-        />
+        {this.state.isLoading ? (
+          <Spinner />
+        ) : (
+          <ContactUsComponent
+            onSubmitForm={(values) => this.submitForm(values)}
+          />
+        )}
       </React.Fragment>
     );
   }

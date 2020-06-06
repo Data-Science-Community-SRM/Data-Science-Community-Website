@@ -5,7 +5,7 @@ import { Form, Button } from "reactstrap";
 
 import classes from "./ContactUs.module.css";
 
-const phoneRegExp = /^[1-9]{1}[0-9]{10}$/;
+const phoneRegExp = /^[0-9]{1}[0-9]{9}$/;
 
 const ContactUs = (props) => {
   const formik = useFormik({

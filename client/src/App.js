@@ -9,6 +9,7 @@ import Events from "./containers/Events/Events";
 import Blog from "./containers/Blog/Blog";
 import People from "./containers/People/People";
 import ContactUs from "./containers/ContactUs/ContactUs";
+import NorFound from "./components/Notfound/NotFound";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/blog" exact component={Blog} />
           <Route path="/events" exact component={Events} />
           <Route path="/" exact component={Home} />
+          <Route path="*" exact component={NorFound} />
         </Switch>
         <Footer />
       </React.Fragment>

@@ -16,13 +16,12 @@ class People extends Component {
               <span style={{ color: "#6F389F" }}>B</span>OARD.
             </h3>
             <PeopleComponent
-              image="avirup"
               fname="Avirup"
               lname="Chattaraj"
               role="PRESIDENT"
+              image="avirup"
               github="severussnape123"
               linkedin="avirupchattaraj"
-              className="mx-auto"
             />
             <PeopleComponent
               fname="Hritik"
@@ -41,7 +40,6 @@ class People extends Component {
               image="anush"
               github="anushbhatia"
               linkedin="anush-bhatia-aa500a158"
-              className="mx-auto"
             />
             <PeopleComponent
               fname="Hariom"
@@ -195,14 +193,6 @@ class People extends Component {
               image="tejas"
               github="arcado10"
               linkedin="tejas-chintala-752918188"
-            />
-            <PeopleComponent
-              fname="Sourjayon"
-              lname="Nath"
-              role="GRAPHIC DESIGNER"
-              image="sourjayon"
-              github="insistence-essenn"
-              linkedin="sourjayon-nath-557a43174"
             />
             <PeopleComponent
               fname="Utkarsh"
