@@ -10,7 +10,7 @@ const Home_Section2 = () => {
     <React.Fragment>
       <div className="mx-auto">
         <div className={classes.main + " col-12 col-lg-8 mx-auto text-center"}>
-          <h1>
+          <h1 data-aos="flip-up">
             <span style={{ color: "#6F389F" }}>O</span>UR FOCUS.
           </h1>
           <p>
@@ -23,17 +23,26 @@ const Home_Section2 = () => {
           </p>
         </div>
         <div className="row mx-auto text-center">
-          <div className={classes.card + " col-12 col-lg-3"}>
+          <div
+            data-aos="fade-right"
+            className={classes.card + " col-12 col-lg-3"}
+          >
             <img height="100" width="200" src={workshopIMG} alt="workshops" />
             <h4>WORKSHOPS</h4>
             <p>For the enthusiasts</p>
           </div>
-          <div className={classes.card + " col-12 col-lg-3"}>
+          <div
+            data-aos="fade-down"
+            className={classes.card + " col-12 col-lg-3"}
+          >
             <img height="100" width="200" src={projectIMG} alt="projects" />
             <h4>PROJECTS</h4>
             <p>For the effectuators</p>
           </div>
-          <div className={classes.card + " col-12 col-lg-3"}>
+          <div
+            data-aos="fade-left"
+            className={classes.card + " col-12 col-lg-3"}
+          >
             <img height="100" width="200" src={trainingIMG} alt="trainings" />
             <h4>TRAINING</h4>
             <p>For the perfectionists</p>

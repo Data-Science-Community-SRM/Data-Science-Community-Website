@@ -7,11 +7,16 @@ const Home_Section2 = () => {
   return (
     <React.Fragment>
       <div className={classes.main + " row mx-auto"}>
-        <div className="col-12 col-lg-5 d-none d-lg-block">
-          <img src={updatesIMG} alt="updates" width="90%" />
+        <div className="col-12 col-lg-5 d-none d-lg-block mx-auto">
+          <img
+            data-aos="zoom-in-right"
+            src={updatesIMG}
+            alt="updates"
+            width="90%"
+          />
         </div>
-        <div className="col-12 col-lg-7 text-center">
-          <h1>
+        <div className="col-12 col-lg-6 text-center">
+          <h1 data-aos="flip-up">
             <span style={{ color: "#6F389F" }}>U</span>PDATES.
           </h1>
           <p>

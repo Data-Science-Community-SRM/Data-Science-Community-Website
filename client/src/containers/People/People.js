@@ -7,7 +7,7 @@ class People extends Component {
     return (
       <React.Fragment>
         <div className="col-12 col-lg-9 mx-auto">
-          <h1>People</h1>
+          <h1 data-aos="flip-up">People</h1>
           <p>The ones who make our community worth it!</p>
           <hr />
           <div className="row text-center d-block">

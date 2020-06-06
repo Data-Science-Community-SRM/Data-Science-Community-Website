@@ -11,9 +11,12 @@ const Events = () => {
   return (
     <React.Fragment>
       <div className="col-12 col-lg-9 mx-auto">
-        <h1>Events</h1>
+        <h1 data-aos="flip-up">Events</h1>
         <div className="row">
-          <Jumbotron className={classes.jumbotron + " col-11 col-lg-5 mx-auto"}>
+          <Jumbotron
+            data-aos="fade-left"
+            className={classes.jumbotron + " col-11 col-lg-5 mx-auto"}
+          >
             <div className="text-center">
               <img src={Rlogo} alt="Rlogo" width="60%" />
             </div>
@@ -55,7 +58,10 @@ const Events = () => {
               </div>
             </div>
           </Jumbotron>
-          <Jumbotron className={classes.jumbotron + " col-11 col-lg-5 mx-auto"}>
+          <Jumbotron
+            data-aos="fade-right"
+            className={classes.jumbotron + " col-11 col-lg-5 mx-auto"}
+          >
             <div className="text-center">
               <img src={comingSoonIMG} alt="coming-soon" width="80%" />
             </div>
@@ -73,7 +79,7 @@ const Events = () => {
                   color="info"
                   outline
                   onClick={() =>
-                    window.open("https://www.instagram.com/bdsc_srm")
+                    window.open("https://www.instagram.com/dscommunity_srm/")
                   }
                 >
                   Our Instagram

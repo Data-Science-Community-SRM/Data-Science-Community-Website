@@ -8,14 +8,10 @@ const Home_Section2 = () => {
     <React.Fragment>
       <div className="mx-auto">
         <div className={classes.main + " col-12 col-lg-8 mx-auto text-center"}>
-          <h1>
+          <h1 data-aos="flip-up">
             <span style={{ color: "#6F389F" }}>O</span>UR DOMAINS.
           </h1>
-          <p
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-          >
+          <p>
             All those who love brainfood, listen up, we serve a lot of that here
             at our Data Science Community. From playing around with data to
             creating automatic players for your games. From connecting homes to
@@ -27,7 +23,10 @@ const Home_Section2 = () => {
         <div className="row mx-auto text-center">
           <div className="col-12 col-lg-5">
             <div className="row">
-              <div className={classes.card + " col-12 col-lg-6"}>
+              <div
+                data-aos="fade-down-right"
+                className={classes.card + " col-12 col-lg-6"}
+              >
                 <h4>Data Analytics</h4>
                 <p>
                   Analyzing raw data using various manipulation and
@@ -35,7 +34,10 @@ const Home_Section2 = () => {
                   organizations make better decisions.
                 </p>
               </div>
-              <div className={classes.card + " col-12 col-lg-6"}>
+              <div
+                data-aos="fade-down-left"
+                className={classes.card + " col-12 col-lg-6"}
+              >
                 <h4>AI/ML</h4>
                 <p>
                   Creating and deploying models that exhibit intelligence to
@@ -45,7 +47,10 @@ const Home_Section2 = () => {
               </div>
             </div>
             <div className="row">
-              <div className={classes.card + " col-12 col-lg-6"}>
+              <div
+                data-aos="fade-up-right"
+                className={classes.card + " col-12 col-lg-6"}
+              >
                 <h4>Web Development</h4>
                 <p>
                   Developing and maintaining websites with intuitive user
@@ -53,7 +58,10 @@ const Home_Section2 = () => {
                   server-side web application logic.
                 </p>
               </div>
-              <div className={classes.card + " col-12 col-lg-6"}>
+              <div
+                data-aos="fade-up-left"
+                className={classes.card + " col-12 col-lg-6"}
+              >
                 <h4>Blockchain</h4>
                 <p>
                   Optimizing blockchain protocols, crafting and developing the
@@ -63,7 +71,10 @@ const Home_Section2 = () => {
               </div>
             </div>
           </div>
-          <div className={classes.img + " col-12 col-lg-7"}>
+          <div
+            data-aos="zoom-in-left"
+            className={classes.img + " col-12 col-lg-7"}
+          >
             <img src={domainsIMG} alt="domains" width="90%" />
           </div>
         </div>

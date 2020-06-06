@@ -37,7 +37,7 @@ const ContactUs = (props) => {
   return (
     <React.Fragment>
       <div className="col-12 col-lg-9 mx-auto">
-        <h1>Send Us A Message</h1>
+        <h1 data-aos="flip-up">Send Us A Message</h1>
         <Form
           onSubmit={formik.handleSubmit}
           className="mx-auto col-12 col-lg-9 mt-5"
@@ -48,6 +48,7 @@ const ContactUs = (props) => {
               id="name"
               name="name"
               type="text"
+              data-aos="flip-down"
               placeholder="Full Name"
               className={classes.name + " col-11"}
               onChange={formik.handleChange}
@@ -65,6 +66,7 @@ const ContactUs = (props) => {
               id="email"
               name="email"
               type="email"
+              data-aos="flip-down"
               placeholder="Email Address"
               className={classes.email + " col-11"}
               onChange={formik.handleChange}
@@ -82,6 +84,7 @@ const ContactUs = (props) => {
               id="number"
               name="number"
               type="tel"
+              data-aos="flip-down"
               placeholder="Phone Number"
               className={classes.number + " col-11"}
               onChange={formik.handleChange}
@@ -99,6 +102,7 @@ const ContactUs = (props) => {
               id="message"
               name="message"
               type="text"
+              data-aos="flip-down"
               placeholder="Your Message"
               className={classes.message + " col-11"}
               onChange={formik.handleChange}
@@ -114,7 +118,7 @@ const ContactUs = (props) => {
 
             <div className="col-12 text-center">
               <Button
-                className={classes.btn + " col-3 mb-5 mt-3"}
+                className={classes.btn + " col-6 col-md-3 mb-5 mt-3"}
                 type="submit"
                 onClick={() => {
                   if (

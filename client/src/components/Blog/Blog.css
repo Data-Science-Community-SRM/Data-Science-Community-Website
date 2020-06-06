@@ -46,3 +46,12 @@
     margin-bottom: 40px;
   }
 }
+
+.btn {
+  border-radius: 50px !important;
+  border: 1px solid #fafafa !important;
+  color: #fafafa !important;
+  padding: 10px 30px !important;
+  margin: 10px auto !important;
+  font-weight: 400 !important;
+}

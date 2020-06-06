@@ -8,7 +8,7 @@ import classes from "./People.module.css";
 const People = (props) => {
   return (
     <React.Fragment>
-      <div className={classes.members}>
+      <div className={classes.members} data-aos="zoom-in-down">
         <img
           className={classes.photo}
           alt={props.name + " image"}
