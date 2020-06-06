@@ -8,7 +8,7 @@
     "client": "npm start --prefix client",
     "dev": "nodemon app.js",
     "preinstall": "npm install --prefix client",
-    "postinstall": "npm run build --prefiix client"
+    "postinstall": "npm run build --prefix client"
   },
   "repository": {
     "type": "git",
