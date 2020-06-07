@@ -20,6 +20,8 @@
 }
 
 .logoRotation img {
+  margin-top: 80px;
+  vertical-align: middle;
   animation: logoRotation 10000ms ease infinite;
 }
 
@@ -96,4 +98,38 @@
   62% {
     transform: translate(-22px, 5px) skew(21deg);
   }
+}
+
+.scrollAnchor a {
+  position: absolute;
+  z-index: 2;
+  top: 20%;
+  left: 50%;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font: normal 400 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+.scrollAnchor a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+  color: #666666;
+}
+
+.scrollAnchor a span {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
 }

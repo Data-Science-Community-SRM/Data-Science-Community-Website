@@ -45,3 +45,36 @@
   margin-top: 28px;
   font-size: 24px;
 }
+
+.jumbotron .certBTN {
+  background-color: transparent;
+  border: none !important;
+  color: #28a745 !important;
+}
+.jumbotron .certBTN:hover {
+  background-color: #28a745;
+  border: none !important;
+  color: #fafafa !important;
+}
+
+.jumbotron .galleryBTN {
+  background-color: transparent;
+  border: none !important;
+  color: #007bff !important;
+}
+.jumbotron .galleryBTN:hover {
+  background-color: #007bff;
+  border: none !important;
+  color: #fafafa !important;
+}
+
+.jumbotron .instaBTN {
+  color: #17a2b8 !important;
+  background-color: transparent;
+  border: none !important;
+}
+.jumbotron .instaBTN:hover {
+  color: #fafafa !important;
+  background-color: #17a2b8;
+  border: none !important;
+}

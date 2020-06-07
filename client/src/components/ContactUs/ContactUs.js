@@ -37,7 +37,9 @@ const ContactUs = (props) => {
   return (
     <React.Fragment>
       <div className="col-12 col-lg-9 mx-auto">
-        <h1 data-aos="flip-up">Send Us A Message</h1>
+        <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
+          Send Us A Message
+        </h1>
         <Form
           onSubmit={formik.handleSubmit}
           className="mx-auto col-12 col-lg-9 mt-5"

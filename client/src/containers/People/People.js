@@ -3,11 +3,16 @@ import React, { Component } from "react";
 import PeopleComponent from "../../components/People/People";
 
 class People extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <React.Fragment>
         <div className="col-12 col-lg-9 mx-auto">
-          <h1 data-aos="flip-up">People</h1>
+          <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
+            People
+          </h1>
           <p>The ones who make our community worth it!</p>
           <hr />
           <div className="row text-center d-block">

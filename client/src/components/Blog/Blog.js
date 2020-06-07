@@ -7,7 +7,9 @@ const Blog = () => {
   return (
     <React.Fragment>
       <div className="col-12 col-lg-9 mx-auto">
-        <h1 data-aos="flip-up">Our Blog</h1>
+        <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
+          Our Blog
+        </h1>
         <p style={{ margin: "30px auto" }}>
           Sharing our concepts, codes and experiences.
         </p>

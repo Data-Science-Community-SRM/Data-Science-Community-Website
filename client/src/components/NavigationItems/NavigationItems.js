@@ -19,13 +19,14 @@ const NavigationItems = (props) => {
     setIsOpen(!isOpen);
     document.querySelector("#close-icon").classList.toggle("open");
   };
-
+  console.log();
   return (
     <div>
       <Navbar
         style={{
           backgroundColor: "#232323",
           boxShadow: "1px 2px 10px #000000",
+          width: window.innerWidth,
         }}
         dark
         fixed="top"
@@ -44,19 +45,19 @@ const NavigationItems = (props) => {
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavItem className="mt-3 mt-md-2 mb-2">
+            <NavItem className="mt-3 mt-md-2 mb-2" onClick={toggle}>
               <NavigationItem page="Home" href="/" />
             </NavItem>
-            <NavItem className="my-2">
+            <NavItem className="my-2" onClick={toggle}>
               <NavigationItem page="Events" href="/events" />
             </NavItem>
-            <NavItem className="my-2">
+            <NavItem className="my-2" onClick={toggle}>
               <NavigationItem page="Blog" href="/blog" />
             </NavItem>
-            <NavItem className="my-2">
+            <NavItem className="my-2" onClick={toggle}>
               <NavigationItem page="People" href="/people" />
             </NavItem>
-            <NavItem className="my-2">
+            <NavItem className="my-2" onClick={toggle}>
               <NavigationItem page="Contact Us" href="/contact-us" />
             </NavItem>
           </Nav>

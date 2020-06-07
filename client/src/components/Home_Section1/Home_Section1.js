@@ -20,6 +20,14 @@ const Section1 = () => {
             </p>
           </div>
         </div>
+        <div
+          id="section01"
+          className={classes.scrollAnchor + " d-none d-lg-block"}
+        >
+          <a href="#section02">
+            <span></span>VIEW
+          </a>
+        </div>
       </div>
     </React.Fragment>
   );

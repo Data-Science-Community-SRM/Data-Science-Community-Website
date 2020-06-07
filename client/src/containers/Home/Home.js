@@ -6,19 +6,33 @@ import Section3 from "../../components/Home_Section3/Home_Section3";
 import Section4 from "../../components/Home_Section4/Home_Section4";
 
 class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <React.Fragment>
-        <section className="col-12 col-md-10 mx-auto">
-          <Section1 />
+        <div className="col-12 col-md-10 mx-auto">
+          <section>
+            <Section1 />
+          </section>
+          <hr
+            style={{ opacity: window.innerWidth > 992 ? 0 : 1 }}
+            id="section02"
+          />
+          <section>
+            <Section2 />
+          </section>
           <hr />
-          <Section2 />
+          <section>
+            <Section3 />
+          </section>
           <hr />
-          <Section3 />
+          <section>
+            <Section4 />
+          </section>
           <hr />
-          <Section4 />
-          <hr />
-        </section>
+        </div>
       </React.Fragment>
     );
   }

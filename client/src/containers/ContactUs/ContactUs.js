@@ -8,7 +8,9 @@ class ContactUs extends Component {
   state = {
     isLoading: false,
   };
-
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   submitForm(data) {
     this.setState({ isLoading: true });
     axios

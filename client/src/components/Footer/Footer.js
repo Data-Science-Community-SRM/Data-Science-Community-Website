@@ -89,7 +89,7 @@ const Footer = () => {
               Made with{" "}
               <span role="img" aria-label="jsx-a11y/hot-beverage">
                 ☕
-              </span>
+              </span>{" "}
               by your colleagues at the Data Science Community
             </p>
           </div>

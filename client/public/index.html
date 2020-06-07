@@ -13,6 +13,36 @@
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165410200-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165410200-1');
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics End-->
+
+  <!--Push Notifications-->
+
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "f9fba904-172f-42b7-89de-fa1bf8c4fcb2",
+      });
+    });
+  </script>
+
+  <!--Push Notifications End-->
+
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -40,36 +70,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <script>
-    function animateHead() {
-      var textWrapper = document.querySelector(".ml10 .letters");
-      textWrapper.innerHTML = textWrapper.textContent.replace(
-        /\S/g,
-        "<span class='letter'>$&</span>"
-      );
 
-      anime
-        .timeline({
-          loop: true
-        })
-        .add({
-          targets: ".ml10 .letter",
-          rotateY: [-90, 0],
-          duration: 1300,
-          delay: (el, i) => 45 * i,
-        })
-        .add({
-          targets: ".ml10",
-          opacity: 0,
-          duration: 1000,
-          easing: "easeOutExpo",
-          delay: 1000,
-        })
-    }
-  </script>
   <!-- Medium Article Related Scripts -->
+
   <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+
   <script type="text/javascript">
     function mediumWidget() {
       let postsper = 3;
@@ -89,6 +94,9 @@
       });
     }
   </script>
+
+  <!-- Medium Article Related Scripts End-->
+
 </body>
 
 </html>

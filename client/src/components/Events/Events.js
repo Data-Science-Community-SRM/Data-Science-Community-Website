@@ -11,7 +11,9 @@ const Events = () => {
   return (
     <React.Fragment>
       <div className="col-12 col-lg-9 mx-auto">
-        <h1 data-aos="flip-up">Events</h1>
+        <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
+          Events
+        </h1>
         <div className="row">
           <Jumbotron
             data-aos="fade-left"
@@ -28,11 +30,9 @@ const Events = () => {
               ML packages utilizing R.
             </p>
             <div className="row">
-              <div className="mx-auto col-8 col-lg-5">
+              <div className="mx-auto col-8">
                 <Button
-                  className="col-12"
-                  color="success"
-                  outline
+                  className={classes.certBTN + " col-12"}
                   onClick={() =>
                     alert(
                       "Certificates for Data Science with R Programming' have been mailed to all the attendees."
@@ -42,11 +42,9 @@ const Events = () => {
                   Certificates
                 </Button>
               </div>
-              <div className="mx-auto col-8 col-lg-5">
+              <div className="mx-auto col-8">
                 <Button
-                  className="col-12"
-                  color="primary"
-                  outline
+                  className={classes.galleryBTN + " col-12"}
                   onClick={() =>
                     window.open(
                       "https://drive.google.com/drive/folders/1HSl_hKY56Gpil33SBdh3aFAsWtv7nbEs"
@@ -73,11 +71,9 @@ const Events = () => {
               notifications to stay updated.
             </p>
             <div className="row">
-              <div className="mx-auto col-8 col-lg-7">
+              <div className="mx-auto col-8">
                 <Button
-                  className="col-12"
-                  color="info"
-                  outline
+                  className={classes.instaBTN + " col-12"}
                   onClick={() =>
                     window.open("https://www.instagram.com/dscommunity_srm/")
                   }
