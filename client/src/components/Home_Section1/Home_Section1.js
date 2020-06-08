@@ -30,7 +30,7 @@ const Section1 = () => {
           className={classes.scrollAnchor + " d-none d-lg-block"}
         >
           <a href="#section02">
-            <span></span>VIEW
+            <span></span>
           </a>
         </div>
       </div>
