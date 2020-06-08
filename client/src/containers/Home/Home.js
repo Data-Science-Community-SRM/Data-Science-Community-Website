@@ -4,6 +4,7 @@ import Section1 from "../../components/Home_Section1/Home_Section1";
 import Section2 from "../../components/Home_Section2/Home_Section2";
 import Section3 from "../../components/Home_Section3/Home_Section3";
 import Section4 from "../../components/Home_Section4/Home_Section4";
+import Section5 from "../../components/Home_Section5/Home_Section5";
 
 class Home extends Component {
   componentDidMount() {
@@ -33,6 +34,10 @@ class Home extends Component {
           <hr />
           <section>
             <Section4 />
+          </section>
+          <hr />
+          <section>
+            <Section5 />
           </section>
           <hr />
         </div>

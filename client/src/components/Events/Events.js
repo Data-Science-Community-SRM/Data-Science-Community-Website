@@ -3,8 +3,8 @@ import { Jumbotron, Button } from "reactstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import classes from "./Events.module.css";
-import comingSoonIMG from "../../assets/images/coming-soon.png";
-import Rlogo from "../../assets/images/Rlogo.png";
+import comingSoonIMG from "../../assets/images/events/coming-soon.png";
+import Rlogo from "../../assets/images/events/Rlogo.png";
 import Carousel from "../Carousel/Carousel";
 
 const Events = () => {
