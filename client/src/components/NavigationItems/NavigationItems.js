@@ -26,15 +26,16 @@ const NavigationItems = (props) => {
         style={{
           backgroundColor: "#232323",
           boxShadow: "1px 2px 10px #000000",
-          width: window.innerWidth,
+          width: "100vw",
         }}
         dark
         fixed="top"
         expand="md"
       >
         <NavbarBrand href="/">
-          <img src={logo} alt="" width="50px" className="mr-3" />
-          DSCommunity
+          {window.location.pathname === "/" ? null : (
+            <img src={logo} alt="" width="50px" className="mr-3" />
+          )}
         </NavbarBrand>
         <NavbarToggler onClick={toggle}>
           <div id="close-icon">

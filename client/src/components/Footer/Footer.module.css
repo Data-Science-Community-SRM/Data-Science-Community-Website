@@ -3,7 +3,8 @@
   padding-bottom: 0px;
   width: 100%;
   background: #0e1424;
-  display: flex;
+  position: sticky;
+  bottom: 0;
   font-weight: 400;
 }
 

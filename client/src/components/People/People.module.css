@@ -64,7 +64,6 @@
 
 @media (max-width: 780px) and (min-width: 729px) {
   .members {
-    background-color: #333333;
     width: 200px;
   }
   .photo {
@@ -80,7 +79,6 @@
   .members {
     padding: 10px;
     width: 40%;
-    background-color: #333333;
   }
   #team-container {
     width: 100%;

@@ -17,8 +17,11 @@ class Home extends Component {
             <Section1 />
           </section>
           <hr
-            style={{ opacity: window.innerWidth > 992 ? 0 : 1 }}
             id="section02"
+            style={{
+              opacity: window.innerWidth > 992 ? "0" : "1",
+              marginBottom: "0",
+            }}
           />
           <section>
             <Section2 />

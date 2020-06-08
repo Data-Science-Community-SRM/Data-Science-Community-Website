@@ -18,6 +18,7 @@ const Blog = () => {
             Publication Link
           </Button>
         </a>
+        <hr />
         <div className="col-11 mx-auto mt-5">
           <div
             data-aos="zoom-in-up"
@@ -25,6 +26,7 @@ const Blog = () => {
             id="medium-widget"
           ></div>
         </div>
+        <hr />
       </div>
     </React.Fragment>
   );

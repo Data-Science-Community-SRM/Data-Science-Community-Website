@@ -13,7 +13,9 @@ class People extends Component {
           <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
             People
           </h1>
-          <p>The ones who make our community worth it!</p>
+          <p style={{ margin: "30px auto" }}>
+            The ones who make our community worth it!
+          </p>
           <hr />
           <div className="row text-center d-block">
             <h3 style={{ fontWeight: "700" }}>

@@ -20,7 +20,7 @@
 }
 
 .logoRotation img {
-  margin-top: 80px;
+  margin-top: 50px;
   vertical-align: middle;
   animation: logoRotation 10000ms ease infinite;
 }

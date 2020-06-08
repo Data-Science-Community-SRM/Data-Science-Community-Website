@@ -90,17 +90,20 @@
 
 .btn {
   text-transform: uppercase;
-  background-color: #666666 !important;
   border-radius: 20px !important;
-  border: 1px solid #fafafa !important;
+  border: none !important;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  color: #28a745 !important;
+  font-size: 28px !important;
+  background-color: transparent !important;
 }
 
 .btn:hover {
-  border: 1px solid #666666 !important;
-  background-color: transparent !important;
+  background-color: #111111 !important;
+  box-sizing: border-box !important;
+  border: 1px solid #fafafa !important;
 }

@@ -7,16 +7,21 @@
   text-decoration: none;
   color: whitesmoke;
   padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
   font-weight: 300;
+  transition: all 0.3s ease;
 }
 
 .links:hover {
   text-decoration: none;
   color: whitesmoke;
   border-bottom: 3px solid #ccc;
+  padding-bottom: 10px;
+  letter-spacing: 1.1px;
 }
 
 .active {
   font-weight: 700;
+  letter-spacing: 1.1px;
   border-bottom: 3px solid #ccc;
 }

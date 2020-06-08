@@ -7,10 +7,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 import { BrowserRouter } from "react-router-dom";
 
+import Footer from "./components/Footer/Footer";
+
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <React.Fragment>
+    <BrowserRouter>
+      <App />
+      <Footer />
+    </BrowserRouter>
+  </React.Fragment>,
   document.getElementById("root")
 );
 registerServiceWorker();

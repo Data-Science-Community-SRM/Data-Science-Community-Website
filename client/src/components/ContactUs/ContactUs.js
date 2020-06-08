@@ -40,6 +40,10 @@ const ContactUs = (props) => {
         <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
           Send Us A Message
         </h1>
+        <p style={{ margin: "30px auto" }}>
+          We would be pleased to respond for collaborations, enquiries and more.
+        </p>
+        <hr />
         <Form
           onSubmit={formik.handleSubmit}
           className="mx-auto col-12 col-lg-9 mt-5"
@@ -120,7 +124,7 @@ const ContactUs = (props) => {
 
             <div className="col-12 text-center">
               <Button
-                className={classes.btn + " col-6 col-md-3 mb-5 mt-3"}
+                className={classes.btn + " col-8 col-md-3 mt-5"}
                 type="submit"
                 onClick={() => {
                   if (
@@ -137,6 +141,7 @@ const ContactUs = (props) => {
             </div>
           </div>
         </Form>
+        <hr style={{ marginTop: "0" }} />
       </div>
     </React.Fragment>
   );

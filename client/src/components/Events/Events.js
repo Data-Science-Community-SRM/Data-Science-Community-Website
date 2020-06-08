@@ -14,6 +14,10 @@ const Events = () => {
         <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
           Events
         </h1>
+        <p style={{ margin: "30px auto" }}>
+          Our efforts to share our knowledge with you.
+        </p>
+        <hr />
         <div className="row">
           <Jumbotron
             data-aos="fade-left"
@@ -84,9 +88,11 @@ const Events = () => {
             </div>
           </Jumbotron>
         </div>
-        <div className="mt-5">
+        <hr />
+        <div className="my-5">
           <Carousel />
         </div>
+        <hr />
       </div>
     </React.Fragment>
   );
