@@ -22,20 +22,18 @@
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s !important;
 }
 .card:hover {
-  transition: 0.2s;
   background: rgba(189, 189, 189, 0);
   opacity: 0.7;
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
 }
 .card img {
   height: relative;
   align-items: center;
   margin-bottom: 12px;
   margin-left: 12px;
-  margin-right: 12px;
   margin-top: 12px;
 }
 
