@@ -90,7 +90,7 @@ const Footer = () => {
               <span role="img" aria-label="jsx-a11y/hot-beverage">
                 ☕
               </span>{" "}
-              by your colleagues at the Data Science Community
+              by your colleagues at the <b>Data Science Community</b>.
             </p>
           </div>
         </div>
