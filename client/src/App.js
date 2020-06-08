@@ -16,10 +16,33 @@ class App extends Component {
     AOS.init();
   }
   render() {
+    let mediumRoutes = (
+      <React.Fragment>
+        <Route
+          exact
+          path="/AviationAnalytics"
+          component={() => {
+            window.location =
+              "https://medium.com/data-science-community-srm/aviation-data-analytics-reading-the-skies-fed178486208";
+            return null;
+          }}
+        />
+        <Route
+          exact
+          path="/WebScraping"
+          render={() =>
+            (window.location =
+              "https://medium.com/data-science-community-srm/web-scraping-with-beautifulsoup-3d66aebadaeb")
+          }
+        />
+      </React.Fragment>
+    );
+
     return (
       <React.Fragment>
         <NavigationItems />
         <div style={{ position: "relative", minHeight: "100vh" }}>
+          {mediumRoutes}
           <Switch>
             <Route path="/contact-us" exact component={ContactUs} />
             <Route path="/people" exact component={People} />
