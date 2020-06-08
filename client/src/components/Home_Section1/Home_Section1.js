@@ -10,7 +10,7 @@ const Section1 = () => {
         <div
           className={classes.logoRotation + " col-12 col-lg-6 text-center mt-5"}
         >
-          <div className="mt-5">
+          <div className="mt-lg-5">
             <img src={homeLogo} alt="dscommunity" width="70%" />
           </div>
         </div>
