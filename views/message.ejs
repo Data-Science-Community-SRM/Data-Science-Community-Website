@@ -145,7 +145,7 @@
 												<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="center"><![endif]--><img
 													align="center" alt="Alternate text" border="0"
 													class="center fixedwidth"
-													src="http://ds-community-srm.herokuapp.com/static/media/home-logo.4a94fd0b.png"
+													src="http://dscommunitysrm.herokuapp.com/static/media/home-logo.4a94fd0b.png"
 													style="text-decoration: none; -ms-interpolation-mode: bicubic; border: 0; height: auto; width: 100%; max-width: 118px; display: block;"
 													title="Alternate text" width="118" />
 												<!--[if mso]></td></tr></table><![endif]-->
@@ -169,8 +169,17 @@
 													style="line-height: 1.5; font-size: 12px; color: #fafafa; font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; mso-line-height-alt: 18px;">
 													<p
 														style="font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin: 0;">
-														We have received a <strong>Message</strong> from someone. Please
-														check the MongoDB Cluster for the same</p>
+														We have received a <strong>Message</strong>. <br> <br>
+														<b><%= name %></b> wants to convey to you : <br>
+														<%= message %>
+														<br>
+														<br>
+														You can contact <%= name %> via : <br>
+														Email :<em> <%= email %></em> <br>
+														<% if (number) { %>
+														Phone Number :<em> <%= number %></em>
+														<% } %>
+													</p>
 												</div>
 											</div>
 											<!--[if mso]></td></tr></table><![endif]-->

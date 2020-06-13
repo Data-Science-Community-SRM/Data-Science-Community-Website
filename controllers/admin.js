@@ -1,6 +1,7 @@
 const messageModel = require("../models/message");
 const nodemailer = require("nodemailer");
 const path = require("path");
+const ejs = require("ejs");
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -9,12 +10,6 @@ const transporter = nodemailer.createTransport({
     pass: 'g}#?Tp"R8]',
   },
 });
-const mailOptions = {
-  from: "dscommunitysmtpserver@gmail.com",
-  to: "datasciencecommunitysrm@gmail.com",
-  subject: "Knock Knock! Letter received!",
-  html: { path: path.join(__dirname, "../", "message.html") },
-};
 
 exports.postData = async (req, res) => {
   try {
@@ -27,13 +22,30 @@ exports.postData = async (req, res) => {
 
     const result = await message.save();
     if (result) {
-      transporter.sendMail(mailOptions, function (error, info) {
-        if (error) {
-          console.log(error);
-        } else {
-          console.log("Email sent: " + info.response);
+      const message = await ejs.renderFile(
+        path.join(__dirname, "../", "views", "message.ejs"),
+        {
+          name: req.body.name,
+          message: req.body.message,
+          number: req.body.number,
+          email: req.body.email,
         }
-      });
+      );
+      transporter.sendMail(
+        {
+          from: "dscommunitysmtpserver@gmail.com",
+          to: "datasciencecommunitysrm@gmail.com",
+          subject: "Knock Knock! Letter received!",
+          html: message,
+        },
+        function (error, info) {
+          if (error) {
+            console.log(error);
+          } else {
+            console.log("Email sent: " + info.response);
+          }
+        }
+      );
       res.status(200).json({
         status: "OK",
       });

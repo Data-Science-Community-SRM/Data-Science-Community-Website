@@ -14,6 +14,8 @@ app.use(bodyParser.json());
 app.use(cors());
 const path = require("path");
 
+app.set("view engine", "ejs");
+app.set("views", "views");
 app.use(express.static(path.join(__dirname, "client", "build")));
 app.use("/api", adminRoutes);
 app.use("/*", (req, res, next) => {
