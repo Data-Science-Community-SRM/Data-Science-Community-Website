@@ -67,20 +67,28 @@ const Footer = () => {
             <br />
             <div className={classes.refs + " ml-5"}>
               <div className="row">
-                <a href="https://twitter.com/dscommunitysrm">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-                <a href="https://www.linkedin.com/company/datasciencecommunitysrm">
-                  <FontAwesomeIcon icon={faLinkedinIn} />
-                </a>
+                <div className="m-lg-1">
+                  <a href="https://twitter.com/dscommunitysrm">
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </a>
+                </div>
+                <div className="m-lg-1">
+                  <a href="https://www.linkedin.com/company/datasciencecommunitysrm">
+                    <FontAwesomeIcon icon={faLinkedinIn} />
+                  </a>
+                </div>
               </div>
               <div className="row">
-                <a href="https://www.instagram.com/dscommunity_srm/">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a href="https://medium.com/data-science-community-srm">
-                  <FontAwesomeIcon icon={faMediumM} />
-                </a>
+                <div className="m-lg-1">
+                  <a href="https://www.instagram.com/dscommunity_srm/">
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
+                </div>
+                <div className="m-lg-1">
+                  <a href="https://medium.com/data-science-community-srm">
+                    <FontAwesomeIcon icon={faMediumM} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -3,8 +3,8 @@ import React from "react";
 import classes from "./Home_Section5.module.css";
 import bitgrit from "../../assets/images/sponsers/bitgrit.svg";
 import srmlogo from "../../assets/images/sponsers/srm.png";
-import awslogo from "../../assets/images/sponsers/aws.png";
-import datacamp from "../../assets/images/sponsers/datacamp.png";
+import awslogo from "../../assets/images/sponsers/aws.svg";
+import datacamp from "../../assets/images/sponsers/datacamp.svg";
 import codingblocks from "../../assets/images/sponsers/codingblocks.svg";
 import popcorn from "../../assets/images/sponsers/pop.png";
 
@@ -31,33 +31,38 @@ const Home_Section2 = () => {
                 alt="bitgrit"
                 width="100px"
               />
+              <p className="mt-3">BITGRIT</p>
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img data-aos="fade-down" src={srmlogo} alt="srm" width="100px" />
+              <p className="mt-3">SRMIST</p>
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
                 data-aos="fade-down-left"
                 src={awslogo}
                 alt="aws"
-                width="160px"
+                width="100px"
               />
+              <p className="mt-3">AMAZON WEB SERVICES</p>
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
                 data-aos="fade-up-right"
                 src={datacamp}
                 alt="datacamp"
-                width="120px"
+                width="100px"
               />
+              <p className="mt-3">DATACAMP</p>
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
                 data-aos="fade-up"
                 src={codingblocks}
                 alt="codingblocks"
-                width="130px"
+                width="100px"
               />
+              <p className="mt-3">CODING BLOCKS</p>
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
@@ -66,6 +71,7 @@ const Home_Section2 = () => {
                 alt="popcorn"
                 width="100px"
               />
+              <p className="mt-3">THE POPCORN THEORY</p>
             </div>
           </div>
         </div>

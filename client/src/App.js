@@ -1,15 +1,16 @@
-import React, { Component } from "react";
+import React, { Component, Suspense } from "react";
 import { Route, Switch } from "react-router-dom";
 import AOS from "aos";
 
 import "./App.css";
 import NavigationItems from "./components/NavigationItems/NavigationItems";
 import Home from "./containers/Home/Home";
-import Events from "./containers/Events/Events";
-import Blog from "./containers/Blog/Blog";
-import People from "./containers/People/People";
-import ContactUs from "./containers/ContactUs/ContactUs";
-import NotFound from "./components/Notfound/NotFound";
+import Spinner from "./components/UI/Spinner/Spinner";
+const Events = React.lazy(() => import("./containers/Events/Events"));
+const Blog = React.lazy(() => import("./containers/Blog/Blog"));
+const People = React.lazy(() => import("./containers/People/People"));
+const ContactUs = React.lazy(() => import("./containers/ContactUs/ContactUs"));
+const NotFound = React.lazy(() => import("./components/Notfound/NotFound"));
 
 class App extends Component {
   componentWillMount() {
@@ -44,12 +45,45 @@ class App extends Component {
         <div style={{ position: "relative", minHeight: "100vh" }}>
           {mediumRoutes}
           <Switch>
-            <Route path="/contact-us" exact component={ContactUs} />
-            <Route path="/people" exact component={People} />
-            <Route path="/blog" exact component={Blog} />
-            <Route path="/events" exact component={Events} />
+            <Route
+              path="/contact-us"
+              render={() => (
+                <Suspense fallback={<Spinner />}>
+                  <ContactUs />
+                </Suspense>
+              )}
+            />
+            <Route
+              path="/people"
+              render={() => (
+                <Suspense fallback={<Spinner />}>
+                  <People />
+                </Suspense>
+              )}
+            />
+            <Route
+              path="/blog"
+              render={() => (
+                <Suspense fallback={<Spinner />}>
+                  <Blog />
+                </Suspense>
+              )}
+            />
+            <Route
+              path="/events"
+              render={() => (
+                <Suspense fallback={<Spinner />}>{<Events />}</Suspense>
+              )}
+            />
             <Route path="/" exact component={Home} />
-            <Route path="*" exact component={NotFound} />
+            <Route
+              path="*"
+              render={() => (
+                <Suspense fallback={<Spinner />}>
+                  <NotFound />
+                </Suspense>
+              )}
+            />
           </Switch>
         </div>
       </React.Fragment>

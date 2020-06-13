@@ -34,7 +34,7 @@ const Events = () => {
               ML packages utilizing R.
             </p>
             <div className="row">
-              <div className="mx-auto col-8">
+              <div className="mx-auto col-6">
                 <Button
                   className={classes.certBTN + " col-12"}
                   onClick={() =>
@@ -46,7 +46,7 @@ const Events = () => {
                   Certificates
                 </Button>
               </div>
-              <div className="mx-auto col-8">
+              <div className="mx-auto col-6">
                 <Button
                   className={classes.galleryBTN + " col-12"}
                   onClick={() =>

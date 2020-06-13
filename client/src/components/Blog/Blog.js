@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Button } from "reactstrap";
 
 import "./Blog.css";
 
 const Blog = () => {
+  useEffect(() => {
+    try {
+      var widget = document.getElementById("medium-widget");
+      if (!!widget) {
+        window.mediumWidget();
+      }
+    } catch (e) {
+      window.location.reload();
+    }
+  }, []);
+
   return (
     <React.Fragment>
       <div className="col-12 col-lg-9 mx-auto">

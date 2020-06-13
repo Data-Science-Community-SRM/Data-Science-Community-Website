@@ -9,7 +9,7 @@ const Home_Section2 = () => {
       <div className={classes.main + " row mx-auto"}>
         <div className="col-12 col-lg-5 d-none d-lg-block mx-auto">
           <img
-            data-aos="zoom-in-right"
+            data-aos={window.innerWidth < 991 ? null : "zoom-in-right"}
             src={updatesIMG}
             alt="updates"
             width="90%"

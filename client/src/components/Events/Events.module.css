@@ -5,10 +5,10 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px !important;
   background-color: #333333 !important;
-  transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s !important;
+  -webkit-transition: all 0.3s ease 0s !important;
+  -moz-transition: all 0.3s ease 0s !important;
+  -o-transition: all 0.3s ease 0s !important;
 }
 
 .jumbotron:hover {
@@ -43,7 +43,7 @@
 
 .jumbotron button {
   margin-top: 28px;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .jumbotron .certBTN {

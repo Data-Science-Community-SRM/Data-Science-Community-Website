@@ -8,7 +8,7 @@ const Section1 = () => {
     <React.Fragment>
       <div className="row mx-auto" style={{ minHeight: "100vh" }}>
         <div
-          className={classes.logoRotation + " col-12 col-lg-6 text-center mt-5"}
+          className={classes.logoRotation + " col-12 col-lg-6 text-center mt-3"}
         >
           <div className="mt-lg-5">
             <img src={homeLogo} alt="dscommunity" width="70%" />

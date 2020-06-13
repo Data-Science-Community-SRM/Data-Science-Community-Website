@@ -24,9 +24,10 @@ const NavigationItems = (props) => {
     <div>
       <Navbar
         style={{
-          backgroundColor: "#232323",
+          backgroundColor: window.innerWidth < 768 ? "#6f389f" : "#232323",
           boxShadow: "1px 2px 10px #000000",
           width: "100vw",
+          minHeight: "75px",
         }}
         dark
         fixed="top"
@@ -58,7 +59,7 @@ const NavigationItems = (props) => {
             <NavItem className="my-2" onClick={toggle}>
               <NavigationItem page="People" href="/people" />
             </NavItem>
-            <NavItem className="my-2" onClick={toggle}>
+            <NavItem className="my-2 mr-3" onClick={toggle}>
               <NavigationItem page="Contact Us" href="/contact-us" />
             </NavItem>
           </Nav>
