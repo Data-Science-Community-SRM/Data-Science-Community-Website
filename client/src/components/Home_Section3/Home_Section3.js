@@ -25,7 +25,7 @@ const Home_Section2 = () => {
             <div className="row">
               <div
                 data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-down-right"
+                  window.innerWidth < 768 ? "fade-up" : "fade-down-right"
                 }
                 className={classes.card + " col-12 col-lg-6"}
               >
@@ -38,7 +38,7 @@ const Home_Section2 = () => {
               </div>
               <div
                 data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-down-left"
+                  window.innerWidth < 768 ? "fade-up" : "fade-down-left"
                 }
                 className={classes.card + " col-12 col-lg-6"}
               >
@@ -52,9 +52,7 @@ const Home_Section2 = () => {
             </div>
             <div className="row">
               <div
-                data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-up-right"
-                }
+                data-aos={window.innerWidth < 768 ? "fade-up" : "fade-up-right"}
                 className={classes.card + " col-12 col-lg-6"}
               >
                 <h4>Web Development</h4>
@@ -65,9 +63,7 @@ const Home_Section2 = () => {
                 </p>
               </div>
               <div
-                data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-up-left"
-                }
+                data-aos={window.innerWidth < 768 ? "fade-up" : "fade-up-left"}
                 className={classes.card + " col-12 col-lg-6"}
               >
                 <h4>Blockchain</h4>
@@ -80,9 +76,7 @@ const Home_Section2 = () => {
             </div>
           </div>
           <div
-            data-aos={
-              window.innerWidth < 768 ? "zoom-out-down" : "zoom-in-left"
-            }
+            data-aos={window.innerWidth < 768 ? "fade-up" : "zoom-in-left"}
             className={classes.img + " col-12 col-lg-7"}
           >
             <img src={domainsIMG} alt="domains" width="90%" />

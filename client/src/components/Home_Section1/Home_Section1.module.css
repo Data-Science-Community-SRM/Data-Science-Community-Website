@@ -1,6 +1,12 @@
 .main {
-  margin-top: 150px;
   text-shadow: 1px 1px rgb(49, 34, 59);
+  margin-top: 150px;
+}
+
+@media (max-width: 991px) {
+  .main {
+    margin-top: 0;
+  }
 }
 .main h1 {
   font-size: 30px;

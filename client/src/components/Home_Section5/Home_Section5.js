@@ -27,7 +27,7 @@ const Home_Section2 = () => {
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
                 data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-down-right"
+                  window.innerWidth < 768 ? "fade-up" : "fade-down-right"
                 }
                 src={bitgrit}
                 alt="bitgrit"
@@ -37,9 +37,7 @@ const Home_Section2 = () => {
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
-                data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-down"
-                }
+                data-aos={window.innerWidth < 768 ? "fade-up" : "fade-down"}
                 src={srmlogo}
                 alt="srm"
                 width="100px"
@@ -49,7 +47,7 @@ const Home_Section2 = () => {
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
                 data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-down-left"
+                  window.innerWidth < 768 ? "fade-up" : "fade-down-left"
                 }
                 src={awslogo}
                 alt="aws"
@@ -59,9 +57,7 @@ const Home_Section2 = () => {
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
-                data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-up-right"
-                }
+                data-aos={window.innerWidth < 768 ? "fade-up" : "fade-up-right"}
                 src={datacamp}
                 alt="datacamp"
                 width="100px"
@@ -70,7 +66,7 @@ const Home_Section2 = () => {
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
-                data-aos={window.innerWidth < 768 ? "zoom-out-down" : "fade-up"}
+                data-aos={window.innerWidth < 768 ? "fade-up" : "fade-up"}
                 src={codingblocks}
                 alt="codingblocks"
                 width="100px"
@@ -79,9 +75,7 @@ const Home_Section2 = () => {
             </div>
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img
-                data-aos={
-                  window.innerWidth < 768 ? "zoom-out-down" : "fade-up-left"
-                }
+                data-aos={window.innerWidth < 768 ? "fade-up" : "fade-up-left"}
                 src={popcorn}
                 alt="popcorn"
                 width="100px"
