@@ -14,8 +14,9 @@
 .card {
   padding-top: 35px 20px;
   margin: 1px;
-  border: 20px;
-  box-shadow: 2px 2px;
+  border-bottom: 3px solid #323232;
+  border-right: 3px solid #323232;
+  box-sizing: border-box;
   border-radius: 15px;
   background: #e5e1f5;
   margin: 20px auto;
@@ -25,8 +26,10 @@
   transition: all 0.3s ease 0s !important;
 }
 .card:hover {
+  box-shadow: 2px 2px;
   background: rgba(189, 189, 189, 0);
   opacity: 0.7;
+  border: none;
   transform: scale(1.1) !important;
 }
 .card img {

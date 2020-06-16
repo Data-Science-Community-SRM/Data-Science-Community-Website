@@ -105,6 +105,7 @@
   z-index: 2;
   top: 80vh;
   left: 50%;
+  cursor: pointer;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);

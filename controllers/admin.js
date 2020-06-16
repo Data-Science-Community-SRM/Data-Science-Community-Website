@@ -6,8 +6,8 @@ const ejs = require("ejs");
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "dscommunitysmtpserver@gmail.com",
-    pass: 'g}#?Tp"R8]',
+    user: process.env.SMTP_USERNAME,
+    pass: process.env.SMTP_PASSWORD,
   },
 });
 
@@ -22,7 +22,7 @@ exports.postData = async (req, res) => {
 
     const result = await message.save();
     if (result) {
-      const message = await ejs.renderFile(
+      const dynamicMail = await ejs.renderFile(
         path.join(__dirname, "../", "views", "message.ejs"),
         {
           name: req.body.name,
@@ -36,7 +36,7 @@ exports.postData = async (req, res) => {
           from: "dscommunitysmtpserver@gmail.com",
           to: "datasciencecommunitysrm@gmail.com",
           subject: "Knock Knock! Letter received!",
-          html: message,
+          html: dynamicMail,
         },
         function (error, info) {
           if (error) {

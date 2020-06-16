@@ -24,7 +24,9 @@ const Home_Section2 = () => {
           <div className="col-12 col-lg-5">
             <div className="row">
               <div
-                data-aos="fade-down-right"
+                data-aos={
+                  window.innerWidth < 768 ? "zoom-out-down" : "fade-down-right"
+                }
                 className={classes.card + " col-12 col-lg-6"}
               >
                 <h4>Data Analytics</h4>
@@ -35,7 +37,9 @@ const Home_Section2 = () => {
                 </p>
               </div>
               <div
-                data-aos="fade-down-left"
+                data-aos={
+                  window.innerWidth < 768 ? "zoom-out-down" : "fade-down-left"
+                }
                 className={classes.card + " col-12 col-lg-6"}
               >
                 <h4>AI/ML</h4>
@@ -48,7 +52,9 @@ const Home_Section2 = () => {
             </div>
             <div className="row">
               <div
-                data-aos="fade-up-right"
+                data-aos={
+                  window.innerWidth < 768 ? "zoom-out-down" : "fade-up-right"
+                }
                 className={classes.card + " col-12 col-lg-6"}
               >
                 <h4>Web Development</h4>
@@ -59,7 +65,9 @@ const Home_Section2 = () => {
                 </p>
               </div>
               <div
-                data-aos="fade-up-left"
+                data-aos={
+                  window.innerWidth < 768 ? "zoom-out-down" : "fade-up-left"
+                }
                 className={classes.card + " col-12 col-lg-6"}
               >
                 <h4>Blockchain</h4>
@@ -72,7 +80,9 @@ const Home_Section2 = () => {
             </div>
           </div>
           <div
-            data-aos="zoom-in-left"
+            data-aos={
+              window.innerWidth < 768 ? "zoom-out-down" : "zoom-in-left"
+            }
             className={classes.img + " col-12 col-lg-7"}
           >
             <img src={domainsIMG} alt="domains" width="90%" />

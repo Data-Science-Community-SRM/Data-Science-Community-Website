@@ -24,7 +24,7 @@ const Home_Section2 = () => {
         </div>
         <div className="row mx-auto text-center">
           <div
-            data-aos="fade-right"
+            data-aos={window.innerWidth < 768 ? "zoom-out-down" : "fade-right"}
             className={classes.card + " col-12 col-lg-3"}
           >
             <img height="100" width="200" src={workshopIMG} alt="workshops" />
@@ -32,7 +32,7 @@ const Home_Section2 = () => {
             <p>For the enthusiasts</p>
           </div>
           <div
-            data-aos="fade-down"
+            data-aos={window.innerWidth < 768 ? "zoom-out-down" : "fade-down"}
             className={classes.card + " col-12 col-lg-3"}
           >
             <img height="100" width="200" src={projectIMG} alt="projects" />
@@ -40,7 +40,7 @@ const Home_Section2 = () => {
             <p>For the effectuators</p>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos={window.innerWidth < 768 ? "zoom-out-down" : "fade-left"}
             className={classes.card + " col-12 col-lg-3"}
           >
             <img height="100" width="200" src={trainingIMG} alt="trainings" />

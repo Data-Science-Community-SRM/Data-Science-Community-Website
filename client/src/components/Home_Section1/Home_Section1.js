@@ -25,11 +25,12 @@ const Section1 = () => {
             </p>
           </div>
         </div>
-        <div
-          id="section01"
-          className={classes.scrollAnchor + " d-none d-lg-block"}
-        >
-          <a href="#section02">
+        <div className={classes.scrollAnchor + " d-none d-lg-block"}>
+          <a
+            onClick={() =>
+              document.getElementById("section02").scrollIntoView()
+            }
+          >
             <span></span>
           </a>
         </div>
