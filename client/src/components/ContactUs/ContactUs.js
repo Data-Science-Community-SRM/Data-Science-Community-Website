@@ -15,6 +15,7 @@ const ContactUs = (props) => {
       number: "",
       message: "",
     },
+
     validationSchema: Yup.object({
       name: Yup.string()
         .required("We know you have a Name")
