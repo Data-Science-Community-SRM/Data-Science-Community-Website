@@ -217,6 +217,7 @@ class People extends Component {
             </h3>
             {this.state.presidents.map((president) => (
               <PeopleComponent
+                key={president.fname}
                 fname={president.fname}
                 lname={president.lname}
                 role={president.role}
@@ -229,6 +230,7 @@ class People extends Component {
           <div className="row text-center d-block">
             {this.state.board.map((board) => (
               <PeopleComponent
+                key={board.fname}
                 fname={board.fname}
                 lname={board.lname}
                 role={board.role}
@@ -248,6 +250,7 @@ class People extends Component {
           <div className="row text-center d-block">
             {this.state.members.map((member) => (
               <PeopleComponent
+                key={member.fname}
                 fname={member.fname}
                 lname={member.lname}
                 role={member.role}

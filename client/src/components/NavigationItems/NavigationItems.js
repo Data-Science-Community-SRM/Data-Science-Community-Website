@@ -35,7 +35,7 @@ const NavigationItems = (props) => {
       >
         <NavbarBrand href="/">
           {window.location.pathname === "/" ? null : (
-            <img src={logo} alt="" width="50px" className="mr-3" />
+            <img src={logo} alt="" width="50px" />
           )}
         </NavbarBrand>
         <NavbarToggler onClick={toggle}>

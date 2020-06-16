@@ -35,7 +35,7 @@
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
         var OneSignal = window.OneSignal || [];
-        OneSignal.push(function() {
+        OneSignal.push(function () {
             OneSignal.init({
                 appId: "f9fba904-172f-42b7-89de-fa1bf8c4fcb2",
             });
@@ -58,8 +58,8 @@
 
 <body>
     <noscript>
-    You need to enable JavaScript to run this app.
-  </noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -76,15 +76,15 @@
     <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
     <script type="text/javascript">
         function mediumWidget() {
-            let postsper = 3;
-            if (document.documentElement.clientWidth < 991) {
-                postsper = 1;
+            let postsPer = 3;
+            if (window.innerWidth < 991) {
+                postsPer = 1;
             }
             MediumWidget.Init({
                 renderTo: '#medium-widget',
                 params: {
                     "resource": "https://medium.com/data-science-community-srm",
-                    "postsPerLine": postsper,
+                    "postsPerLine": postsPer,
                     "limit": 20,
                     "picture": "big",
                     "fields": ["description", "author", "claps", "publishAt"],
@@ -93,12 +93,11 @@
             });
         }
     </script>
-
     <!-- Medium Article Related Scripts End-->
 
     <script type="text/javascript">
         /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-        (function(d, m) {
+        (function (d, m) {
             var kommunicateSettings = {
                 "appId": "dea7d02cf8ddf63918c13e993ed4f05e",
                 "popupWidget": true,
