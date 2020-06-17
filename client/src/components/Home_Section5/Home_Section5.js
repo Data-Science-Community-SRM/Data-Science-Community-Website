@@ -14,11 +14,11 @@ const Home_Section2 = () => {
       <div className={classes.main + " mx-auto"}>
         <div className="col-12 col-lg-8 mx-auto text-center">
           <h1 data-aos="flip-up">
-            <span style={{ color: "#6F389F" }}>S</span>PONSERS.
+            <span style={{ color: "#6F389F" }}>S</span>PONSORS.
           </h1>
           <p>
-            Our events, research, and projects are made possible by our humble
-            Supporters and sponsors. They have helped us making all this
+            Our events, research, and projects are made possible by the support
+            of our Partners and sponsors. They have helped us making all this
             possible.
           </p>
         </div>
