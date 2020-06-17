@@ -1,12 +1,12 @@
 import React from "react";
 
 import classes from "./Home_Section5.module.css";
-import bitgrit from "../../assets/images/sponsers/bitgrit.svg";
-import srmlogo from "../../assets/images/sponsers/srm.png";
-import awslogo from "../../assets/images/sponsers/aws.svg";
-import datacamp from "../../assets/images/sponsers/datacamp.svg";
-import codingblocks from "../../assets/images/sponsers/codingblocks.svg";
-import popcorn from "../../assets/images/sponsers/pop.png";
+import bitgrit from "../../assets/images/sponsors/bitgrit.svg";
+import srmlogo from "../../assets/images/sponsors/srm.png";
+import awslogo from "../../assets/images/sponsors/aws.svg";
+import datacamp from "../../assets/images/sponsors/datacamp.svg";
+import codingblocks from "../../assets/images/sponsors/codingblocks.svg";
+import popcorn from "../../assets/images/sponsors/pop.png";
 
 const Home_Section2 = () => {
   return (
@@ -22,7 +22,7 @@ const Home_Section2 = () => {
             possible.
           </p>
         </div>
-        <div className={classes.sponsers + " col-12 col-lg-8 mx-auto"}>
+        <div className={classes.sponsors + " col-12 col-lg-8 mx-auto"}>
           <div className="col-12 row mx-auto text-center">
             <div className="mx-auto col-12 col-sm-6 col-md-4 mt-5">
               <img

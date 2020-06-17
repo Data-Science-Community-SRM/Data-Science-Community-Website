@@ -9,24 +9,24 @@
   .main h1 {
     font-size: 30px;
   }
-  .sponsers img {
+  .sponsors img {
     filter: none !important;
   }
 }
-.sponsers div {
+.sponsors div {
   transition: all 0.3s ease-in !important;
   color: #666666;
   font-weight: 700;
 }
-.sponsers img {
+.sponsors img {
   filter: grayscale(100%);
 }
 
-.sponsers img:hover {
+.sponsors img:hover {
   filter: none;
 }
 
-.sponsers div div:hover {
+.sponsors div div:hover {
   color: #6f389f;
   transform: translateY(-20px) scale(1.15);
 }
