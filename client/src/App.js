@@ -21,7 +21,7 @@ class App extends Component {
       <React.Fragment>
         <Route
           exact
-          path="/AviationAnalytics"
+          path="/Aviation"
           component={() => {
             window.location =
               "https://medium.com/data-science-community-srm/aviation-data-analytics-reading-the-skies-fed178486208";
@@ -34,6 +34,14 @@ class App extends Component {
           render={() =>
             (window.location =
               "https://medium.com/data-science-community-srm/web-scraping-with-beautifulsoup-3d66aebadaeb")
+          }
+        />
+        <Route
+          exact
+          path="/guide"
+          render={() =>
+            (window.location =
+              "https://medium.com/data-science-community-srm/everything-to-know-about-bdscs-recruitment-process-5b9b34ea6f51")
           }
         />
       </React.Fragment>
