@@ -6,11 +6,12 @@ import "./App.css";
 import NavigationItems from "./components/NavigationItems/NavigationItems";
 import Home from "./containers/Home/Home";
 import Spinner from "./components/UI/Spinner/Spinner";
+import NotFound from "./components/Notfound/NotFound";
+import Redirecting from "./components/Redirecting/Redirecting";
 const Events = React.lazy(() => import("./containers/Events/Events"));
 const Blog = React.lazy(() => import("./containers/Blog/Blog"));
 const People = React.lazy(() => import("./containers/People/People"));
 const ContactUs = React.lazy(() => import("./containers/ContactUs/ContactUs"));
-const NotFound = React.lazy(() => import("./components/Notfound/NotFound"));
 
 class App extends Component {
   componentWillMount() {
@@ -25,24 +26,26 @@ class App extends Component {
           component={() => {
             window.location =
               "https://medium.com/data-science-community-srm/aviation-data-analytics-reading-the-skies-fed178486208";
-            return null;
+            return <Redirecting />;
           }}
         />
         <Route
           exact
           path="/WebScraping"
-          render={() =>
-            (window.location =
-              "https://medium.com/data-science-community-srm/web-scraping-with-beautifulsoup-3d66aebadaeb")
-          }
+          render={() => {
+            window.location =
+              "https://medium.com/data-science-community-srm/web-scraping-with-beautifulsoup-3d66aebadaeb";
+            return <Redirecting />;
+          }}
         />
         <Route
           exact
           path="/guide"
-          render={() =>
-            (window.location =
-              "https://medium.com/data-science-community-srm/everything-to-know-about-bdscs-recruitment-process-5b9b34ea6f51")
-          }
+          render={() => {
+            window.location =
+              "https://medium.com/data-science-community-srm/everything-to-know-about-bdscs-recruitment-process-5b9b34ea6f51";
+            return <Redirecting />;
+          }}
         />
       </React.Fragment>
     );
