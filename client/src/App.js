@@ -12,6 +12,9 @@ const Events = React.lazy(() => import("./containers/Events/Events"));
 const Blog = React.lazy(() => import("./containers/Blog/Blog"));
 const People = React.lazy(() => import("./containers/People/People"));
 const ContactUs = React.lazy(() => import("./containers/ContactUs/ContactUs"));
+const Recruitments = React.lazy(() =>
+  import("./components/Recruitments/Recruitments")
+);
 
 class App extends Component {
   componentWillMount() {
@@ -56,6 +59,14 @@ class App extends Component {
         <div style={{ position: "relative", minHeight: "100vh" }}>
           {mediumRoutes}
           <Switch>
+            <Route
+              path="/apply"
+              render={() => (
+                <Suspense fallback={<Spinner />}>
+                  <Recruitments />
+                </Suspense>
+              )}
+            />
             <Route
               path="/contact-us"
               render={() => (
