@@ -44,21 +44,21 @@ const Footer = () => {
               <li>
                 <a
                   className="footer-refs"
-                  href="https://www.linkedin.com/in/avirupchattaraj/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Avirup Chattaraj
-                </a>
-              </li>
-              <li>
-                <a
-                  className="footer-refs"
                   href="https://www.linkedin.com/in/hritikbhandari/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Hritik Bhandari
+                </a>
+              </li>
+              <li>
+                <a
+                  className="footer-refs"
+                  href="https://www.linkedin.com/in/hariompalkar/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Hariom Palkar
                 </a>
               </li>
             </ul>
