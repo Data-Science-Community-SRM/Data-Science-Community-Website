@@ -13,7 +13,7 @@ import Footer from "./components/Footer/Footer";
 ReactDOM.render(
   <React.Fragment>
     <BrowserRouter>
-      { <ApplyNow /> }
+      {/*  <ApplyNow />  */}
       <App />
       <Footer />
     </BrowserRouter>
