@@ -56,7 +56,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavigationItems />
-        <div style={{ position: "relative", minHeight: "100vh" }}>
+        <div style={{ position: "relative", minHeight: "100%" }}>
           {mediumRoutes}
           <Switch>
             <Route
