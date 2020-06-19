@@ -8,7 +8,7 @@ const Recruitments = () => {
       <iframe
         id="typeform-full"
         width="100%"
-        height="100%"
+        height="600px"
         frameborder="0"
         className="mainTypeform"
         allow="camera; microphone; autoplay; encrypted-media;"
