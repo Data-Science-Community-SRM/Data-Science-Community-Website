@@ -10,6 +10,7 @@ const NavigationItem = (props) => {
       to={props.href}
       activeClassName={classes.active}
       className={classes.links + " mx-3"}
+      style={props.sty}
     >
       {props.page}
     </NavLink>

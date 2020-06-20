@@ -48,6 +48,17 @@ const NavigationItems = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem className="mt-3 mt-md-2 mb-2" onClick={toggle}>
+              <NavigationItem
+                page="APPLY NOW"
+                href="/apply"
+                sty={{
+                  borderBottom: "5px solid #6f389f",
+                  fontWeight: "700",
+                  paddingBottom: "10px",
+                }}
+              />
+            </NavItem>
+            <NavItem className="mt-3 mt-md-2 mb-2" onClick={toggle}>
               <NavigationItem page="Home" href="/" />
             </NavItem>
             <NavItem className="my-2" onClick={toggle}>
