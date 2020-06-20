@@ -19,11 +19,11 @@
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -ms-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+  -ms-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
 }
 
 .name:focus,
@@ -49,11 +49,11 @@
   z-index: 2;
   color: red;
   text-align: center;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.5s !important;
+  -moz-transition: 0.5s !important;
+  -ms-transition: 0.5s !important;
+  -o-transition: 0.5s !important;
+  transition: 0.5s !important;
 }
 
 .name,

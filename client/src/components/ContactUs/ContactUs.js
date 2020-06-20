@@ -19,7 +19,7 @@ const ContactUs = (props) => {
     validationSchema: Yup.object({
       name: Yup.string()
         .required("We know you have a Name")
-        .min(2, "It's got to be longer"),
+        .min(3, "It's got to be longer"),
       email: Yup.string()
         .email()
         .required("Our owl will get lost without this"),
@@ -27,7 +27,7 @@ const ContactUs = (props) => {
         phoneRegExp,
         "Make it 10 characters long using only Numbers"
       ),
-      message: Yup.string().required("Why are you filling the form then"),
+      message: Yup.string().required("Silence is not the solution here"),
     }),
 
     onSubmit: (values) => {
