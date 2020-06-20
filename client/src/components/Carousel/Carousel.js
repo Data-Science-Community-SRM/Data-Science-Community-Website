@@ -12,30 +12,85 @@ const CarouselEvents = () => {
     <Carousel autoPlay showArrows={true}>
       <div>
         <img src={first} alt="first" />
-        <p className="legend d-none d-sm-block">
+        <p
+          className="legend d-none d-sm-block"
+          style={{
+            backgroundColor: "#232323",
+            fontWeight: "400",
+            textTransform: "uppercase",
+            fontSize: "12px",
+          }}
+        >
           Data Science with R Programming 101! <br />
-          <span className="text-muted">21ST FEBRUARY, 2020</span>
+          <span
+            className="text-muted"
+            style={{ fontWeight: "700", fontSize: "10px" }}
+          >
+            21ST FEBRUARY, 2020
+          </span>
         </p>
       </div>
+
       <div>
         <img src={second} alt="second" />
-        <p className="legend d-none d-sm-block">
+        <p
+          className="legend d-none d-sm-block"
+          style={{
+            backgroundColor: "#232323",
+            fontWeight: "400",
+            textTransform: "uppercase",
+            fontSize: "12px",
+          }}
+        >
           Data Science with R Programming 101! <br />
-          <span className="text-muted">21ST FEBRUARY, 2020</span>
+          <span
+            className="text-muted"
+            style={{ fontWeight: "700", fontSize: "10px" }}
+          >
+            21ST FEBRUARY, 2020
+          </span>
         </p>
       </div>
+
       <div>
         <img src={third} alt="third" />
-        <p className="legend d-none d-sm-block">
+        <p
+          className="legend d-none d-sm-block"
+          style={{
+            backgroundColor: "#232323",
+            fontWeight: "400",
+            textTransform: "uppercase",
+            fontSize: "12px",
+          }}
+        >
           Data Science with R Programming 101! <br />
-          <span className="text-muted">21ST FEBRUARY, 2020</span>
+          <span
+            className="text-muted"
+            style={{ fontWeight: "700", fontSize: "10px" }}
+          >
+            21ST FEBRUARY, 2020
+          </span>
         </p>
       </div>
+
       <div>
         <img src={fourth} alt="fourth" />
-        <p className="legend d-none d-sm-block">
+        <p
+          className="legend d-none d-sm-block"
+          style={{
+            backgroundColor: "#232323",
+            fontWeight: "400",
+            textTransform: "uppercase",
+            fontSize: "12px",
+          }}
+        >
           Data Science with R Programming 101! <br />
-          <span className="text-muted">21ST FEBRUARY, 2020</span>
+          <span
+            className="text-muted"
+            style={{ fontWeight: "700", fontSize: "10px" }}
+          >
+            21ST FEBRUARY, 2020
+          </span>
         </p>
       </div>
     </Carousel>
