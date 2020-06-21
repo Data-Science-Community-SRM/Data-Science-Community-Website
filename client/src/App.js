@@ -43,6 +43,15 @@ class App extends Component {
         />
         <Route
           exact
+          path="/NST"
+          render={() => {
+            window.location =
+              "https://medium.com/data-science-community-srm/neural-style-transfer-playing-with-art-a344d345f41d";
+            return <Redirecting />;
+          }}
+        />
+        <Route
+          exact
           path="/guide"
           render={() => {
             window.location =
