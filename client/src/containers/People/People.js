@@ -74,12 +74,12 @@ class People extends Component {
         linkedin: "abhibored",
       },
       {
-        fname: "K.",
-        lname: "Aditya",
-        role: "ML",
-        image: "aditya",
-        github: "i-am-aditya",
-        linkedin: "iamadityak",
+        fname: "Palak",
+        lname: "Trivedi",
+        role: "Photographer",
+        image: "palak",
+        github: "palaktrivedii",
+        linkedin: "palak-trivedi-5bb2261a8",
       },
       {
         fname: "Akshat",
@@ -136,14 +136,6 @@ class People extends Component {
         image: "kartik",
         github: "kartikmohan123",
         linkedin: "kartik-mohan",
-      },
-      {
-        fname: "Rushil",
-        lname: "Rai",
-        role: "UI",
-        image: "rushil",
-        github: "rushilrai",
-        linkedin: "rushil-rai-07363116a",
       },
       {
         fname: "Sampada",
