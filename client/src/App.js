@@ -17,6 +17,7 @@ class App extends Component {
   componentWillMount() {
     AOS.init();
   }
+
   render() {
     let mediumRoutes = (
       <React.Fragment>
