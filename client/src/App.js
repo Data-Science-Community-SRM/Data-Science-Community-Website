@@ -1,4 +1,4 @@
-import React, { Component, Suspense } from "react";
+import React, { Component, Suspense, useContext, useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import AOS from "aos";
 
@@ -8,17 +8,18 @@ import Home from "./containers/Home/Home";
 import Spinner from "./components/UI/Spinner/Spinner";
 import NotFound from "./components/Notfound/NotFound";
 import Redirecting from "./components/Redirecting/Redirecting";
+import ThemeContext from './context';
 const Events = React.lazy(() => import("./containers/Events/Events"));
 const Blog = React.lazy(() => import("./containers/Blog/Blog"));
 const People = React.lazy(() => import("./containers/People/People"));
 const ContactUs = React.lazy(() => import("./containers/ContactUs/ContactUs"));
 
-class App extends Component {
-  componentWillMount() {
-    AOS.init();
-  }
 
-  render() {
+const App = () => {
+
+  useEffect(() =>{
+      AOS.init();
+  })
     let mediumRoutes = (
       <React.Fragment>
         <Route
@@ -60,10 +61,12 @@ class App extends Component {
       </React.Fragment>
     );
 
+    const isDark = useContext(ThemeContext);
+
     return (
       <React.Fragment>
         <NavigationItems />
-        <div style={{ position: "relative", minHeight: "100vh" }}>
+        <div style={{ position: "relative", minHeight: "100vh" }, isDark}>
           {mediumRoutes}
           <Switch>
             <Route
@@ -109,7 +112,7 @@ class App extends Component {
         </div>
       </React.Fragment>
     );
-  }
+  
 }
 
 export default App;
