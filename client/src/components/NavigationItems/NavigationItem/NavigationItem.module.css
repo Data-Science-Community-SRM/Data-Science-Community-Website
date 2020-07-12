@@ -23,5 +23,5 @@
 .active {
   font-weight: 700;
   letter-spacing: 1.1px;
-  border-bottom: 3px solid #ccc;
+  border-bottom: 3px solid rgb(141, 141, 141);
 }

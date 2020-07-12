@@ -25,7 +25,7 @@ const Blog = () => {
           Sharing our concepts, codes and experiences.
         </p>
         <a href="https://medium.com/data-science-community-srm">
-          <Button dark outline className="btn">
+          <Button dark outline className="btnPublication">
             Publication Link
           </Button>
         </a>

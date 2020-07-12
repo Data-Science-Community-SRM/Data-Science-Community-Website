@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { Form, Button } from "reactstrap";
 
-import classes from "./ContactUs.module.css";
+import "./ContactUs.css";
 
 const phoneRegExp = /^[0-9]{1}[0-9]{9}$/;
 
@@ -47,7 +47,7 @@ const ContactUs = (props) => {
         <hr />
         <Form
           onSubmit={formik.handleSubmit}
-          className="mx-auto col-12 col-lg-9 mt-5"
+          className="contactForm mx-auto col-12 col-lg-9 mt-5"
           encType="multipart/form-data"
         >
           <div>
@@ -57,16 +57,14 @@ const ContactUs = (props) => {
               type="text"
               data-aos="flip-down"
               placeholder="Full Name"
-              className={classes.name + " col-11"}
+              className={"name col-11"}
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.name}
             />
 
             {formik.touched.name && formik.errors.name ? (
-              <div className={classes.error + " col-12"}>
-                {formik.errors.name}
-              </div>
+              <div className={"error col-12"}>{formik.errors.name}</div>
             ) : null}
 
             <input
@@ -75,16 +73,14 @@ const ContactUs = (props) => {
               type="email"
               data-aos="flip-down"
               placeholder="Email Address"
-              className={classes.email + " col-11"}
+              className={"email col-11"}
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.email}
             />
 
             {formik.touched.email && formik.errors.email ? (
-              <div className={classes.error + " col-12"}>
-                {formik.errors.email}
-              </div>
+              <div className={"error col-12"}>{formik.errors.email}</div>
             ) : null}
 
             <input
@@ -93,16 +89,14 @@ const ContactUs = (props) => {
               type="tel"
               data-aos="flip-down"
               placeholder="Phone Number"
-              className={classes.number + " col-11"}
+              className={"number col-11"}
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.number}
             />
 
             {formik.touched.number && formik.errors.number ? (
-              <div className={classes.error + " col-12"}>
-                {formik.errors.number}
-              </div>
+              <div className={"error col-12"}>{formik.errors.number}</div>
             ) : null}
 
             <textarea
@@ -111,21 +105,19 @@ const ContactUs = (props) => {
               type="text"
               data-aos="flip-down"
               placeholder="Your Message"
-              className={classes.message + " col-11"}
+              className={"message col-11"}
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.message}
             />
 
             {formik.touched.message && formik.errors.message ? (
-              <div className={classes.error + " col-12"}>
-                {formik.errors.message}
-              </div>
+              <div className={"error col-12"}>{formik.errors.message}</div>
             ) : null}
 
             <div className="col-12 text-center">
               <Button
-                className={classes.btn + " col-8 col-md-3 mt-5"}
+                className={"btnSEND col-8 col-md-3 mt-5"}
                 type="submit"
                 onClick={() => {
                   if (
