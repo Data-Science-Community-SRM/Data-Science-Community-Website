@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import classes from "./Home_Section1.module.css";
+import classes from "./Hero.module.css";
 import homeLogo from "../../assets/images/home-logo.png";
 import homeLogoLight from "../../assets/images/home-logo-light.png";
 import { ThemeContext } from "../../context/theme-context";

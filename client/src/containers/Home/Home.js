@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
 import classes from "./Home.module.css";
-import Section1 from "../../components/Home_Section1/Home_Section1";
-import Section2 from "../../components/Home_Section2/Home_Section2";
-import Section3 from "../../components/Home_Section3/Home_Section3";
-import Section4 from "../../components/Home_Section4/Home_Section4";
-import Section5 from "../../components/Home_Section5/Home_Section5";
+import Hero from "../../components/Hero/Hero";
+import Focus from "../../components/Focus/Focus";
+import Domains from "../../components/Domains/Domains";
+import Updates from "../../components/Updates/Updates";
+import Sponsors from "../../components/Sponsors/Sponsors";
 
 class Home extends Component {
   componentDidMount() {
@@ -17,7 +17,7 @@ class Home extends Component {
         <div className={classes.main}>
           <div className={"col-12 col-md-10 mx-auto"}>
             <section>
-              <Section1 />
+              <Hero />
             </section>
             <hr
               id="section02"
@@ -27,19 +27,19 @@ class Home extends Component {
               }}
             />
             <section>
-              <Section2 />
+              <Focus />
             </section>
             <hr />
             <section>
-              <Section3 />
+              <Domains />
             </section>
             <hr />
             <section>
-              <Section4 />
+              <Updates />
             </section>
             <hr />
             <section>
-              <Section5 />
+              <Sponsors />
             </section>
             <hr />
           </div>

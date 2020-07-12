@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./Home_Section5.module.css";
+import classes from "./Sponsors.module.css";
 import bitgrit from "../../assets/images/sponsors/bitgrit.svg";
 import srmlogo from "../../assets/images/sponsors/srm.png";
 import awslogo from "../../assets/images/sponsors/aws.svg";

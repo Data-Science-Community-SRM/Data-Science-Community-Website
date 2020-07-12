@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./Home_Section2.module.css";
+import classes from "./Focus.module.css";
 import workshopIMG from "../../assets/images/workshop.svg";
 import trainingIMG from "../../assets/images/training.svg";
 import projectIMG from "../../assets/images/project.svg";
