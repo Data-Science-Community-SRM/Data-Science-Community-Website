@@ -22,7 +22,7 @@ const People = (props) => {
         </div>
         <br />
         <div className={"role"}>{props.role}</div>
-        <div className={"links" + " row mt-md-3"}>
+        <div className={"links row mt-md-3"}>
           <div className="mx-auto text-right col-6">
             <a
               href={`https://github.com/${props.github}`}
