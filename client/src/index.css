@@ -35,10 +35,6 @@ body.lightMode hr {
   border-top: 2px solid #232323;
 }
 
-body.lightMode nav a {
-  color: #232323 !important;
-}
-
 body.lightMode .jumbotron {
   background-color: #e0e0e0 !important;
 }

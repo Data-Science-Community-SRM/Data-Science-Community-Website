@@ -18,7 +18,8 @@
   padding-bottom: 35px;
   margin: 10px auto;
   border: 20px;
-  box-shadow: 2px 2px;
+  border-bottom: 3px solid #696969;
+  border-right: 3px solid #696969;
   border-radius: 15px;
   background: rgba(167, 167, 167, 0);
   -webkit-transition: all 0.3s ease 0s;

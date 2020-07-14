@@ -41,8 +41,8 @@
 
 .toggle--push .toggle--btn {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-color: #f9f8f6;
   border-radius: 50%;
   box-shadow: 0 5px 10px 0px #333, 0 5px 10px 0px #696969;
@@ -60,8 +60,8 @@
   width: 22.7272727273px;
   height: 22.7272727273px;
   border-radius: 50%;
-  background-color: #ff9900;
-  box-shadow: inset 0 0 0 5px #ccc, inset 0 0 0 14px #f9f8f6;
+  background-color: #6f389f;
+  box-shadow: inset 0 0 0 5px #aaa, inset 0 0 0 14px #f9f8f6;
 }
 .toggle--push .toggle--btn:after {
   position: absolute;
@@ -83,8 +83,8 @@
   box-shadow: 0 2px 5px 0px gray, 0 15px 20px 0px transparent;
 }
 .toggle--push .toggle--checkbox:checked + .toggle--btn:before {
-  box-shadow: inset 0 0 0 5px #ff9900, inset 0 0 0 14px #f9f8f6;
+  box-shadow: inset 0 0 0 5px #6f389f, inset 0 0 0 14px #f9f8f6;
 }
 .toggle--push .toggle--checkbox:checked + .toggle--btn:after {
-  background-color: #ff9900;
+  background-color: #6f389f;
 }

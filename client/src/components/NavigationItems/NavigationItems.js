@@ -38,7 +38,7 @@ const NavigationItems = (props) => {
               : "#f1f1f1",
           boxShadow: themeContext.isDark
             ? "1px 2px 10px #000000"
-            : "1px 2px 10px #ffffff",
+            : "1px 2px 10px #696969",
           width: "100vw",
           minHeight: "75px",
         }}
