@@ -87,14 +87,15 @@ MongoDB used as the Database.
 
 <h1 align="center"> Project Maintainers </h1>
 
-|<div align="center" >![Hritik Bhandari](https://github.com/hritikbhandari.png?size=96) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ![Yashvardhan Jagnani](https://github.com/jagnani73.png?size=96)<br>
-&ensp;&ensp;&ensp;[Hritik Bhandari](https://github.com/hritikbhandari)
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Yashvardhan Jagnani](https://github.com/jagnani73)</div>
+|<div align="center" >![Hritik Bhandari](https://github.com/hritikbhandari.png?size=150) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ![Yashvardhan Jagnani](https://github.com/jagnani73.png?size=150)<br>
+[Hritik Bhandari](https://github.com/hritikbhandari)
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Yashvardhan Jagnani](https://github.com/jagnani73)
+</div>
  <br>
 
 <h2 align="center"> Contributors </h2>
 
-|<div align="center" > ![Hariom Palkar](https://github.com/aannuuj.png?size=96) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ![Ashish Agrawal](https://github.com/ashish-agr.png?size=96)<br>
+|<div align="center" > ![Hariom Palkar](https://github.com/aannuuj.png?size=100) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ![Ashish Agrawal](https://github.com/ashish-agr.png?size=100)<br>
 [Hariom Palkar](https://github.com/aannuuj)
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; [Ashish Agrawal](https://github.com/ashish-agr)</div>
 
