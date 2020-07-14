@@ -38,7 +38,7 @@
 }
 
 .medium-widget-article__date {
-  color: #575757 !important;
+  color: rgb(138, 138, 138) !important;
 }
 @media (max-width: 991px) {
   .medium-widget-article__row:last-child {

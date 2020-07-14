@@ -4,10 +4,11 @@
 .message {
   display: block;
   height: 50px;
-  background-color: rgb(124, 122, 122);
-  font-size: 10pt;
+  background-color: #696969;
+  font-size: 16px;
   padding-left: 20px;
-  color: #696969;
+  color: #232323;
+  font-weight: 500;
   -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
@@ -91,6 +92,7 @@
 .btnSEND {
   text-transform: uppercase;
   border-radius: 20px !important;
+  box-sizing: border-box !important;
   border: none !important;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -103,7 +105,5 @@
 }
 
 .btnSEND:hover {
-  background-color: #111111 !important;
-  box-sizing: border-box !important;
-  border: 1px solid #fafafa !important;
+  border: 1px solid #696969 !important;
 }

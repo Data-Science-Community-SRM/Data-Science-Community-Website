@@ -8,7 +8,8 @@ import {
   NavItem,
 } from "reactstrap";
 
-import DarkModeToggle from "react-dark-mode-toggle";
+// import DarkModeToggle from "react-dark-mode-toggle";
+import Toggle from "../ButtonToggle/ButtonToggle";
 import "./NavigationItems.css";
 import logo from "../../assets/images/home-logo.png";
 import logoLight from "../../assets/images/home-logo-light.png";
@@ -81,7 +82,7 @@ const NavigationItems = (props) => {
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavItem className="mt-3 mt-md-2 mb-2 mx-auto" onClick={toggle}>
+            <NavItem className="my-2 mx-auto" onClick={toggle}>
               <NavigationItem page="Home" href="/" />
             </NavItem>
             <NavItem className="my-2 mx-auto" onClick={toggle}>
@@ -96,12 +97,8 @@ const NavigationItems = (props) => {
             <NavItem className="my-2 mx-auto" onClick={toggle}>
               <NavigationItem page="Contact Us" href="/contact-us" />
             </NavItem>
-            <NavItem className="mx-auto pr-3 pt-3 pt-md-1  m-md-auto">
-              <DarkModeToggle
-                onChange={themeContext.toggleTheme}
-                checked={themeContext.isDark}
-                size={80}
-              />
+            <NavItem className="my-2 my-md-0 mx-auto pr-0 px-md-3">
+              <Toggle />
             </NavItem>
           </Nav>
         </Collapse>

@@ -5,7 +5,7 @@ body {
   color: #fafafa;
   background-color: #232323;
   overflow-x: hidden !important;
-  scroll-behavior: smooth !important;
+  transition: all 0.3s ease-out;
 }
 
 @media screen and (max-width: 375px) {
@@ -65,7 +65,7 @@ body.lightMode .medium-widget-article__item {
   background: #f2f2f2 !important;
 }
 body.lightMode .medium-widget-article__item:hover {
-  background-color: #979797 !important;
+  background-color: #666666 !important;
 }
 body.lightMode .medium-widget-article__title {
   color: #232323 !important;
@@ -90,6 +90,10 @@ body.lightMode .members:hover .role {
   color: #f1f1f1;
 }
 
-body.lightMode ::placeholder {
+body.lightMode ::placeholder,
+body.lightMode .name,
+body.lightMode .email,
+body.lightMode .number,
+body.lightMode .message {
   color: #f1f1f1;
 }
