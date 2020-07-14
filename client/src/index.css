@@ -2,9 +2,10 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   font-family: "Ubuntu", sans-serif;
+  color: #fafafa;
   background-color: #232323;
   overflow-x: hidden !important;
-  scroll-behavior: smooth !important;
+  transition: all 0.3s ease-out;
 }
 
 @media screen and (max-width: 375px) {
@@ -17,4 +18,78 @@ body {
   body {
     overflow-x: hidden !important;
   }
+}
+
+body.lightMode {
+  background-color: #f1f1f1;
+}
+
+body.lightMode h1,
+body.lightMode h2,
+body.lightMode h3,
+body.lightMode p {
+  color: #232323;
+}
+
+body.lightMode hr {
+  border-top: 2px solid #232323;
+}
+
+body.lightMode .jumbotron {
+  background-color: #e0e0e0 !important;
+}
+body.lightMode .jumbotron:hover {
+  background-color: #333333 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+body.lightMode .jumbotron:hover h1,
+body.lightMode .jumbotron:hover p {
+  color: #fefefe;
+}
+
+body.lightMode .btnPublication {
+  border-radius: 50px !important;
+  border: 1px solid #232323 !important;
+  color: #232323 !important;
+  padding: 10px 30px !important;
+  margin: 10px auto !important;
+  font-weight: 400 !important;
+}
+body.lightMode .medium-widget-article__item {
+  background: #f2f2f2 !important;
+}
+body.lightMode .medium-widget-article__item:hover {
+  background-color: #666666 !important;
+}
+body.lightMode .medium-widget-article__title {
+  color: #232323 !important;
+}
+body.lightMode .medium-widget-article__title:hover {
+  color: #6f389f !important;
+}
+body.lightMode .medium-widget-article__description,
+body.lightMode .medium-widget-article__author-name {
+  color: #323232 !important;
+}
+
+body.lightMode .members:hover {
+  background-color: #232323;
+}
+body.lightMode .members .memberName,
+body.lightMode .members .role {
+  color: #232323;
+}
+body.lightMode .members:hover .memberName,
+body.lightMode .members:hover .role {
+  color: #f1f1f1;
+}
+
+body.lightMode ::placeholder,
+body.lightMode .name,
+body.lightMode .email,
+body.lightMode .number,
+body.lightMode .message {
+  color: #f1f1f1;
 }

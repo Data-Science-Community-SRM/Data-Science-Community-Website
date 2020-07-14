@@ -16,12 +16,13 @@
   text-decoration: none;
   color: whitesmoke;
   border-bottom: 3px solid #ccc;
-  padding-bottom: 10px;
-  letter-spacing: 1.1px;
+  padding-bottom: 13px;
+  /* letter-spacing: 1.1px; */
 }
 
 .active {
   font-weight: 700;
   letter-spacing: 1.1px;
-  border-bottom: 3px solid #ccc;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgb(141, 141, 141);
 }

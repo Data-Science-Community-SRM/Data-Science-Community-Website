@@ -6,8 +6,6 @@ body {
   font-family: "Ubuntu", sans-serif !important;
   overflow-x: hidden !important;
   margin: 80px 0px 0px 0px !important;
-  background-color: #232323 !important;
-  color: #fafafa !important;
 }
 
 p {
@@ -15,9 +13,9 @@ p {
 }
 
 hr {
-  border-top: 2px solid #fafafa !important;
-  margin: 50px auto !important;
-  width: 80% !important;
+  border-top: 2px solid #fafafa;
+  margin: 50px auto;
+  width: 80%;
 }
 
 @media (min-width: 992px) {

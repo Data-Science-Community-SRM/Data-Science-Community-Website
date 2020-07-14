@@ -1,18 +1,18 @@
 .members {
-  padding: 10px;
+  padding: 20px;
   width: 20%;
+  border-radius: 10px;
   background-color: transparent;
   margin: 2%;
   display: inline-block;
-  transition: all 0.3s ease;
+  transition: all 0.7s ease !important;
 }
 
 .members:hover {
-  background-color: #fafafa;
-  transition: all 0.3s ease;
+  background-color: #f1f1f1;
 }
 
-.members:hover .name,
+.members:hover .memberName,
 .members:hover .role {
   color: #232323;
 }
@@ -29,10 +29,10 @@
   width: 80%;
   filter: none;
   border-radius: 0%;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-out;
 }
 
-.name {
+.memberName {
   position: relative;
   margin-top: 20px;
   font-weight: 600;

@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./Home_Section3.module.css";
+import classes from "./Domains.module.css";
 import domainsIMG from "../../assets/images/domains.svg";
 
 const Home_Section2 = () => {

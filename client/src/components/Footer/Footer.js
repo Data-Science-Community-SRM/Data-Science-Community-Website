@@ -93,7 +93,10 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-12 text-center">
-            <p className={classes.caption} style={{ fontWeight: "400" }}>
+            <p
+              className={classes.caption}
+              style={{ fontWeight: "400", color: "#696969" }}
+            >
               Made with{" "}
               <span role="img" aria-label="jsx-a11y/hot-beverage">
                 ☕

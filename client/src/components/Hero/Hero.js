@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 
-import classes from "./Home_Section1.module.css";
+import classes from "./Hero.module.css";
 import homeLogo from "../../assets/images/home-logo.png";
+import homeLogoLight from "../../assets/images/home-logo-light.png";
+import { ThemeContext } from "../../context/theme-context";
 
 const Section1 = () => {
+  const themeContext = useContext(ThemeContext);
+
   return (
     <React.Fragment>
       <div className="row mx-auto" style={{ minHeight: "100vh" }}>
@@ -11,7 +15,11 @@ const Section1 = () => {
           className={classes.logoRotation + " col-12 col-lg-6 text-center mt-3"}
         >
           <div className="mt-lg-5">
-            <img src={homeLogo} alt="dscommunity" width="70%" />
+            <img
+              src={themeContext.isDark ? homeLogo : homeLogoLight}
+              alt="dscommunity"
+              width="70%"
+            />
           </div>
         </div>
         <div className="col-12 col-lg-4 text-center text-lg-left">

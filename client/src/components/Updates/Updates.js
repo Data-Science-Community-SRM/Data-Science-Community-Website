@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./Home_Section4.module.css";
+import classes from "./Updates.module.css";
 import updatesIMG from "../../assets/images/updates.svg";
 
 const Home_Section2 = () => {

@@ -19,13 +19,14 @@ const Blog = () => {
     <React.Fragment>
       <div className="col-12 col-lg-9 mx-auto">
         <h1 data-aos="zoom-in-up" style={{ marginTop: "120px" }}>
-          Our Blog
+          DataX
         </h1>
         <p style={{ margin: "30px auto" }}>
-          Sharing our concepts, codes and experiences.
+          A Multidisciplinary Tech Journal sharing codes, concepts, experiences,
+          and views.
         </p>
         <a href="https://medium.com/data-science-community-srm">
-          <Button dark outline className="btn">
+          <Button dark outline className="btnPublication">
             Publication Link
           </Button>
         </a>

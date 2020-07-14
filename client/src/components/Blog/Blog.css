@@ -37,9 +37,8 @@
   font-size: 12px !important;
 }
 
-.medium-widget-article__clap,
 .medium-widget-article__date {
-  color: #575757 !important;
+  color: rgb(138, 138, 138) !important;
 }
 @media (max-width: 991px) {
   .medium-widget-article__row:last-child {
@@ -47,7 +46,7 @@
   }
 }
 
-.btn {
+.btnPublication {
   border-radius: 50px !important;
   border: 1px solid #fafafa !important;
   color: #fafafa !important;

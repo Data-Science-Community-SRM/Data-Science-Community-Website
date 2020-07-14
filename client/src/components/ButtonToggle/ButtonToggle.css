@@ -1,0 +1,90 @@
+.toggle {
+  display: block;
+  text-align: center;
+  user-select: none;
+}
+
+.toggle--checkbox {
+  display: none;
+}
+
+.toggle--btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.4em;
+  transition: all 350ms ease-in;
+}
+.toggle--btn:hover {
+  cursor: pointer;
+}
+
+.toggle--btn,
+.toggle--btn:before,
+.toggle--btn:after,
+.toggle--checkbox,
+.toggle--checkbox:before,
+.toggle--checkbox:after,
+.toggle--feature,
+.toggle--feature:before,
+.toggle--feature:after {
+  transition: all 250ms ease-in;
+}
+.toggle--btn:before,
+.toggle--btn:after,
+.toggle--checkbox:before,
+.toggle--checkbox:after,
+.toggle--feature:before,
+.toggle--feature:after {
+  content: "";
+  display: block;
+}
+
+.toggle--push .toggle--btn {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background-color: #f9f8f6;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px 0px #333, 0 5px 10px 0px #696969;
+}
+.toggle--push .toggle--btn,
+.toggle--push .toggle--btn:before,
+.toggle--push .toggle--btn:after {
+  transition-duration: 150ms;
+}
+.toggle--push .toggle--btn:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 22.7272727273px;
+  height: 22.7272727273px;
+  border-radius: 50%;
+  background-color: #6f389f;
+  box-shadow: inset 0 0 0 5px #aaa, inset 0 0 0 14px #f9f8f6;
+}
+.toggle--push .toggle--btn:after {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 12px;
+  background-color: #ccc;
+  box-shadow: 0 0 0 2.5px #f9f8f6;
+}
+.toggle--push .toggle--btn:hover:before {
+  box-shadow: inset 0 0 0 5px #b3b3b3, inset 0 0 0 14px #f9f8f6;
+}
+.toggle--push .toggle--btn:hover:after {
+  background-color: #b3b3b3;
+}
+.toggle--push .toggle--checkbox:checked + .toggle--btn {
+  box-shadow: 0 2px 5px 0px gray, 0 15px 20px 0px transparent;
+}
+.toggle--push .toggle--checkbox:checked + .toggle--btn:before {
+  box-shadow: inset 0 0 0 5px #6f389f, inset 0 0 0 14px #f9f8f6;
+}
+.toggle--push .toggle--checkbox:checked + .toggle--btn:after {
+  background-color: #6f389f;
+}
