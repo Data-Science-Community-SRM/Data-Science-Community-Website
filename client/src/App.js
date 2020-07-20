@@ -101,7 +101,7 @@ const App = () => {
             )}
           />
           <Route
-            path="/blogs"
+            path="/blog"
             render={() => (
               <Suspense fallback={<Spinner />}>
                 <Blog />
