@@ -65,6 +65,16 @@ const App = () => {
           return <Redirecting />;
         }}
       />
+
+      <Route
+        exact
+        path="/blogs"
+        render={() => {
+          window.location =
+            "https://medium.com/data-science-community-srm";
+          return <Redirecting />;
+        }}
+      />
     </React.Fragment>
   );
 
