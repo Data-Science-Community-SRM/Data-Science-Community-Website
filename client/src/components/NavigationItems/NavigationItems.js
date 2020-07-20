@@ -89,7 +89,7 @@ const NavigationItems = (props) => {
               <NavigationItem page="Events" href="/events" />
             </NavItem>
             <NavItem className="my-2 mx-auto" onClick={toggle}>
-              <NavigationItem page="Blog" href="/blogs" />
+              <NavigationItem page="Blog" href="/blog" />
             </NavItem>
             <NavItem className="my-2 mx-auto" onClick={toggle}>
               <NavigationItem page="People" href="/people" />
