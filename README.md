@@ -1,10 +1,11 @@
-<h1 align="center"> Data Science Community Website</h1>
+<p align="center">
+<a href="https://dscommunity.in">
+	<img src="https://github.com/Data-Science-Community-SRM/template/blob/master/Header.png?raw=true" />
+  </a> <h2 align="center"> Community Website </h2>
+	
+</p>
 
-<!-- <div align="center">
-    <a href="http://dscommunity.in">
-        <img src="client\src\assets\images\home-logo-light.png" width=120px>
-    </a>
-</div> -->
+
 
 
 <div align="center">
@@ -87,17 +88,88 @@ MongoDB used as the Database.
 
 <h1 align="center"> Project Maintainers </h1>
 
-|<div align="center" >![Hritik Bhandari](https://github.com/hritikbhandari.png?size=150) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ![Yashvardhan Jagnani](https://github.com/jagnani73.png?size=150)<br>
-[Hritik Bhandari](https://github.com/hritikbhandari)
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[Yashvardhan Jagnani](https://github.com/jagnani73)
-</div>
- <br>
+
+<table align="center">
+<tr align="center">
+
+
+<td>
+
+Hritik Bhandari
+
+<p align="center">
+<img src = "https://github.com/hritikbhandari.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p align="center">
+<a href = "https://github.com/hritikbhandari"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/hritikbhandari">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+<td>
+
+Yashvardhan Jagnani
+
+<p align="center">
+<img src = "https://github.com/jagnani73.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p align="center">
+<a href = "https://github.com/jagnani73"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/person2">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+</tr>
+</table>
+
+
 
 <h2 align="center"> Contributors </h2>
 
-|<div align="center" > ![Hariom Palkar](https://github.com/aannuuj.png?size=100) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ![Ashish Agrawal](https://github.com/ashish-agr.png?size=100)<br>
-[Hariom Palkar](https://github.com/aannuuj)
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; [Ashish Agrawal](https://github.com/ashish-agr)</div>
+
+
+<table  align="center">
+<tr align="center">
+
+
+<td>
+
+Hariom Palkar
+
+<p align="center">
+<img src = "https://github.com/aannuuj.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p align="center">
+<a href = "https://github.com/aannuuj"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/user">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+<td>
+
+Ashish Agarwal
+
+<p align="center">
+<img src = "https://github.com/ashish-agr.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p align="center">
+<a href = "https://github.com/ashish-agr"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/person2">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+</tr>
+</table>
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
