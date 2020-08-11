@@ -12,7 +12,7 @@ const People = (props) => {
         <img
           className={"photo"}
           alt={props.name + " image"}
-          src={require(`../../assets/images/team/${props.image}.jpg`)}
+          src={require(`../../assets/images/team/${props.image}`)}
         />
         <br />
         <div className={"memberName"}>
