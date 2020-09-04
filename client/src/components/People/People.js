@@ -8,11 +8,11 @@ import "./People.css";
 const People = (props) => {
   return (
     <React.Fragment>
-      <div className={"members"} data-aos="zoom-in-down">
+      <div className={"members"} data-aos="zoom-in-up">
         <img
           className={"photo"}
           alt={props.name + " image"}
-          src={require(`../../assets/images/team/${props.image}.jpg`)}
+          src={require(`../../assets/images/team/${props.image}`)}
         />
         <br />
         <div className={"memberName"}>

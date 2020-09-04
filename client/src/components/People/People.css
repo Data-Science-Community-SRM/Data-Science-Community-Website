@@ -1,6 +1,7 @@
 .members {
-  padding: 20px;
-  width: 20%;
+  padding: 10px;
+  padding-top: 13px;
+  width: 21%;
   border-radius: 10px;
   background-color: transparent;
   margin: 2%;
@@ -19,6 +20,7 @@
 
 .photo {
   width: 70%;
+  height: 70%;
   border-radius: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -26,9 +28,9 @@
 }
 
 .photo:hover {
-  width: 80%;
+  width: 96%;
   filter: none;
-  border-radius: 0%;
+  border-radius: 5%;
   transition: all 0.5s ease-out;
 }
 
@@ -36,14 +38,14 @@
   position: relative;
   margin-top: 20px;
   font-weight: 600;
-  font-size: 12pt;
+  font-size: 15pt;
   color: whitesmoke;
 }
 
 .role {
   position: relative;
   bottom: 10px;
-  font-size: 9pt;
+  font-size: 11pt;
   padding-bottom: 0px;
   color: whitesmoke;
   font-weight: 400;
@@ -83,7 +85,8 @@
     width: 100%;
   }
   .photo {
-    width: 80%;
+    margin-top: 2%;
+    width: 96%;
     filter: none;
     border-radius: 100%;
     transition: all 0.5s ease;
@@ -93,9 +96,9 @@
 @media only screen and (max-width: 450px) {
   .members {
     margin-top: 10px;
-    padding: 5px;
-    width: 140px;
-    height: 260px;
+    padding: 8px;
+    width: 40%;
+    height: 100%;
   }
   #team-container {
     width: 350px;
