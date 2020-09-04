@@ -1,5 +1,4 @@
 export const presidents = [
-  
   {
     fname: "Hritik",
     lname: "Bhandari",
@@ -86,12 +85,9 @@ export const leads = [
     github: "jagnani73",
     linkedin: "yashvardhan-jagnani",
   },
-  
 ];
 
 export const techmembers = [
-
- 
   {
     fname: "Aarsh",
     lname: "Chaube",
@@ -128,7 +124,7 @@ export const techmembers = [
     fname: "Ananya",
     lname: "Negi",
     role: "Web Developer",
-    image: "ananyanegi.png",
+    image: "ananyanegi.jpeg",
     github: "AnanyaNegi",
     linkedin: "ananya-negi-42922018a",
   },
@@ -139,6 +135,14 @@ export const techmembers = [
     image: "ankit.jpg",
     github: "ankithans",
     linkedin: "ankithans",
+  },
+  {
+    fname: "Ankita",
+    lname: "Kokkera",
+    role: "ML Developer",
+    image: "ankitakokkera.jpg",
+    github: "ankitasankars",
+    linkedin: "ankita-k-4b943611a",
   },
   {
     fname: "Ansh",
@@ -190,27 +194,11 @@ export const techmembers = [
   },
   {
     fname: "Harsh",
-    lname: "Gour",
-    role: "Web Developer",
-    image: "harsh.png",
-    github: "harshgour",
-    linkedin: "harshgour",
-  },
-  {
-    fname: "Harsh",
     lname: "Sharma",
     role: "ML Developer",
     image: "harshsharma.jpg",
     github: "harshgeek4coder",
     linkedin: "harsh-sharma-484a4ab6",
-  },
-  {
-    fname: "Himanshu",
-    lname: "Tiwari",
-    role: "CORPORATE",
-    image: "himanshu.jpg",
-    github: "",
-    linkedin: "",
   },
   {
     fname: "Ojas",
@@ -261,6 +249,14 @@ export const techmembers = [
     linkedin: "rakesh-j-35174618b",
   },
   {
+    fname: "Ria",
+    lname: "Tyagi",
+    role: "Web Developer",
+    image: "riatyagi.jpeg",
+    github: "riasenpai",
+    linkedin: "ria-tyagi-0800381b1",
+  },
+  {
     fname: "Rohan",
     lname: "Mathur",
     role: "Data Analyst",
@@ -276,14 +272,7 @@ export const techmembers = [
     github: "Rusali28",
     linkedin: "rusali-saha-0409921a3",
   },
-  {
-    fname: "Palak",
-    lname: "Trivedi",
-    role: "PHOTOGRAPHER",
-    image: "palak.jpg",
-    github: "palaktrivedii",
-    linkedin: "palak-trivedi-5bb2261a8",
-  },
+
   {
     fname: "Sakshi",
     lname: "Choudhary",
@@ -404,11 +393,9 @@ export const techmembers = [
     github: "ujjwalkumar2607",
     linkedin: "ujjwal-kumar-2542771a7",
   },
-  
 ];
 
 export const designmembers = [
-
   {
     fname: "Abhimanyu",
     lname: "Bhadauria",
@@ -416,6 +403,14 @@ export const designmembers = [
     image: "abhimanyu.png",
     github: "Mnayu",
     linkedin: "abhimanyu2911",
+  },
+  {
+    fname: "Palak",
+    lname: "Trivedi",
+    role: "Photographer",
+    image: "palak.jpg",
+    github: "palaktrivedii",
+    linkedin: "palak-trivedi-5bb2261a8",
   },
   {
     fname: "Shubhank",
@@ -433,19 +428,9 @@ export const designmembers = [
     github: "insistence-essenn",
     linkedin: "sourjayon-nath-557a43174",
   },
-  {
-    fname: "Shresth",
-    lname: "Kapoor",
-    role: "Video Editor",
-    image: "shresth.jpg",
-    github: "",
-    linkedin: "shresth-kapoor-7skp",
-  },
-  
 ];
 
 export const mgmtmembers = [
-
   {
     fname: "Aditi",
     lname: "Mishra",
@@ -471,7 +456,14 @@ export const mgmtmembers = [
     github: "Devanshi-karthik",
     linkedin: "devanshi-karthik",
   },
-
+  {
+    fname: "Himanshu",
+    lname: "Tiwari",
+    role: "Corporate",
+    image: "himanshu.jpg",
+    github: "",
+    linkedin: "",
+  },
   {
     fname: "Ishika",
     lname: "Gupta",
@@ -505,6 +497,4 @@ export const mgmtmembers = [
     github: "ShreyaSahaRoy",
     linkedin: "shreya-saha-roy-2225651a5",
   },
-
-
 ];

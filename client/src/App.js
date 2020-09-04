@@ -27,62 +27,78 @@ const App = () => {
     document.querySelector("body").classList.add("lightMode");
   }
 
-  let mediumRoutes = (
-    <React.Fragment>
-      <Route
-        exact
-        path="/Aviation"
-        component={() => {
-          window.location =
-            "https://medium.com/data-science-community-srm/aviation-data-analytics-reading-the-skies-fed178486208";
-          return <Redirecting />;
-        }}
-      />
-      <Route
-        exact
-        path="/WebScraping"
-        render={() => {
-          window.location =
-            "https://medium.com/data-science-community-srm/web-scraping-with-beautifulsoup-3d66aebadaeb";
-          return <Redirecting />;
-        }}
-      />
-      <Route
-        exact
-        path="/NST"
-        render={() => {
-          window.location =
-            "https://medium.com/data-science-community-srm/neural-style-transfer-playing-with-art-a344d345f41d";
-          return <Redirecting />;
-        }}
-      />
-      <Route
-        exact
-        path="/guide"
-        render={() => {
-          window.location =
-            "https://medium.com/data-science-community-srm/everything-to-know-about-bdscs-recruitment-process-5b9b34ea6f51";
-          return <Redirecting />;
-        }}
-      />
-
+  let redirects = (
+    <>
       <Route
         exact
         path="/blogs"
         render={() => {
-          window.location =
-            "https://medium.com/data-science-community-srm";
+          window.location = "https://medium.com/data-science-community-srm";
           return <Redirecting />;
         }}
       />
-    </React.Fragment>
+      <Route
+        exact
+        path="/resourcify"
+        render={() => {
+          window.location =
+            "https://github.com/Data-Science-Community-SRM/Resourceify";
+          return <Redirecting />;
+        }}
+      />
+      <Route
+        exact
+        path="/conjexure"
+        render={() => {
+          window.location =
+            "https://github.com/Data-Science-Community-SRM/Conjexure-A-Web-App-for-Stock-Market-Forecasting";
+          return <Redirecting />;
+        }}
+      />
+      <Route
+        exact
+        path="/rockpaperscissor"
+        render={() => {
+          window.location =
+            "https://github.com/Data-Science-Community-SRM/Hand-Gesture-Recognition-Rock-Paper-Scissor";
+          return <Redirecting />;
+        }}
+      />
+      <Route
+        exact
+        path="/uselections"
+        render={() => {
+          window.location =
+            "https://github.com/Data-Science-Community-SRM/Forecasting-US-Elections";
+          return <Redirecting />;
+        }}
+      />
+      <Route
+        exact
+        path="/Docgen"
+        render={() => {
+          window.location =
+            "https://github.com/Data-Science-Community-SRM/DocGen";
+          return <Redirecting />;
+        }}
+      />
+      <Route
+        exact
+        path="/Handwriting-gen"
+        render={() => {
+          window.location =
+            "https://github.com/Data-Science-Community-SRM/Handwriting-Generation";
+          return <Redirecting />;
+        }}
+      />
+    </>
   );
 
   return (
     <React.Fragment>
       <NavigationItems />
       <div style={{ position: "relative", minHeight: "100vh" }}>
-        {mediumRoutes}
+        {redirects}
         <Switch>
           <Route
             path="/contact-us"
