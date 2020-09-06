@@ -1,16 +1,14 @@
 <p align="center">
-<a href="https://dscommunity.in">
-	<img src="https://github.com/Data-Science-Community-SRM/template/blob/master/Header.png?raw=true" width=500px />
-  </a> <h2 align="center"> Community Website </h2>
-	
+  <a href="https://dscommunity.in">
+	  <img src="https://github.com/Data-Science-Community-SRM/template/blob/master/Header.png?raw=true" width=500px />
+  </a>
+  <h2 align="center"> Community Website </h2>
 </p>
-
-
-
 
 <div align="center">
 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://dscommunity.in)
+
 <br />
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Data-Science-Community-SRM) [![Website thismypc.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://dscommunity.in/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)]()
@@ -21,11 +19,7 @@
 > This repository contains the source code for our website and is open source so that anyone willing to make contributions can easily do so.
 
 
-
 ![Web Site System](webrec.gif)
-
-
-
 
 
 ## Website Details
@@ -74,13 +68,9 @@ This Command  will copy a full  project  to your local  environment
     npm install
 ```
 
-
-`cd client` Move into Client Folder
-`npm i` install all  dependencies.
-
 ### Run React App
 
-Run `npm run client` for a dev server. Navigate to `http://localhost:3000`. The app will automatically reload if you change any of the source files.
+Run `npm run client` for the *Frontend server*. Navigate to `http://localhost:3000`. The app will automatically reload if you change any of the source files.
 
 ## Database
 
@@ -178,9 +168,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 The MIT License 2020.
 
+<div align="center"> 
+
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://dscommunity.in) &ensp;[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://dscommunity.in) &ensp;[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://dscommunity.in)
 
-<div align="center"> 
 
 [![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
 </div>
