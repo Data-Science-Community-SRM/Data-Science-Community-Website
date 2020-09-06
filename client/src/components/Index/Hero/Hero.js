@@ -42,6 +42,8 @@ const Section1 = () => {
             <span></span>
           </a>
         </div>
+        <div className="col-12">
+        </div>
       </div>
     </>
   );
