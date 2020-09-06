@@ -9,12 +9,12 @@ const Section1 = () => {
   const themeContext = useContext(ThemeContext);
 
   return (
-    <React.Fragment>
+    <>
       <div className="row mx-auto" style={{ minHeight: "100vh" }}>
         <div
-          className={classes.logoRotation + " col-12 col-lg-6 text-center mt-3"}
+          className={classes.logoRotation + " col-12 col-lg-6 text-center my-auto"}
         >
-          <div className="mt-lg-5">
+          <div className="">
             <img
               src={themeContext.isDark ? homeLogo : homeLogoLight}
               alt="dscommunity"
@@ -22,7 +22,7 @@ const Section1 = () => {
             />
           </div>
         </div>
-        <div className="col-12 col-lg-4 text-center text-lg-left">
+        <div className="col-12 col-lg-4 text-center text-lg-left my-lg-auto">
           <div className={classes.main}>
             <h1 className={classes.animation}>Data Science Community SRM</h1>
             <p>
@@ -43,7 +43,7 @@ const Section1 = () => {
           </a>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 
