@@ -8,15 +8,14 @@ import {
   NavItem,
 } from "reactstrap";
 
-// import DarkModeToggle from "react-dark-mode-toggle";
-import Toggle from "../ButtonToggle/ButtonToggle";
 import "./NavigationItems.css";
-import logo from "../../assets/images/home-logo.png";
-import logoLight from "../../assets/images/home-logo-light.png";
+import { ThemeContext } from "../../../context/theme-context";
+import logo from "../../../assets/images/home-logo.png";
+import logoLight from "../../../assets/images/home-logo-light.png";
+import Toggle from "../../UI/ButtonToggle/ButtonToggle";
 import NavigationItem from "./NavigationItem/NavigationItem";
-import { ThemeContext } from "../../context/theme-context";
 
-const NavigationItems = (props) => {
+const NavigationItems = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const themeContext = useContext(ThemeContext);

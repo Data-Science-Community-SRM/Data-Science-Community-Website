@@ -1,10 +1,10 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 
-import first from "../../assets/images/carousel/1.JPG";
-import second from "../../assets/images/carousel/2.JPG";
-import third from "../../assets/images/carousel/3.JPG";
-import fourth from "../../assets/images/carousel/4.JPG";
+import first from "../../../assets/images/carousel/1.JPG";
+import second from "../../../assets/images/carousel/2.JPG";
+import third from "../../../assets/images/carousel/3.JPG";
+import fourth from "../../../assets/images/carousel/4.JPG";
 import "./Carousel.css";
 
 const CarouselEvents = () => {

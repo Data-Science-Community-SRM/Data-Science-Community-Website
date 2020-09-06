@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 import AOS from "aos";
 
 import "./App.css";
-import NavigationItems from "./components/NavigationItems/NavigationItems";
 import Home from "./pages/Home/Home";
 import Spinner from "./components/UI/Spinner/Spinner";
 import NotFound from "./components/Notfound/NotFound";
@@ -96,7 +95,6 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <NavigationItems />
       <div style={{ position: "relative", minHeight: "100vh" }}>
         {redirects}
         <Switch>

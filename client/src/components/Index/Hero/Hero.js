@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 
 import classes from "./Hero.module.css";
-import homeLogo from "../../assets/images/home-logo.png";
-import homeLogoLight from "../../assets/images/home-logo-light.png";
-import { ThemeContext } from "../../context/theme-context";
+import homeLogo from "../../../assets/images/home-logo.png";
+import homeLogoLight from "../../../assets/images/home-logo-light.png";
+import { ThemeContext } from "../../../context/theme-context";
 
 const Section1 = () => {
   const themeContext = useContext(ThemeContext);

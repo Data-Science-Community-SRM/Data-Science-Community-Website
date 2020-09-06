@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 
 import classes from "./NavigationItem.module.css";
-import { ThemeContext } from "../../../context/theme-context";
+import { ThemeContext } from "../../../../context/theme-context";
 
 const NavigationItem = (props) => {
   const themeContext = useContext(ThemeContext);

@@ -1,12 +1,12 @@
 import React from "react";
 
 import classes from "./Sponsors.module.css";
-import bitgrit from "../../assets/images/sponsors/bitgrit.svg";
-import srmlogo from "../../assets/images/sponsors/srm.png";
-import awslogo from "../../assets/images/sponsors/aws.svg";
-import datacamp from "../../assets/images/sponsors/datacamp.svg";
-import codingblocks from "../../assets/images/sponsors/codingblocks.svg";
-import popcorn from "../../assets/images/sponsors/pop.png";
+import bitgrit from "../../../assets/images/sponsors/bitgrit.svg";
+import srmlogo from "../../../assets/images/sponsors/srm.png";
+import awslogo from "../../../assets/images/sponsors/aws.svg";
+import datacamp from "../../../assets/images/sponsors/datacamp.svg";
+import codingblocks from "../../../assets/images/sponsors/codingblocks.svg";
+import popcorn from "../../../assets/images/sponsors/pop.png";
 
 const Home_Section2 = () => {
   return (

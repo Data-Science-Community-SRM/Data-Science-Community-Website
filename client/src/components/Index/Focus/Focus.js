@@ -1,9 +1,9 @@
 import React from "react";
 
 import classes from "./Focus.module.css";
-import workshopIMG from "../../assets/images/workshop.svg";
-import trainingIMG from "../../assets/images/training.svg";
-import projectIMG from "../../assets/images/project.svg";
+import workshopIMG from "../../../assets/images/workshop.svg";
+import trainingIMG from "../../../assets/images/training.svg";
+import projectIMG from "../../../assets/images/project.svg";
 
 const Home_Section2 = () => {
   return (

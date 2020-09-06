@@ -1,20 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./index.css";
-import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
+import App from "./App";
+import NavigationItems from "./components/Shared/Navbar/NavigationItems";
+import Footer from "./components/Shared/Footer/Footer";
 import ThemeContextProvider from "./context/theme-context";
-import Footer from "./components/Footer/Footer";
 
 const Index = () => {
   return (
     <React.Fragment>
       <BrowserRouter>
         <ThemeContextProvider>
+          <NavigationItems />
           <App />
         </ThemeContextProvider>
         <Footer />
