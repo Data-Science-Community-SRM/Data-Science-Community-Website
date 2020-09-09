@@ -38,7 +38,7 @@ const App = () => {
       />
       <Route
         exact
-        path="/resourcify"
+        path="/resourceify"
         render={() => {
           window.location =
             "https://github.com/Data-Science-Community-SRM/Resourceify";
