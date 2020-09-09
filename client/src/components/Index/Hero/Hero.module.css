@@ -1,12 +1,3 @@
-.main {
-  margin-top: 150px;
-}
-
-@media (max-width: 991px) {
-  .main {
-    margin-top: 0;
-  }
-}
 .main h1 {
   font-size: 30px;
   font-weight: 700;
@@ -25,8 +16,6 @@
 }
 
 .logoRotation img {
-  margin-top: 50px;
-  vertical-align: middle;
   animation: logoRotation 10000ms ease infinite;
 }
 

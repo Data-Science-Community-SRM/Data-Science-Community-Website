@@ -1,14 +1,14 @@
 import React from "react";
 
 import classes from "./Focus.module.css";
-import workshopIMG from "../../assets/images/workshop.svg";
-import trainingIMG from "../../assets/images/training.svg";
-import projectIMG from "../../assets/images/project.svg";
+import workshopIMG from "../../../assets/images/workshop.svg";
+import trainingIMG from "../../../assets/images/training.svg";
+import projectIMG from "../../../assets/images/project.svg";
 
 const Home_Section2 = () => {
   return (
     <React.Fragment>
-      <div className="mx-auto">
+      <div className="mx-auto mt-3">
         <div className={classes.main + " col-12 col-lg-8 mx-auto text-center"}>
           <h1 data-aos="flip-up">
             <span style={{ color: "#6F389F" }}>O</span>UR FOCUS.

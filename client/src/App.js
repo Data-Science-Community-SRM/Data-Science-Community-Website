@@ -3,16 +3,15 @@ import { Route, Switch } from "react-router-dom";
 import AOS from "aos";
 
 import "./App.css";
-import NavigationItems from "./components/NavigationItems/NavigationItems";
-import Home from "./containers/Home/Home";
+import Home from "./pages/Home/Home";
 import Spinner from "./components/UI/Spinner/Spinner";
 import NotFound from "./components/Notfound/NotFound";
 import Redirecting from "./components/Redirecting/Redirecting";
 import { ThemeContext } from "./context/theme-context.js";
-const Events = React.lazy(() => import("./containers/Events/Events"));
-const Blog = React.lazy(() => import("./containers/Blog/Blog"));
-const People = React.lazy(() => import("./containers/People/People"));
-const ContactUs = React.lazy(() => import("./containers/ContactUs/ContactUs"));
+const Events = React.lazy(() => import("./pages/Events/Events"));
+const Blog = React.lazy(() => import("./pages/Blog/Blog"));
+const People = React.lazy(() => import("./pages/People/People"));
+const ContactUs = React.lazy(() => import("./pages/ContactUs/ContactUs"));
 
 const App = () => {
   useEffect(() => {
@@ -39,7 +38,7 @@ const App = () => {
       />
       <Route
         exact
-        path="/resourcify"
+        path="/resourceify"
         render={() => {
           window.location =
             "https://github.com/Data-Science-Community-SRM/Resourceify";
@@ -96,7 +95,6 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <NavigationItems />
       <div style={{ position: "relative", minHeight: "100vh" }}>
         {redirects}
         <Switch>

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
 import classes from "./Home.module.css";
-import Hero from "../../components/Hero/Hero";
-import Focus from "../../components/Focus/Focus";
-import Domains from "../../components/Domains/Domains";
-import Updates from "../../components/Updates/Updates";
-import Sponsors from "../../components/Sponsors/Sponsors";
+import Hero from "../../components/Index/Hero/Hero";
+import Focus from "../../components/Index/Focus/Focus";
+import Domains from "../../components/Index/Domains/Domains";
+import Updates from "../../components/Index/Updates/Updates";
+import Sponsors from "../../components/Index/Sponsors/Sponsors";
 
 class Home extends Component {
   componentDidMount() {
