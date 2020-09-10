@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMediumM } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faTwitter,
+  faLinkedinIn,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 import classes from "./Footer.module.css";
 import logo from "../../../assets/images/home-logo.png";
@@ -54,11 +56,11 @@ const Footer = () => {
               <li>
                 <a
                   className="footer-refs"
-                  href="https://www.linkedin.com/in/hariompalkar/"
+                  href="https://www.linkedin.com/in/pratyaksh-bhalla-96871b186/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Hariom Palkar
+                  Pratyaksh Bhalla
                 </a>
               </li>
             </ul>
@@ -68,25 +70,41 @@ const Footer = () => {
             <div className={classes.refs + " ml-5"}>
               <div className="row">
                 <div className="m-lg-1">
-                  <a href="https://twitter.com/dscommunitysrm">
+                  <a
+                    href="https://twitter.com/dscommunitysrm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
                 <div className="m-lg-1">
-                  <a href="https://www.linkedin.com/company/datasciencecommunitysrm">
+                  <a
+                    href="https://www.linkedin.com/company/datasciencecommunitysrm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faLinkedinIn} />
                   </a>
                 </div>
               </div>
               <div className="row">
                 <div className="m-lg-1">
-                  <a href="https://www.instagram.com/dscommunity_srm/">
+                  <a
+                    href="https://www.instagram.com/dscommunity_srm/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </div>
                 <div className="m-lg-1">
-                  <a href="https://medium.com/data-science-community-srm">
-                    <FontAwesomeIcon icon={faMediumM} />
+                  <a
+                    href="https://github.com/Data-Science-Community-SRM"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </div>
               </div>
