@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 
 import PeopleComponent from "../../components/People/People";
-import { presidents, board, leads, techmembers, designmembers, mgmtmembers } from "./PeopleList";
+import {
+  presidents,
+  board,
+  leads,
+  techmembers,
+  designmembers,
+  mgmtmembers,
+} from "./PeopleList";
 
 class People extends Component {
   componentDidMount() {
@@ -17,13 +24,13 @@ class People extends Component {
           <p style={{ margin: "30px auto" }}>
             The ones who make our community worth it!
           </p>
-          <br/>
+          <br />
           <div className="row text-center d-block">
             <h3 style={{ fontWeight: "700" }}>
               <span style={{ color: "#6F389F" }}>T</span>HE{" "}
               <span style={{ color: "#6F389F" }}>B</span>OARD.
             </h3>
-            <br/>
+            <br />
             {presidents.map((president) => (
               <PeopleComponent
                 key={president.fname}
@@ -69,7 +76,7 @@ class People extends Component {
               <span style={{ color: "#6F389F" }}>T</span>EAM.
             </h3>
           </div>
-          <br/>
+          <br />
           <div className="row text-center d-block">
             {techmembers.map((member) => (
               <PeopleComponent
@@ -83,14 +90,14 @@ class People extends Component {
               />
             ))}
           </div>
-          <hr/>
+          <hr />
           <div className="row text-center d-block">
             <h3 style={{ fontWeight: "700" }}>
               <span style={{ color: "#6F389F" }}>D</span>ESIGN{" "}
               <span style={{ color: "#6F389F" }}>T</span>EAM.
             </h3>
           </div>
-          <br/>
+          <br />
           <div className="row text-center d-block">
             {designmembers.map((member) => (
               <PeopleComponent
@@ -104,14 +111,14 @@ class People extends Component {
               />
             ))}
           </div>
-          <hr/>
+          <hr />
           <div className="row text-center d-block">
             <h3 style={{ fontWeight: "700" }}>
               <span style={{ color: "#6F389F" }}>M</span>ANAGEMENT{" "}
               <span style={{ color: "#6F389F" }}>T</span>EAM.
             </h3>
           </div>
-          <br/>
+          <br />
           <div className="row text-center d-block">
             {mgmtmembers.map((member) => (
               <PeopleComponent
@@ -120,7 +127,7 @@ class People extends Component {
                 lname={member.lname}
                 role={member.role}
                 image={member.image}
-                github={member.github}
+                mail={member.mail}
                 linkedin={member.linkedin}
               />
             ))}

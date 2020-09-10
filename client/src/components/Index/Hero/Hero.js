@@ -12,7 +12,9 @@ const Section1 = () => {
     <>
       <div className="row mx-auto" style={{ minHeight: "100vh" }}>
         <div
-          className={classes.logoRotation + " col-12 col-lg-6 text-center my-auto"}
+          className={
+            classes.logoRotation + " col-12 col-lg-6 text-center my-auto"
+          }
         >
           <div className="">
             <img
@@ -42,8 +44,7 @@ const Section1 = () => {
             <span></span>
           </a>
         </div>
-        <div className="col-12">
-        </div>
+        <div className="col-12"></div>
       </div>
     </>
   );
