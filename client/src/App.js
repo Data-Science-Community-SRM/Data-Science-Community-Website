@@ -38,6 +38,15 @@ const App = () => {
       />
       <Route
         exact
+        path="/git"
+        render={() => {
+          window.location =
+            "https://commudle.com/fill-form/468";
+          return <Redirecting />;
+        }}
+      />
+      <Route
+        exact
         path="/resourceify"
         render={() => {
           window.location =
