@@ -41,7 +41,7 @@ const App = () => {
         path="/git"
         render={() => {
           window.location =
-            "https://commudle.com/fill-form/468";
+            "https://forms.gle/8JRgXYTqLHtSJusL8";
           return <Redirecting />;
         }}
       />
