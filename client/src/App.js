@@ -47,10 +47,10 @@ const App = () => {
       />
       <Route
         exact
-        path="/gitcommands"
+        path="/flutterdoctor"
         render={() => {
           window.location =
-            "https://docs.google.com/document/d/1ak6Fv49L5T_JRW1kScYMdZ175hnaSNh7XQ5XOt7j_kU/edit?usp=sharing";
+            "https://play.google.com/store/apps/details?id=com.ojasgupta.helper";
           return <Redirecting />;
         }}
       />
