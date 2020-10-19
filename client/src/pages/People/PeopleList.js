@@ -42,14 +42,7 @@ export const board = [
     github: "severussnape123",
     linkedin: "avirupchattaraj",
   },
-  {
-    fname: "Hariom",
-    lname: "Palkar",
-    role: "CORPORATE DIRECTOR",
-    image: "hariom.jpg",
-    github: "aannuuj",
-    linkedin: "hariompalkar",
-  },
+  
 ];
 
 export const leads = [
@@ -169,14 +162,6 @@ export const techmembers = [
     linkedin: "arpit-karnatak-255a5a16a",
   },
   {
-    fname: "Ashish",
-    lname: "Agrawal",
-    role: "Front-End Developer",
-    image: "ashish.jpg",
-    github: "ashish-agr",
-    linkedin: "ashish-agr",
-  },
-  {
     fname: "Bhavya",
     lname: "Chhabra",
     role: "ML Developer",
@@ -215,14 +200,6 @@ export const techmembers = [
     image: "ojas.jpg",
     github: "oojas",
     linkedin: "ojasgupta13",
-  },
-  {
-    fname: "Paras",
-    lname: "Rawat",
-    role: "Deep Learning Researcher",
-    image: "paras.jpg",
-    github: "TrizteX",
-    linkedin: "paras-rawat-427a52174",
   },
   {
     fname: "Parth",
@@ -338,14 +315,6 @@ export const techmembers = [
     linkedin: "shubhangi-soni",
   },
   {
-    fname: "Siddharth",
-    lname: "Sudhakar",
-    role: "ML Developer",
-    image: "siddharth.jpg",
-    github: "siddharth271101",
-    linkedin: "siddharth-sudhakar",
-  },
-  {
     fname: "Sneha",
     lname: "Sunil",
     role: "Front-End Developer",
@@ -384,14 +353,6 @@ export const techmembers = [
     image: "tejas.jpg",
     github: "chintalatejas",
     linkedin: "tejas-chintala-752918188",
-  },
-  {
-    fname: "Vidushi",
-    lname: "Gupta",
-    role: "Data Analyst & UI/UX",
-    image: "vidushi.jpg",
-    github: "Vidushi-Gupta",
-    linkedin: "vidushi-gupta07",
   },
   {
     fname: "Vignesh",
@@ -526,14 +487,6 @@ export const mgmtmembers = [
     image: "prateekahlawat.jpeg",
     mail: "prateekahlawat2000@gmail.com",
     linkedin: "prateek-ahlawat",
-  },
-  {
-    fname: "Priyesh",
-    lname: "Sharan",
-    role: "Corporate",
-    image: "priyeshsharan.jpeg",
-    mail: "ps4163@srmist.edu.in",
-    linkedin: "priyesh-sharan-b54490180",
   },
   {
     fname: "Tanshi",
