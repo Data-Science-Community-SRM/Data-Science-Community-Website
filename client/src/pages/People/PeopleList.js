@@ -19,12 +19,41 @@ export const presidents = [
 
 export const board = [
   {
+    fname: "Akshat",
+    lname: "Anand",
+    role: "PROJECTS DIRECTOR",
+    image: "akshat.jpg",
+    github: "cipheraxat",
+    linkedin: "akshatanand1999",
+  },
+  {
     fname: "Takshil",
     lname: " Mittal",
     role: " EVENTS DIRECTOR ",
     image: "takshil.jpg",
     github: "takshilmittal",
     linkedin: "takshil-mittal",
+  },
+  {
+    fname: "Gayathri",
+    lname: "Seetharaman",
+    role: "RESEARCH & DEVELOPMENT DIRECTOR",
+    image: "gayathri.jpg",
+    github: "Gayathri621",
+    linkedin: "gayathri-seetharaman-964986158",
+  },
+  
+  
+];
+
+export const leads = [
+  {
+    fname: "Ayan ",
+    lname: "Chaudhary",
+    role: "DESIGN DIRECTOR",
+    image: "ayan.jpeg",
+    github: "",
+    linkedin: "ayan-chaudhry-a3566918b/",
   },
   {
     fname: "Anush",
@@ -43,33 +72,6 @@ export const board = [
     linkedin: "avirupchattaraj",
   },
   
-];
-
-export const leads = [
-  {
-    fname: "Ayan ",
-    lname: "Chaudhary",
-    role: "DESIGN LEAD",
-    image: "ayan.jpeg",
-    github: "",
-    linkedin: "ayan-chaudhry-a3566918b/",
-  },
-  {
-    fname: "Akshat",
-    lname: "Anand",
-    role: "PROJECTS LEAD",
-    image: "akshat.jpg",
-    github: "cipheraxat",
-    linkedin: "akshatanand1999",
-  },
-  {
-    fname: "Gayathri",
-    lname: "Seetharaman",
-    role: "RESEARCH & DEVELOPMENT LEAD",
-    image: "gayathri.jpg",
-    github: "Gayathri621",
-    linkedin: "gayathri-seetharaman-964986158",
-  },
   {
     fname: "Yashvardhan",
     lname: "Jagnani",
@@ -382,14 +384,6 @@ export const designmembers = [
     linkedin: "abhimanyu2911",
   },
   {
-    fname: "Palak",
-    lname: "Trivedi",
-    role: "Photographer",
-    image: "palak.jpg",
-    github: "palaktrivedii",
-    linkedin: "palak-trivedi-5bb2261a8",
-  },
-  {
     fname: "Shubhank",
     lname: "Sargam",
     role: "Video Editing & Sponsorship",
@@ -479,14 +473,6 @@ export const mgmtmembers = [
     image: "nikunkdrolia.jpeg",
     mail: "nik.drolia@gmail.com",
     linkedin: "nikunj-drolia-503a4514b",
-  },
-  {
-    fname: "Prateek",
-    lname: "Singh Ahlawat",
-    role: "Operations",
-    image: "prateekahlawat.jpeg",
-    mail: "prateekahlawat2000@gmail.com",
-    linkedin: "prateek-ahlawat",
   },
   {
     fname: "Tanshi",
