@@ -71,15 +71,6 @@ export const leads = [
     github: "severussnape123",
     linkedin: "avirupchattaraj",
   },
-  
-  {
-    fname: "Yashvardhan",
-    lname: "Jagnani",
-    role: "WEB DEVELOPMENT LEAD",
-    image: "yashvardhan.jpg",
-    github: "jagnani73",
-    linkedin: "yashvardhan-jagnani",
-  },
 ];
 
 export const techmembers = [
@@ -170,6 +161,14 @@ export const techmembers = [
     image: "bhavya.jpg",
     github: "bhavya1600",
     linkedin: "bhavya-chhabra-1600",
+  },
+  {
+    fname: "Devansh",
+    lname: "Goswami",
+    role: "Web Developer",
+    image: "devansh.jpg",
+    mail: "devansh51100@gmail.com",
+    linkedin: "devansh-goswami-74590a187",
   },
   {
     fname: "Eshaan",
@@ -409,14 +408,6 @@ export const mgmtmembers = [
     image: "aditi.jpg",
     mail: "aditimishi005@gmail.com",
     linkedin: "aditimishra050505",
-  },
-  {
-    fname: "Devansh",
-    lname: "Goswami",
-    role: "Management",
-    image: "devansh.jpg",
-    mail: "devansh51100@gmail.com",
-    linkedin: "devansh-goswami-74590a187",
   },
   {
     fname: "Devanshi",

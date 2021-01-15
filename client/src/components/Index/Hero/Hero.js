@@ -36,10 +36,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className={classes.scrollAnchor + " d-none d-lg-block"}>
-          <a
-            onClick={() =>
-              document.getElementById("section02").scrollIntoView()
-            }
+          <a href="#section02"
           >
             <span></span>
           </a>
