@@ -4,7 +4,7 @@ import PeopleComponent from "../../components/People/People";
 import {
   presidents,
   board,
-  leads,
+  advisor,
   techmembers,
   designmembers,
   mgmtmembers,
@@ -56,19 +56,7 @@ class People extends Component {
               />
             ))}
           </div>
-          <div className="row text-center d-block">
-            {leads.map((board) => (
-              <PeopleComponent
-                key={board.fname}
-                fname={board.fname}
-                lname={board.lname}
-                role={board.role}
-                image={board.image}
-                github={board.github}
-                linkedin={board.linkedin}
-              />
-            ))}
-          </div>
+          
           <hr />
           <div className="row text-center d-block">
             <h3 style={{ fontWeight: "700" }}>
@@ -132,6 +120,26 @@ class People extends Component {
               />
             ))}
           </div>
+          <hr />
+          <div className="row text-center d-block">
+            <h3 style={{ fontWeight: "700" }}>
+              <span style={{ color: "#6F389F" }}>A</span>LUMNI{" "}
+            </h3>
+          </div>
+          <div className="row text-center d-block">
+            {advisor.map((board) => (
+              <PeopleComponent
+                key={board.fname}
+                fname={board.fname}
+                lname={board.lname}
+                role={board.role}
+                image={board.image}
+                github={board.github}
+                linkedin={board.linkedin}
+              />
+            ))}
+          </div>
+
         </div>
         <hr />
       </React.Fragment>

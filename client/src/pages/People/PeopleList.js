@@ -2,7 +2,7 @@ export const presidents = [
   {
     fname: "Hritik",
     lname: "Bhandari",
-    role: "PRESIDENT ",
+    role: "FOUNDER & PRESIDENT ",
     image: "hritik.jpg",
     github: "hritikbhandari",
     linkedin: "hritikbhandari",
@@ -19,20 +19,20 @@ export const presidents = [
 
 export const board = [
   {
-    fname: "Akshat",
-    lname: "Anand",
-    role: "PROJECTS DIRECTOR",
-    image: "akshat.jpg",
-    github: "cipheraxat",
-    linkedin: "akshatanand1999",
-  },
-  {
     fname: "Takshil",
     lname: " Mittal",
     role: " EVENTS DIRECTOR ",
     image: "takshil.jpg",
     github: "takshilmittal",
     linkedin: "takshil-mittal",
+  },
+  {
+    fname: "Akshat",
+    lname: "Anand",
+    role: "PROJECTS DIRECTOR",
+    image: "akshat.jpg",
+    github: "cipheraxat",
+    linkedin: "akshatanand1999",
   },
   {
     fname: "Gayathri",
@@ -42,11 +42,14 @@ export const board = [
     github: "Gayathri621",
     linkedin: "gayathri-seetharaman-964986158",
   },
-  
-  
-];
-
-export const leads = [
+  {
+    fname: "Shubhangi",
+    lname: "Soni",
+    role: "CORPORATE DIRECTOR",
+    image: "shubhangi.jpeg",
+    github: "ShubhangiSoni1603",
+    linkedin: "shubhangi-soni",
+  },
   {
     fname: "Ayan ",
     lname: "Chaudhary",
@@ -55,6 +58,66 @@ export const leads = [
     github: "",
     linkedin: "ayan-chaudhry-a3566918b/",
   },
+  {
+    fname: "Soumya",
+    lname: "Kundu",
+    role: "EDITORIAL DIRECTOR",
+    image: "soumya.jpeg",
+    github: "aymuos15",
+    linkedin: "soumya-snigdha-kundu-84b812183",
+  },
+  {
+    fname: "Stuti",
+    lname: "Sehgal",
+    role: "TECHNICAL DIRECTOR",
+    image: "stuti.jpg",
+    github: "stutisehgal",
+    linkedin: "stuti-sehgal-7a10301b1",
+  },
+  {
+    fname: "Ishika",
+    lname: "Gupta",
+    role: "PUBLIC RELATIONS DIRECTOR",
+    image: "ishika.jpg",
+    mail: "ishikag2050@gmail.com",
+    linkedin: "findishika",
+  },
+  {
+    fname: "Abhishek",
+    lname: "Saxena",
+    role: "ASSOCIATE TECHNICAL DIRECTOR",
+    image: "abhishek.jpg",
+    github: "saxenabhishek",
+    linkedin: "abhibored",
+  },
+  {
+    fname: "Aditya",
+    lname: "Shukla",
+    role: "ASSOCIATE TECHNICAL DIRECTOR",
+    image: "adityashukla.png",
+    github: "adityashukzy",
+    linkedin: "aditya-shukla-975940188",
+  },
+  {
+    fname: "Ansh",
+    lname: "Sharma",
+    role: "ASSOCIATE TECHNICAL DIRECTOR",
+    image: "ansh.jpeg",
+    github: "DaemonOnCode",
+    linkedin: "anshsharma09",
+  },
+  {
+    fname: "Harsh",
+    lname: "Sharma",
+    role: "ASSOCIATE TECHNICAL DIRECTOR",
+    image: "harshsharma.jpg",
+    github: "harshgeek4coder",
+    linkedin: "harsh-sharma-484a4ab6",
+  },
+];
+
+export const advisor = [
+  
   {
     fname: "Anush",
     lname: "Bhatia",
@@ -81,22 +144,6 @@ export const techmembers = [
     image: "aarsh.jpg",
     github: "Aarsh2001",
     linkedin: "aarsh-chaube-0099521a1",
-  },
-  {
-    fname: "Abhishek",
-    lname: "Saxena",
-    role: "ML Developer",
-    image: "abhishek.jpg",
-    github: "saxenabhishek",
-    linkedin: "abhibored",
-  },
-  {
-    fname: "Aditya",
-    lname: "Shukla",
-    role: "ML Developer",
-    image: "adityashukla.png",
-    github: "adityashukzy",
-    linkedin: "aditya-shukla-975940188",
   },
   {
     fname: "Anant",
@@ -129,16 +176,7 @@ export const techmembers = [
     image: "ankitakokkera.jpg",
     github: "ankitasankars",
     linkedin: "ankita-k-4b943611a",
-  },
-  {
-    fname: "Ansh",
-    lname: "Sharma",
-    role: "ML Researcher",
-    image: "ansh.jpeg",
-    github: "DaemonOnCode",
-    linkedin: "anshsharma09",
-  },
-  {
+  },  {
     fname: "Anushka",
     lname: "Garg",
     role: "ML Developer",
@@ -187,14 +225,6 @@ export const techmembers = [
     linkedin: "hardik-srivastava-2911hs",
   },
   {
-    fname: "Harsh",
-    lname: "Sharma",
-    role: "ML Developer",
-    image: "harshsharma.jpg",
-    github: "harshgeek4coder",
-    linkedin: "harsh-sharma-484a4ab6",
-  },
-  {
     fname: "Ojas",
     lname: "Gupta",
     role: "Flutter & Hadoop Developer",
@@ -209,22 +239,6 @@ export const techmembers = [
     image: "parth.png",
     github: "pp2236",
     linkedin: "parth-pandey-b119921a7",
-  },
-  {
-    fname: "Kartik",
-    lname: "Mohan",
-    role: "Data Analyst",
-    image: "kartik.jpg",
-    github: "kartik-mohan",
-    linkedin: "kartik-mohan",
-  },
-  {
-    fname: "Krish",
-    lname: "Sabnani",
-    role: "ML Developer",
-    image: "krish.jpg",
-    github: "",
-    linkedin: "krish-sabnani-15073a169",
   },
   {
     fname: "Rakesh",
@@ -258,7 +272,6 @@ export const techmembers = [
     github: "Rusali28",
     linkedin: "rusali-saha-0409921a3",
   },
-
   {
     fname: "Sakshi",
     lname: "Choudhary",
@@ -274,14 +287,6 @@ export const techmembers = [
     image: "sampada.jpg",
     github: "",
     linkedin: "sampada-bareja-43930818b",
-  },
-  {
-    fname: "Saqib",
-    lname: "Rahman",
-    role: "Web Hosting & Deployment",
-    image: "saqib.jpg",
-    github: "",
-    linkedin: "rahmansaqib",
   },
   {
     fname: "Sheel",
@@ -300,44 +305,12 @@ export const techmembers = [
     linkedin: "shinjinee-maiti-a1a6ab18b",
   },
   {
-    fname: "Shubham",
-    lname: "Deodhar",
-    role: "Web Developer",
-    image: "shubhamdeodhar.jpeg",
-    github: "ShubhamDeodhar",
-    linkedin: "shubham-deodhar-248bb818a/",
-  },
-  {
-    fname: "Shubhangi",
-    lname: "Soni",
-    role: "Data Analyst",
-    image: "shubhangi.jpeg",
-    github: "ShubhangiSoni1603",
-    linkedin: "shubhangi-soni",
-  },
-  {
     fname: "Sneha",
     lname: "Sunil",
     role: "Front-End Developer",
     image: "sneha.jpeg",
     github: "snehasunilnair",
     linkedin: "snehasunil",
-  },
-  {
-    fname: "Soumya",
-    lname: "Kundu",
-    role: "ML Researcher & Co-Editor DataX",
-    image: "soumya.jpeg",
-    github: "aymuos15",
-    linkedin: "soumya-snigdha-kundu-84b812183",
-  },
-  {
-    fname: "Stuti",
-    lname: "Sehgal",
-    role: "ML Researcher & Co-Editor DataX",
-    image: "stuti.jpg",
-    github: "stutisehgal",
-    linkedin: "stuti-sehgal-7a10301b1",
   },
   {
     fname: "Tarushi",
@@ -354,22 +327,6 @@ export const techmembers = [
     image: "tejas.jpg",
     github: "chintalatejas",
     linkedin: "tejas-chintala-752918188",
-  },
-  {
-    fname: "Vignesh",
-    lname: "V ",
-    role: "ML Developer",
-    image: "vignesh.jpg",
-    github: "Vignesh772",
-    linkedin: "vignesh-v-1421b7191",
-  },
-  {
-    fname: "Ujjwal",
-    lname: "Kumar",
-    role: "Machine Learning Researcher",
-    image: "ujjwal.jpg",
-    github: "ujjwalkumar2607",
-    linkedin: "ujjwal-kumar-2542771a7",
   },
 ];
 
@@ -389,14 +346,6 @@ export const designmembers = [
     image: "shubhank.jpeg",
     github: "Shubhankoder",
     linkedin: "shubhanks",
-  },
-  {
-    fname: "Sourjayon",
-    lname: "Nath",
-    role: "Graphic Designer",
-    image: "sourjayon.jpg",
-    github: "insistence-essenn",
-    linkedin: "sourjayon-nath-557a43174",
   },
 ];
 
@@ -424,14 +373,6 @@ export const mgmtmembers = [
     image: "himanshu.jpg",
     mail: "hrkt07@gmail.com",
     linkedin: "",
-  },
-  {
-    fname: "Ishika",
-    lname: "Gupta",
-    role: "Editorial & Content Writer",
-    image: "ishika.jpg",
-    mail: "ishikag2050@gmail.com",
-    linkedin: "findishika",
   },
   {
     fname: "Karan",
