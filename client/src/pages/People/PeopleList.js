@@ -165,7 +165,7 @@ export const techmembers = [
     fname: "Ankit",
     lname: "Hans",
     role: "App Developer",
-    image: "ankit.jpg",
+    image: "ankit.jpeg",
     github: "ankithans",
     linkedin: "ankithans",
   },
