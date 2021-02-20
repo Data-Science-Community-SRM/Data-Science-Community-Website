@@ -12,6 +12,7 @@ const Events = React.lazy(() => import("./pages/Events/Events"));
 const Blog = React.lazy(() => import("./pages/Blog/Blog"));
 const People = React.lazy(() => import("./pages/People/People"));
 const ContactUs = React.lazy(() => import("./pages/ContactUs/ContactUs"));
+const Projects = React.lazy(() => import("./pages/Projects/Projects"));
 
 const App = () => {
   useEffect(() => {
@@ -137,6 +138,14 @@ const App = () => {
             render={() => (
               <Suspense fallback={<Spinner />}>
                 <Blog />
+              </Suspense>
+            )}
+          />
+          <Route
+            path="/projects"
+            render={() => (
+              <Suspense fallback={<Spinner />}>
+                <Projects />
               </Suspense>
             )}
           />

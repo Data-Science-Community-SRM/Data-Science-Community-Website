@@ -90,6 +90,11 @@ const NavigationItems = () => {
             <NavItem className="my-2 mx-auto" onClick={toggle}>
               <NavigationItem page="Blog" href="/blog" />
             </NavItem>
+            
+            <NavItem className="my-2 mx-auto" onClick={toggle}>
+              <NavigationItem page="Projects" href="/projects" />
+            </NavItem>
+
             <NavItem className="my-2 mx-auto" onClick={toggle}>
               <NavigationItem page="People" href="/people" />
             </NavItem>
