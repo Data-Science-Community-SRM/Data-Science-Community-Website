@@ -2,6 +2,9 @@
     margin: 0px;
 }
 
+
+/* Projects Head part  */
+
 .maincont {
     display: flex;
     flex-direction: row;
@@ -9,7 +12,6 @@
 
 .upperbd {
     height: 50vh;
-    /* background-color: rgb(35, 35, 35);*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +29,6 @@
     justify-content: center;
     align-items: center;
     align-self: center;
-    /* border: 2px solid white; */
     margin: 1%;
     margin-top: 5%;
 }
@@ -48,6 +49,9 @@
         width: 100%;
     }
 }
+
+
+/* Projects cards  */
 
 .card-container {
     padding: 5%;
@@ -159,9 +163,22 @@
 }
 
 
-/* media query */
+/* media queries */
 
-@media only screen and (max-width: 965px) {
+@media only screen and (max-width: 1126px) {
+    .card-container {
+        padding: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        align-self: center;
+        gap: 4px;
+    }
+}
+
+@media only screen and (max-width: 782px) {
     .card-container {
         display: flex;
         flex-direction: column;
@@ -169,11 +186,5 @@
         justify-content: center;
         align-items: center;
         margin: 0px;
-    }
-}
-
-@media only screen and (max-width: 310px) {
-    .Card {
-        width: 100%;
     }
 }

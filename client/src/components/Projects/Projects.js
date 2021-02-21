@@ -12,12 +12,12 @@ function Projects() {
    <div className="maincont">
       <div className="upperbd">
         <h1 className="head">Projects</h1>
-        
+        <p className="head">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
           voluptatem ullam nobis, quisquam, corrupti autem officiis tempore
           consectetur laudantium cum debitis sit hic minus. Odio pariatur sed
           deleniti eius natus?
-        
+          </p>
       </div>
       <div className="sidebd">
         <img
