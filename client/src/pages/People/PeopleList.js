@@ -51,14 +51,6 @@ export const board = [
     linkedin: "shubhangi-soni",
   },
   {
-    fname: "Ayan ",
-    lname: "Chaudhary",
-    role: "DESIGN DIRECTOR",
-    image: "ayan.jpeg",
-    github: "",
-    linkedin: "ayan-chaudhry-a3566918b/",
-  },
-  {
     fname: "Soumya",
     lname: "Kundu",
     role: "EDITORIAL DIRECTOR",
@@ -81,39 +73,7 @@ export const board = [
     image: "ishika.jpg",
     mail: "ishikag2050@gmail.com",
     linkedin: "findishika",
-  },
-  {
-    fname: "Abhishek",
-    lname: "Saxena",
-    role: "ASSOCIATE TECHNICAL DIRECTOR",
-    image: "abhishek.jpg",
-    github: "saxenabhishek",
-    linkedin: "abhibored",
-  },
-  {
-    fname: "Aditya",
-    lname: "Shukla",
-    role: "ASSOCIATE TECHNICAL DIRECTOR",
-    image: "adityashukla.png",
-    github: "adityashukzy",
-    linkedin: "aditya-shukla-975940188",
-  },
-  {
-    fname: "Ansh",
-    lname: "Sharma",
-    role: "ASSOCIATE TECHNICAL DIRECTOR",
-    image: "ansh.jpeg",
-    github: "DaemonOnCode",
-    linkedin: "anshsharma09",
-  },
-  {
-    fname: "Harsh",
-    lname: "Sharma",
-    role: "ASSOCIATE TECHNICAL DIRECTOR",
-    image: "harshsharma.jpg",
-    github: "harshgeek4coder",
-    linkedin: "harsh-sharma-484a4ab6",
-  },
+  }
 ];
 
 export const advisor = [
@@ -209,14 +169,6 @@ export const techmembers = [
     linkedin: "devansh-goswami-74590a187",
   },
   {
-    fname: "Eshaan",
-    lname: "Dutta",
-    role: "Blockchain Developer",
-    image: "eshaandutta.jpg",
-    github: "EeshanDutta007",
-    linkedin: "eeshan-dutta-03508a1b5",
-  },
-  {
     fname: "Hardik",
     lname: "Srivastava",
     role: "ML Developer",
@@ -273,14 +225,6 @@ export const techmembers = [
     linkedin: "rusali-saha-0409921a3",
   },
   {
-    fname: "Sakshi",
-    lname: "Choudhary",
-    role: "Web Developer",
-    image: "sakshi.JPG",
-    github: "sakshi-choudhary",
-    linkedin: "sakshichoudhary23",
-  },
-  {
     fname: "Sampada",
     lname: "Bareja",
     role: "Data Analyst",
@@ -303,14 +247,6 @@ export const techmembers = [
     image: "shinjinee.JPG",
     github: "shinjinee",
     linkedin: "shinjinee-maiti-a1a6ab18b",
-  },
-  {
-    fname: "Sneha",
-    lname: "Sunil",
-    role: "Front-End Developer",
-    image: "sneha.jpeg",
-    github: "snehasunilnair",
-    linkedin: "snehasunil",
   },
   {
     fname: "Tarushi",
@@ -351,52 +287,12 @@ export const designmembers = [
 
 export const mgmtmembers = [
   {
-    fname: "Aditi",
-    lname: "Mishra",
-    role: "Management",
-    image: "aditi.jpg",
-    mail: "aditimishi005@gmail.com",
-    linkedin: "aditimishra050505",
-  },
-  {
     fname: "Devanshi",
     lname: "Karthik",
     role: "Content Writer",
     image: "devanshi.jpeg",
     mail: "devanshi.karthikk@gmail.com",
     linkedin: "devanshi-karthik",
-  },
-  {
-    fname: "Himanshu",
-    lname: "Tiwari",
-    role: "Corporate",
-    image: "himanshu.jpg",
-    mail: "hrkt07@gmail.com",
-    linkedin: "",
-  },
-  {
-    fname: "Karan",
-    lname: "Sharma",
-    role: "Content Writer",
-    image: "karan.jpg",
-    mail: "ks7172@srmist.edu.in",
-    linkedin: "karan-sharma-371bbb1ab",
-  },
-  {
-    fname: "Michael",
-    lname: "Mathew",
-    role: "Operations",
-    image: "michaelmathew.jpg",
-    mail: "mm9936@srmist.edu.in",
-    linkedin: "michael-mathew-528155177",
-  },
-  {
-    fname: "Muskan",
-    lname: "Sharma",
-    role: "Content Writer",
-    image: "muskan.jpg",
-    mail: "muskan920018@gmail.com",
-    linkedin: "muskan0610",
   },
   {
     fname: "Nikunj",
@@ -407,27 +303,11 @@ export const mgmtmembers = [
     linkedin: "nikunj-drolia-503a4514b",
   },
   {
-    fname: "Tanshi",
-    lname: "Nigam",
-    role: "Sponsorship",
-    image: "tanshinigam.jpg",
-    mail: "tanshinigam04@gmail.com",
-    linkedin: "tanshi-nigam-8b8b3b1a5",
-  },
-  {
     fname: "Shreya",
     lname: "Saha Roy",
     role: "Editorial",
     image: "shreya.jpeg",
     mail: "shreyasaha.roy30@gmail.com",
     linkedin: "shreya-saha-roy-2225651a5",
-  },
-  {
-    fname: "Suryanshoo",
-    lname: "Kaushal",
-    role: "Sponsorship",
-    image: "suryanshookaushal.jpg",
-    mail: "sk6882@srmist.edu.in",
-    linkedin: "suryanshoo-kaushal-519498176",
   },
 ];
