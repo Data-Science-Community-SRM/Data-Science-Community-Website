@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: center;
     align-self: center;
-    height: 500px !important;
+    height: 600px !important;
     border-radius: 20px !important;
     transition-duration: 0.5s;
     margin: 7%;
@@ -108,6 +108,14 @@
     border-radius: 10px;
     background: rgb(51, 51, 51);
     margin: 10%;
+    margin-bottom: 20%;
+    margin-top: 15%;
+}
+.cardsPlacement{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    /* grid-gap: 1rem;  */
 }
 
 .ico {
@@ -186,5 +194,9 @@
         justify-content: center;
         align-items: center;
         margin: 0px;
+    }
+    .cardsPlacement{
+        display: flex;
+        flex-direction: column ;
     }
 }
