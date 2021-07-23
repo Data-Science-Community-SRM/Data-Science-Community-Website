@@ -93,3 +93,9 @@ body.lightMode .number,
 body.lightMode .message {
   color: #f1f1f1;
 }
+
+
+body.lightMode .Card .Lower {
+  background: #E0E0E0;
+  color: rgb(48, 48, 48);
+}
