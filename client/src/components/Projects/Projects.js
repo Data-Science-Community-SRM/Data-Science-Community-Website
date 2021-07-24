@@ -51,7 +51,7 @@ function Projects() {
         </div>
       );
     }
-    
+
     return projectCards;
   };
 
@@ -60,11 +60,10 @@ function Projects() {
       <div className="maincont">
         <div className="upperbd">
           <h1 className="head">Projects</h1>
-          <p className="head">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
-            voluptatem ullam nobis, quisquam, corrupti autem officiis tempore
-            consectetur laudantium cum debitis sit hic minus. Odio pariatur sed
-            deleniti eius natus?
+          <p >
+            We apply our coding skills to a wide range of datasets to solve
+            real-world problems. Here are some inspirational ideas and their
+            implementations from our brilliant community members.
           </p>
         </div>
         <div className="sidebd">
