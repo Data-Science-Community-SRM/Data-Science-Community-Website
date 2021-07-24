@@ -14,8 +14,6 @@ function Projects() {
       .then((response) => response.json())
       .then((data) => {
         setProjectData(data.data[0]);
-        console.log(data);
-        console.log(data.data[0][0]);
       });
   };
 
@@ -25,7 +23,6 @@ function Projects() {
   const getProjects = () => {
     let projectCards = [];
     for (let projects of projectData) {
-      console.log(projects);
       projectCards.push(
         <div>
           <div className="card-container">
@@ -55,7 +52,6 @@ function Projects() {
 
     return projectCards;
   };
-  // `"col-12 col-lg-9 "$upperbd`
   return (
     <div>
       <div className="maincont">
