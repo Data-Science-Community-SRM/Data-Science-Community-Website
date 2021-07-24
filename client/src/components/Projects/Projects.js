@@ -4,6 +4,7 @@ import "../Projects/Projects.css";
 import logo1 from "../Projects/logocopy.png";
 import logo2 from "../Projects/git.png";
 import img1 from "../Projects/dsc-projectcover.png";
+import projectsLogo from "../Projects/project-page.svg";
 import { useState, useEffect } from "react";
 
 function Projects() {
@@ -68,7 +69,7 @@ function Projects() {
         </div>
         <div className="sidebd">
           <img
-            src="https://image.freepik.com/free-vector/space-tour-illustration_153233-85.jpg"
+            src={projectsLogo}
             alt=""
           />
         </div>
