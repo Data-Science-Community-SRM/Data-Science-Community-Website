@@ -4,7 +4,10 @@
 
 
 /* Projects Head part  */
-
+.head{
+    margin-bottom: 30px;
+    
+}
 .maincont {
     display: flex;
     flex-direction: row;
@@ -20,6 +23,8 @@
     width: 50%;
     padding: 5%;
     text-align: center;
+    margin-bottom: 120px;
+
 }
 
 .sidebd {
@@ -44,10 +49,13 @@
     }
     .upperbd {
         width: 100%;
+        margin-bottom: 0rem;
     }
     .sidebd {
         width: 100%;
+        margin-top: 0rem;
     }
+    
 }
 
 
