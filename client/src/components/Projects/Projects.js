@@ -55,20 +55,20 @@ function Projects() {
 
     return projectCards;
   };
-
+  // `"col-12 col-lg-9 "$upperbd`
   return (
     <div>
       <div className="maincont">
         <div className="upperbd">
-          <h1 className="head">Projects</h1>
+          <h1 data-aos="zoom-in-up" style={{ marginTop: "80px" }}  className="head">Projects</h1>
           <p >
             We apply our coding skills to a wide range of datasets to solve
             real-world problems. Here are some inspirational ideas and their
-            implementations from our brilliant community members.
+            implementations from our brilliant community members. Check out these projects below!
           </p>
         </div>
         <div className="sidebd">
-          <img
+          <img 
             src={projectsLogo}
             alt=""
           />

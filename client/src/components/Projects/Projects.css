@@ -5,7 +5,8 @@
 
 /* Projects Head part  */
 .head{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    
 }
 .maincont {
     display: flex;
@@ -48,10 +49,13 @@
     }
     .upperbd {
         width: 100%;
+        margin-bottom: 0rem;
     }
     .sidebd {
         width: 100%;
+        margin-top: 0rem;
     }
+    
 }
 
 
