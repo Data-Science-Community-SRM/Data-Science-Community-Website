@@ -83,49 +83,9 @@ MongoDB used as the Database.
 <tr align="center">
 
 
-<td>
-
-Hritik Bhandari
-
-<p >
-<img src = "https://github.com/hritikbhandari.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
-</p>
-<p>
-<a href = "https://github.com/hritikbhandari"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/hritikbhandari">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
 
 
-<td>
 
-Yashvardhan Jagnani
->
-<img src = "https://github.com/jagnani73.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
-</p>
-<p\>
-<a href = "https://github.com/jagnani73"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/person2">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
-
-<td>
-Ankit Hans
-
-<p >
-<img src = "https://avatars.githubusercontent.com/u/50692897?v=4"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
-</p>
-<p >
-<a href = "https://github.com/ankithans"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/ankithans">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
 
 <td>
 Ananya Negi
@@ -170,7 +130,56 @@ Adit Patel
 </td>
 
 <td>
+Ankit Hans
 
+<p >
+<img src = "https://avatars.githubusercontent.com/u/50692897?v=4"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p >
+<a href = "https://github.com/ankithans"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/ankithans">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+</tr>
+	
+<tr>
+
+<td>
+
+Hritik Bhandari
+
+<p >
+<img src = "https://github.com/hritikbhandari.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<p>
+<a href = "https://github.com/hritikbhandari"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/hritikbhandari">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+
+<td>
+Yashvardhan Jagnani
+<p>
+<img src = "https://github.com/jagnani73.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+</p>
+<a href = "https://github.com/jagnani73"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/person2">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+<td>
+
+	
 Hariom Palkar
 
 <p >
@@ -198,7 +207,6 @@ Ashish Agarwal
 </a>
 </p>
 </td>
-
 </tr>
 </table>
 
