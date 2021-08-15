@@ -46,21 +46,21 @@ const Footer = () => {
               <li>
                 <a
                   className="footer-refs"
-                  href="https://www.linkedin.com/in/hritikbhandari/"
+                  href="https://www.linkedin.com/in/sheel1206/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Hritik Bhandari
+                  Sheel Patel
                 </a>
               </li>
               <li>
                 <a
                   className="footer-refs"
-                  href="https://www.linkedin.com/in/pratyaksh-bhalla-96871b186/"
+                  href="https://www.linkedin.com/in/shaswat-srivastava-03a67118b/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Pratyaksh Bhalla
+                  Shaswat Srivastava
                 </a>
               </li>
             </ul>
