@@ -20,7 +20,7 @@
 
 .photo {
   width: 70%;
-  height: 70%;
+  height: 70%; 
   border-radius: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
