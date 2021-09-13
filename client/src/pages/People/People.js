@@ -115,7 +115,7 @@ class People extends Component {
                 lname={member.lname}
                 role={member.role}
                 image={member.image}
-                mail={member.mail}
+                github={member.github}
                 linkedin={member.linkedin}
               />
             ))}
