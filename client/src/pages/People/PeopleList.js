@@ -182,8 +182,8 @@ export const techmembers = [
     lname: "Patel",
     role: "Web Developer",
     image: "adit.jpeg",
-    github: "anantcodes",
-    linkedin: "anant-kanchan-0a6b57180",
+    github: "aditpatel01",
+    linkedin: "adit-patel-03551518b/",
   },
   {
     fname: "Aditya",
