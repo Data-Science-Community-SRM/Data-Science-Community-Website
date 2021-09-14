@@ -26,6 +26,37 @@ const Events = () => {
             <div className="text-center">
               <img src={Rlogo} alt="Rlogo" width="60%" />
             </div>
+            <h1 className="display-3">NeuRes</h1>
+            <hr className="my-2" />
+            <p className="text-center">
+  To acquaint you with the phenomenal concept of Deep Learning, we bring to you a week-long bootcamp ‘NeuRes’, wherein we have a series of insightful workshops exploring the topic. 
+            </p>
+            <div className="row">
+              <div className="mx-auto col-6">
+                <Button
+                  className={classes.certBTN + " col-12"}
+                
+                >
+                  Certificates
+                </Button>
+              </div>
+              <div className="mx-auto col-6">
+                <Button
+                  className={classes.galleryBTN + " col-12"}
+                 
+                >
+                  Gallery
+                </Button>
+              </div>
+            </div>
+          </Jumbotron>
+          <Jumbotron
+            data-aos="fade-left"
+            className={classes.jumbotron + " col-11 col-lg-5 mx-auto"}
+          >
+            <div className="text-center">
+              <img src={Rlogo} alt="Rlogo" width="60%" />
+            </div>
             <h1 className="display-3">Data Science with R Programming 101</h1>
             <hr className="my-2" />
             <p className="text-center">
@@ -87,6 +118,7 @@ const Events = () => {
               </div>
             </div>
           </Jumbotron>
+          
         </div>
         <hr />
         <div className="my-5">
