@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import classes from "./Events.module.css";
 import comingSoonIMG from "../../assets/images/events/coming-soon.png";
 import Rlogo from "../../assets/images/events/Rlogo.png";
+import NeuresLogo from "../../assets/images/events/neures_logo.svg";
 import Carousel from "../UI/Carousel/Carousel";
 
 const Events = () => {
@@ -24,7 +25,7 @@ const Events = () => {
             className={classes.jumbotron + " col-11 col-lg-5 mx-auto"}
           >
             <div className="text-center">
-              <img src={Rlogo} alt="Rlogo" width="60%" />
+              <img src={NeuresLogo} alt="NeuresLogo" width="60%" />
             </div>
             <h1 className="display-3">NeuRes</h1>
             <hr className="my-2" />
