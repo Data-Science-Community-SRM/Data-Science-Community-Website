@@ -19,15 +19,15 @@ app.set("views", "views");
 app.use(express.static(path.join(__dirname, "client", "build")));
 app.use("/api", adminRoutes);
 app.use("/*", (req, res, next) => {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
 
 mongoose
-  .connect(process.env.MONGO_URI)
-  .then((result) => {
-    console.log("Connected to MongoDB");
-    app.listen(process.env.PORT, () => {
-      console.log(`Server Listening on Port ${process.env.PORT}`);
-    });
-  })
-  .catch((err) => console.log(err));
+    .connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then((result) => {
+        console.log("Connected to MongoDB");
+        app.listen(process.env.PORT, () => {
+            console.log(`Server Listening on Port ${process.env.PORT}`);
+        });
+    })
+    .catch((err) => console.log(err));
