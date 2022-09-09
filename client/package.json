@@ -17,7 +17,7 @@
     "react-responsive-carousel": "^3.2.7",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.1",
     "reactstrap": "^8.4.1",
     "yup": "^0.29.1"
   },
