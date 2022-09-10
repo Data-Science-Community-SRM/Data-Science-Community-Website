@@ -1,37 +1,40 @@
 {
-  "name": "dscommunity",
-  "version": "1.0.0",
-  "description": "https://dscommunity.netlify.app\r This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "npm start --prefix client",
-    "build": "npm run build --prefix client",
-    "dev": "nodemon app.js",
-    "postinstall": "cd client && npm install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Data-Science-Community-SRM/Data-Science-Community-website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Data-Science-Community-SRM/Data-Science-Community-website/issues"
-  },
-  "homepage": "https://github.com/Data-Science-Community-SRM/Data-Science-Community-website#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  },
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.1.3",
-    "express": "^4.17.1",
-    "mongoose": "^5.9.18",
-    "nodemailer": "^6.4.8",
-    "react-bootstrap": "^1.5.0"
-  }
+    "name": "dscommunity",
+    "version": "1.0.0",
+    "description": "https://dscommunity.netlify.app\r This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+    "main": "app.js",
+    "engine": {
+        "node": "16.13.1"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "client": "npm start --prefix client",
+        "build": "npm run build --prefix client",
+        "dev": "nodemon app.js",
+        "postinstall": "cd client && npm install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Data-Science-Community-SRM/Data-Science-Community-website.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Data-Science-Community-SRM/Data-Science-Community-website/issues"
+    },
+    "homepage": "https://github.com/Data-Science-Community-SRM/Data-Science-Community-website#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.3",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.18",
+        "nodemailer": "^6.4.8",
+        "react-bootstrap": "^1.5.0"
+    }
 }
