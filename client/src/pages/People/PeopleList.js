@@ -142,7 +142,7 @@ export const advisor = [
     image: "ishika.jpg",
     mail: "ishikag2050@gmail.com",
     linkedin: "findishika",
-  }
+  },
     {
     fname: "Sheel",
     lname: "Patel",
